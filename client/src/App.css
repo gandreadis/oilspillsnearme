@@ -1,3 +1,13 @@
-.App {
+#root, .app {
   height: 100%;
+}
+
+.app-content {
+  top: 55px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: auto;
+  height: auto;
 }

@@ -23,7 +23,15 @@ const Navbar = () => (
     style={{backgroundColor: "#473220"}}
   >
     <div className="container">
-      <Link to="/" className="navbar-brand">oilspillsnear.me</Link>
+      <Link to="/" className="navbar-brand">
+        <img src="/img/logo-white.svg"
+             alt="oilspillsnear.me"
+             width="30"
+             height="30"
+             className="d-inline-block align-top mr-2"
+        />
+        oilspillsnear.me
+      </Link>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"/>

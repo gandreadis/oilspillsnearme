@@ -4,8 +4,6 @@ const logger = require('morgan');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 
-const oilSpills = require('./routes/oil-spills');
-
 const app = express();
 
 app.use(logger('dev'));
@@ -14,7 +12,8 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/oil-spills', oilSpills);
+app.use('/oil-spills', require('./routes/oil-spills'));
+app.use('/oil-rigs', require('./routes/oil-rigs'));
 
 // Serve static assets
 app.use(express.static(path.resolve(__dirname, '..', 'client', 'build')));

@@ -1,21 +1,24 @@
 import React from 'react';
 import {BrowserRouter, Route, Switch} from "react-router-dom";
 import './App.css';
-import Home from "./components/home/Home";
 import Navbar from "./components/navigation/Navbar";
-import NotFound from "./components/NotFound/NotFound";
+import HomePage from "./pages/HomePage";
+import MapPage from "./pages/MapPage";
+import NotFoundPage from "./pages/NotFoundPage";
 
 const App = () => (
   <BrowserRouter>
-    <div className="App">
+    <div className="app">
       <Navbar/>
-      <Switch>
-        <Route path="/" exact component={Home}/>
-        <Route path="/map" exact component={Home}/>
-        <Route path="/take-action" exact component={Home}/>
-        <Route path="/about" exact component={Home}/>
-        <Route component={NotFound}/>
-      </Switch>
+      <div className="app-content">
+        <Switch>
+          <Route path="/" exact component={HomePage}/>
+          <Route path="/map" exact component={MapPage}/>
+          <Route path="/take-action" exact component={HomePage}/>
+          <Route path="/about" exact component={HomePage}/>
+          <Route component={NotFoundPage}/>
+        </Switch>
+      </div>
     </div>
   </BrowserRouter>
 );
