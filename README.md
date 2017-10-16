@@ -1,7 +1,8 @@
-# oilspillsnear.me
-
-Visualizing the impact of oil spills
-
+<h1 align="center">
+  <img src="https://github.com/gandreadis/oilspillsnearme/raw/master/client/public/android-chrome-192x192.png" width="100"/><br/>
+  oilspillsnear.me
+</h1>
+<p align="center">Visualizing the impact of oil spills</p>
 
 ## Installation
 
