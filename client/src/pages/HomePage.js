@@ -1,8 +1,12 @@
 import React from 'react';
+import Footer from "../components/navigation/Footer";
 
 const HomePage = () => (
-  <div className="container">
-    Oil spills are bad!
+  <div>
+    <div className="container">
+      Oil spills are bad!
+    </div>
+    <Footer/>
   </div>
 );
 

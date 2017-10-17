@@ -1,0 +1,16 @@
+.footer {
+  background-color: #11265b;
+  color: #eeeeee;
+}
+
+.footer a {
+  color: #eeeeee;
+}
+
+.footer a:hover {
+  color: #ffffff;
+}
+
+.footer .contact-heading {
+  font-size: 1.4em;
+}
