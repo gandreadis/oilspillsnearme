@@ -23,17 +23,14 @@ class WorldMap extends React.Component {
         style={{
           width: "100%",
           height: "100%",
-          display: "relative"
+          display: "relative",
         }}
       >
         <Map
           center={[this.state.lat, this.state.lng]}
           zoom={this.state.zoom}
           minZoom={2}
-          onClick={(e) => {
-            console.log(e);
-            this.setState({selectedSpill: undefined})
-          }}
+          onClick={(e) => this.setState({selectedSpill: undefined})}
         >
           <TileLayer
             url='http://{s}.tile.osm.org/{z}/{x}/{y}.png'

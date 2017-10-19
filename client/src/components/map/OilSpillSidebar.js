@@ -22,7 +22,8 @@ class OilSpillSidebar extends React.Component {
           zIndex: 1000,
           width: 300,
           height: "100%",
-          backgroundColor: "rgba(230, 230, 230, 0.7)"
+          backgroundColor: "rgba(230, 230, 230, 0.7)",
+          overflowX: "hidden",
         }}
       >
         <button
