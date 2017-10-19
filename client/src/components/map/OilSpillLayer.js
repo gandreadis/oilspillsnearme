@@ -1,27 +1,16 @@
 import approx from "approximate-number";
+import {inject, observer} from "mobx-react";
 import React from 'react';
 import {CircleMarker, FeatureGroup, Tooltip} from "react-leaflet";
-import fetchJSON from "../../api/fetch-json";
 import "./WorldMap.css";
 
+@inject("spillStore")
+@observer
 class OilSpillLayer extends React.Component {
-  state = {
-    oilSpills: [],
-  };
-
-  async componentDidMount() {
-    try {
-      this.setState({oilSpills: await fetchJSON("/oil-spills")})
-    } catch (e) {
-      console.error(e);
-    }
-  }
-
   render() {
-
     return (
       <FeatureGroup>
-        {this.state.oilSpills.map((oilSpill, index) => (
+        {this.props.spillStore.spills.map((oilSpill, index) => (
           <CircleMarker
             center={{
               lat: oilSpill.lat,
