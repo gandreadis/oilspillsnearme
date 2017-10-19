@@ -6,7 +6,10 @@ import AboutPage from "./pages/AboutPage";
 import HomePage from "./pages/HomePage";
 import MapPage from "./pages/MapPage";
 import NotFoundPage from "./pages/NotFoundPage";
+import SpillPage from "./pages/SpillPage";
 import TakeActionPage from "./pages/TakeActionPage";
+
+const SpillPageComponent = ({match}) => <SpillPage spillId={match.params.spillId}/>;
 
 const App = () => (
   <BrowserRouter>
@@ -16,6 +19,7 @@ const App = () => (
         <Switch>
           <Route path="/" exact component={HomePage}/>
           <Route path="/map" exact component={MapPage}/>
+          <Route path="/spill/:spillId" exact component={SpillPageComponent}/>
           <Route path="/take-action" exact component={TakeActionPage}/>
           <Route path="/about" exact component={AboutPage}/>
           <Route component={NotFoundPage}/>

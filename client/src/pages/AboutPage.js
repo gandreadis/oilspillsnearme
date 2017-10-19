@@ -1,4 +1,5 @@
 import React from 'react';
+import {Helmet} from "react-helmet";
 import {Link} from "react-router-dom";
 import ContentSection from "../components/navigation/ContentSection";
 import Footer from "../components/navigation/Footer";
@@ -47,6 +48,9 @@ const TeamMember = ({name, teamRoles, github, linkedIn, website}) => (
 
 const AboutPage = () => (
   <div>
+    <Helmet>
+      <title>About - oilspillsnear.me</title>
+    </Helmet>
     <PageHeader>
       About
     </PageHeader>
