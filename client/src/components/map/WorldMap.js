@@ -1,6 +1,7 @@
 import React from 'react';
 import {Map, TileLayer} from "react-leaflet";
 import CountryLayer from "./CountryLayer";
+import LocationControl from "./LocationControl";
 import OilSpillLayer from "./OilSpillLayer";
 import ViewFilterControls from "./ViewFilterControls";
 import "./WorldMap.css";
@@ -31,6 +32,7 @@ class WorldMap extends React.Component {
             undefined
           }
         </Map>
+        <LocationControl/>
         <ViewFilterControls
           showSpills={this.state.showSpills}
           showRigs={this.state.showRigs}
