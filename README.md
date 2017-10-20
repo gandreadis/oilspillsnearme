@@ -10,7 +10,9 @@ To get started, you'll need the [Node.js environment](https://nodejs.org) and th
 
 ### Quick Deployment
 
-Run the following sequence of commands, starting in the root directory of this repository:
+First, make sure you have a Stardog instance running (typically through `stardog-admin.bat server start --disable-security`). Create a database `osnm` and load all RDFs of the `data` folder in that DB.
+
+Once the database is set up and running, run the following sequence of commands, starting in the root directory of this repository:
 
 ```bash
 cd client
@@ -25,6 +27,10 @@ yarn start
 The server should now be listening on [localhost:3001](http://localhost:3001).
 
 ### Development Setup
+
+### Stardog
+
+Follow the same steps as outlined above to set up the Stardog database.
 
 #### Server 
 To fetch and install dependencies, run the following command from the `server` directory:
@@ -42,6 +48,7 @@ yarn start
 It should now be listening on [localhost:3001](http://localhost:3001), although you'll need to build the client first to see actual browser pages being served.
 
 #### Client 
+
 To fetch and install dependencies, run the following command from the `client` directory:
 
 ```bash

@@ -15,6 +15,10 @@ export class CountryRigStore {
 
     const countryOilRigItems = [];
     oilRigs.forEach(rigsOfCountry => {
+      if (!rigsOfCountry.countryName) {
+        return;
+      }
+
       const geoMatches = countriesGeoJSON.filter(geoCountry =>
         geoCountry.properties.admin.toLowerCase() === rigsOfCountry.countryName.toLowerCase());
 
