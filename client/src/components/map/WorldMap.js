@@ -1,6 +1,7 @@
 import React from 'react';
 import {Map, TileLayer} from "react-leaflet";
 import CountryLayer from "./CountryLayer";
+import MyCurrentLocationMarker from "./MyCurrentLocationMarker";
 import LocationControl from "./LocationControl";
 import OilSpillLayer from "./OilSpillLayer";
 import OilSpillSidebar from "./OilSpillSidebar";
@@ -13,6 +14,7 @@ class WorldMap extends React.Component {
     lng: 0,
     zoom: 3,
     selectedSpill: undefined,
+    locationIsShared: false,
     showSpills: true,
     showRigs: true,
   };
@@ -36,6 +38,10 @@ class WorldMap extends React.Component {
             url='http://{s}.tile.osm.org/{z}/{x}/{y}.png'
             attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
           />
+          {this.state.locationIsShared ?
+            <MyCurrentLocationMarker/> :
+            undefined
+          }
           {this.state.showRigs ?
             <CountryLayer/> :
             undefined
@@ -49,7 +55,10 @@ class WorldMap extends React.Component {
           }
         </Map>
 
-        <LocationControl/>
+        <LocationControl
+          locationIsShared={this.state.locationIsShared}
+          toggleLocationIsShared={() => this.setState({locationIsShared: !this.state.locationIsShared})}
+        />
         <ViewFilterControls
           showSpills={this.state.showSpills}
           showRigs={this.state.showRigs}
