@@ -1,8 +1,8 @@
 import React from 'react';
 import {Map, TileLayer} from "react-leaflet";
 import CountryLayer from "./CountryLayer";
-import MyCurrentLocationMarker from "./MyCurrentLocationMarker";
 import LocationControl from "./LocationControl";
+import MyCurrentLocationMarker from "./MyCurrentLocationMarker";
 import OilSpillLayer from "./OilSpillLayer";
 import OilSpillSidebar from "./OilSpillSidebar";
 import ViewFilterControls from "./ViewFilterControls";
@@ -50,6 +50,7 @@ class WorldMap extends React.Component {
             <OilSpillLayer
               selectedSpill={this.state.selectedSpill}
               onSelectSpill={id => this.setState({selectedSpill: id})}
+              locationIsShared={this.state.locationIsShared}
             /> :
             undefined
           }

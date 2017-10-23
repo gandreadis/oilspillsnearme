@@ -3,6 +3,8 @@ import fetchJSON from "../api/fetch-json";
 
 export class SpillStore {
   @observable spillRegistry = observable.map();
+  currentLatitude = observable(0);
+  currentLongitude = observable(0);
 
   @computed
   get spills() {
@@ -24,6 +26,20 @@ export class SpillStore {
         this.spillRegistry.clear();
         spills.forEach(spill => this.spillRegistry.set(spill.id, spill));
       }));
+  }
+
+  @action
+  setCurrentPosition(lat, lng) {
+    this.currentLatitude.set(lat);
+    this.currentLongitude.set(lng);
+  }
+
+  getNearestSpills() {
+    if (this.spills.length === 0) {
+      return [];
+    }
+
+    return [this.spills[0].id];
   }
 }
 
