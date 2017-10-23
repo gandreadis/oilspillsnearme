@@ -15,7 +15,6 @@ class OilSpillSidebar extends React.Component {
 
     return (
       <div
-        className="pt-3"
         style={{
           position: "absolute",
           right: 0,
@@ -28,21 +27,23 @@ class OilSpillSidebar extends React.Component {
           overflowY: "auto"
         }}
       >
-        <button
-          className="btn btn-secondary btn-sm"
-          title="Close sidebar"
-          onClick={this.props.onClose}
-          style={{
-            position: "absolute",
-            right: -2,
-            top: -2,
-          }}
-        >
-          <span className="fa fa-times"/>
-        </button>
+        <h2 className="p-3 pr-5 bg-info text-white">
+          {spill.name}
+          <button
+            className="btn btn-info float-right"
+            title="Close sidebar"
+            onClick={this.props.onClose}
+            style={{
+              position: "absolute",
+              right: 10,
+            }}
+          >
+            <span className="fa fa-times"/>
+          </button>
+        </h2>
         <div className="container-fluid">
-          <h2 className="pr-3">{spill.name}</h2>
           Occurred on {spill.date}<br/>
+          <span className="fa fa-tint"/>
           <strong>{approx(spill.sizeTonnes)}</strong> tonnes of oil spilt
 
           <div className="text-center">
