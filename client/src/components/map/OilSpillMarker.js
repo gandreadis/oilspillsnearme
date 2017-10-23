@@ -16,8 +16,8 @@ class OilSpillMarker extends React.Component {
           lng: this.props.oilSpill.lng,
         }}
         radius={this.props.oilSpill.sizeTonnes / 5000}
-        color="red"
-        fillColor="#f03"
+        color={this.props.color}
+        fillColor={this.props.fillColor}
         fillOpacity={this.props.selectedSpill === this.props.oilSpill.id ? 0.7 : 0.3}
         opacity={this.props.selectedSpill === this.props.oilSpill.id ? 1 : 0.3}
         onClick={(e) => {

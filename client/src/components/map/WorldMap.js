@@ -2,6 +2,7 @@ import React from 'react';
 import {Map, TileLayer} from "react-leaflet";
 import CountryLayer from "./CountryLayer";
 import LocationControl from "./LocationControl";
+import MyCurrentLocationMarker from "./MyCurrentLocationMarker";
 import OilSpillLayer from "./OilSpillLayer";
 import OilSpillSidebar from "./OilSpillSidebar";
 import ViewFilterControls from "./ViewFilterControls";
@@ -13,6 +14,7 @@ class WorldMap extends React.Component {
     lng: 0,
     zoom: 3,
     selectedSpill: undefined,
+    locationIsShared: false,
     showSpills: true,
     showRigs: true,
   };
@@ -44,12 +46,20 @@ class WorldMap extends React.Component {
             <OilSpillLayer
               selectedSpill={this.state.selectedSpill}
               onSelectSpill={id => this.setState({selectedSpill: id})}
+              locationIsShared={this.state.locationIsShared}
             /> :
+            undefined
+          }
+          {this.state.locationIsShared ?
+            <MyCurrentLocationMarker/> :
             undefined
           }
         </Map>
 
-        <LocationControl/>
+        <LocationControl
+          locationIsShared={this.state.locationIsShared}
+          toggleLocationIsShared={() => this.setState({locationIsShared: !this.state.locationIsShared})}
+        />
         <ViewFilterControls
           showSpills={this.state.showSpills}
           showRigs={this.state.showRigs}
