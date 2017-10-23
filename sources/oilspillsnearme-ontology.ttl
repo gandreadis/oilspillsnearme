@@ -1,0 +1,352 @@
+@prefix : <http://www.oilspillsnear.me/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix geo: <http://www.geonames.org/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix osnm: <http://www.oilspillsnear.me/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@base <http://www.oilspillsnear.me/> .
+
+<http://www.oilspillsnear.me/> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.geonames.org/ontology#locatedIn
+geo:locatedIn rdf:type owl:ObjectProperty ,
+                       owl:AsymmetricProperty .
+
+
+###  http://www.oilspillsnear.me/hasNearbyCountry
+osnm:hasNearbyCountry rdf:type owl:ObjectProperty .
+
+
+###  http://www.oilspillsnear.me/hasSeaSpeciesType
+osnm:hasSeaSpeciesType rdf:type owl:ObjectProperty ,
+                                owl:AsymmetricProperty ,
+                                owl:IrreflexiveProperty .
+
+
+###  http://www.oilspillsnear.me/hasSpillType
+osnm:hasSpillType rdf:type owl:ObjectProperty ,
+                           owl:AsymmetricProperty ,
+                           owl:IrreflexiveProperty .
+
+
+###  http://www.oilspillsnear.me/isCausedBy
+osnm:isCausedBy rdf:type owl:ObjectProperty ,
+                         owl:AsymmetricProperty ,
+                         owl:IrreflexiveProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.oilspillsnear.me/count
+osnm:count rdf:type owl:DatatypeProperty .
+
+
+###  http://www.oilspillsnear.me/countryName
+osnm:countryName rdf:type owl:DatatypeProperty .
+
+
+###  http://www.oilspillsnear.me/hasAmount
+osnm:hasAmount rdf:type owl:DatatypeProperty .
+
+
+###  http://www.oilspillsnear.me/hasAmountExpenditures
+osnm:hasAmountExpenditures rdf:type owl:DatatypeProperty ;
+                           rdfs:subPropertyOf osnm:hasAmount .
+
+
+###  http://www.oilspillsnear.me/hasAmountSeaSpecies
+osnm:hasAmountSeaSpecies rdf:type owl:DatatypeProperty ;
+                         rdfs:subPropertyOf osnm:hasAmount .
+
+
+###  http://www.oilspillsnear.me/hasAmountSeafoodProduction
+osnm:hasAmountSeafoodProduction rdf:type owl:DatatypeProperty ;
+                                rdfs:subPropertyOf osnm:hasAmount .
+
+
+###  http://www.oilspillsnear.me/hasAmountTourists
+osnm:hasAmountTourists rdf:type owl:DatatypeProperty ;
+                       rdfs:subPropertyOf osnm:hasAmount .
+
+
+###  http://www.oilspillsnear.me/hasCode
+osnm:hasCode rdf:type owl:DatatypeProperty .
+
+
+###  http://www.oilspillsnear.me/hasCoordinates
+osnm:hasCoordinates rdf:type owl:DatatypeProperty .
+
+
+###  http://www.oilspillsnear.me/hasDescription
+osnm:hasDescription rdf:type owl:DatatypeProperty .
+
+
+###  http://www.oilspillsnear.me/hasLatitude
+osnm:hasLatitude rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf osnm:hasCoordinates .
+
+
+###  http://www.oilspillsnear.me/hasLongitude
+osnm:hasLongitude rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf osnm:hasCoordinates .
+
+
+###  http://www.oilspillsnear.me/hasNote
+osnm:hasNote rdf:type owl:DatatypeProperty .
+
+
+###  http://www.oilspillsnear.me/hasSize
+osnm:hasSize rdf:type owl:DatatypeProperty .
+
+
+###  http://www.w3.org/2000/01/rdf-schema#label
+rdfs:label rdf:type owl:DatatypeProperty .
+
+
+###  http://www.w3.org/2006/time#inXSDDate
+time:inXSDDate rdf:type owl:DatatypeProperty .
+
+
+###  http://www.w3.org/2006/time#year
+time:year rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.oilspillsnear.me/AnalyzeByYear
+osnm:AnalyzeByYear rdf:type owl:Class ;
+                   owl:equivalentClass [ rdf:type owl:Restriction ;
+                                         owl:onProperty time:year ;
+                                         owl:someValuesFrom xsd:integer
+                                       ] .
+
+
+###  http://www.oilspillsnear.me/Beach
+osnm:Beach rdf:type owl:Class ;
+           rdfs:subClassOf osnm:CoordinatedPlace ,
+                           osnm:Place .
+
+
+###  http://www.oilspillsnear.me/Blowout
+osnm:Blowout rdf:type owl:Class ;
+             rdfs:subClassOf osnm:CauseOfSpill .
+
+
+###  http://www.oilspillsnear.me/CauseOfSpill
+osnm:CauseOfSpill rdf:type owl:Class .
+
+
+###  http://www.oilspillsnear.me/Collision
+osnm:Collision rdf:type owl:Class ;
+               rdfs:subClassOf osnm:CauseOfSpill .
+
+
+###  http://www.oilspillsnear.me/CoordinatedPlace
+osnm:CoordinatedPlace rdf:type owl:Class ;
+                      owl:equivalentClass [ rdf:type owl:Restriction ;
+                                            owl:onProperty osnm:hasLatitude ;
+                                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                            owl:onDataRange xsd:float
+                                          ] ,
+                                          [ rdf:type owl:Restriction ;
+                                            owl:onProperty osnm:hasLongitude ;
+                                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                            owl:onDataRange xsd:float
+                                          ] ,
+                                          [ rdf:type owl:Restriction ;
+                                            owl:onProperty rdfs:label ;
+                                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                            owl:onDataRange xsd:string
+                                          ] .
+
+
+###  http://www.oilspillsnear.me/Country
+osnm:Country rdf:type owl:Class ;
+             owl:equivalentClass [ rdf:type owl:Restriction ;
+                                   owl:onProperty osnm:hasCode ;
+                                   owl:allValuesFrom xsd:string
+                                 ] ;
+             rdfs:subClassOf osnm:CoordinatedPlace .
+
+
+###  http://www.oilspillsnear.me/CrudeOil
+osnm:CrudeOil rdf:type owl:Class ;
+              rdfs:subClassOf osnm:SpillType .
+
+
+###  http://www.oilspillsnear.me/Explosion
+osnm:Explosion rdf:type owl:Class ;
+               rdfs:subClassOf osnm:CauseOfSpill .
+
+
+###  http://www.oilspillsnear.me/FoodProduction
+osnm:FoodProduction rdf:type owl:Class .
+
+
+###  http://www.oilspillsnear.me/FuelOil
+osnm:FuelOil rdf:type owl:Class ;
+             rdfs:subClassOf osnm:SpillType .
+
+
+###  http://www.oilspillsnear.me/Grounding
+osnm:Grounding rdf:type owl:Class ;
+               rdfs:subClassOf osnm:CauseOfSpill .
+
+
+###  http://www.oilspillsnear.me/NaturalDisaster
+osnm:NaturalDisaster rdf:type owl:Class ;
+                     rdfs:subClassOf osnm:CauseOfSpill .
+
+
+###  http://www.oilspillsnear.me/NoType
+osnm:NoType rdf:type owl:Class ;
+            rdfs:subClassOf osnm:SpillType .
+
+
+###  http://www.oilspillsnear.me/OffshoreOilRigCount
+osnm:OffshoreOilRigCount rdf:type owl:Class ;
+                         owl:equivalentClass [ rdf:type owl:Restriction ;
+                                               owl:onProperty osnm:count ;
+                                               owl:someValuesFrom xsd:integer
+                                             ] ;
+                         rdfs:subClassOf osnm:AnalyzeByYear ,
+                                         osnm:Place .
+
+
+###  http://www.oilspillsnear.me/OilAndGasLeak
+osnm:OilAndGasLeak rdf:type owl:Class ;
+                   rdfs:subClassOf osnm:SpillType .
+
+
+###  http://www.oilspillsnear.me/OilDischarge
+osnm:OilDischarge rdf:type owl:Class ;
+                  rdfs:subClassOf osnm:SpillType .
+
+
+###  http://www.oilspillsnear.me/OilSpill
+osnm:OilSpill rdf:type owl:Class ;
+              owl:equivalentClass [ rdf:type owl:Restriction ;
+                                    owl:onProperty osnm:hasNearbyCountry ;
+                                    owl:someValuesFrom osnm:Country
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty osnm:hasSpillType ;
+                                    owl:someValuesFrom osnm:SpillType
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty osnm:isCausedBy ;
+                                    owl:someValuesFrom osnm:CauseOfSpill
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty osnm:hasNote ;
+                                    owl:someValuesFrom xsd:string
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty osnm:hasSize ;
+                                    owl:someValuesFrom xsd:double
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty time:inXSDDate ;
+                                    owl:someValuesFrom xsd:dateTime
+                                  ] ;
+              rdfs:subClassOf osnm:CoordinatedPlace .
+
+
+###  http://www.oilspillsnear.me/Place
+osnm:Place rdf:type owl:Class ;
+           owl:equivalentClass [ rdf:type owl:Restriction ;
+                                 owl:onProperty geo:locatedIn ;
+                                 owl:allValuesFrom osnm:Country
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty osnm:countryName ;
+                                 owl:someValuesFrom xsd:string
+                               ] .
+
+
+###  http://www.oilspillsnear.me/SeaFoodProduction
+osnm:SeaFoodProduction rdf:type owl:Class ;
+                       owl:equivalentClass [ rdf:type owl:Restriction ;
+                                             owl:onProperty osnm:hasAmountSeafoodProduction ;
+                                             owl:someValuesFrom xsd:float
+                                           ] ;
+                       rdfs:subClassOf osnm:AnalyzeByYear ,
+                                       osnm:FoodProduction ,
+                                       osnm:Place .
+
+
+###  http://www.oilspillsnear.me/SeaSpeciesYearCount
+osnm:SeaSpeciesYearCount rdf:type owl:Class ;
+                         owl:equivalentClass [ rdf:type owl:Restriction ;
+                                               owl:onProperty osnm:hasSeaSpeciesType ;
+                                               owl:someValuesFrom osnm:TypeSeaSpecies
+                                             ] ,
+                                             [ rdf:type owl:Restriction ;
+                                               owl:onProperty osnm:hasAmountSeaSpecies ;
+                                               owl:someValuesFrom xsd:integer
+                                             ] ;
+                         rdfs:subClassOf osnm:AnalyzeByYear ,
+                                         osnm:Place .
+
+
+###  http://www.oilspillsnear.me/SpillType
+osnm:SpillType rdf:type owl:Class .
+
+
+###  http://www.oilspillsnear.me/StorageTank
+osnm:StorageTank rdf:type owl:Class ;
+                 rdfs:subClassOf osnm:SpillType .
+
+
+###  http://www.oilspillsnear.me/TankFailure
+osnm:TankFailure rdf:type owl:Class ;
+                 rdfs:subClassOf osnm:CauseOfSpill .
+
+
+###  http://www.oilspillsnear.me/TourismExpenditures
+osnm:TourismExpenditures rdf:type owl:Class ;
+                         owl:equivalentClass [ rdf:type owl:Restriction ;
+                                               owl:onProperty osnm:hasAmountExpenditures ;
+                                               owl:someValuesFrom xsd:float
+                                             ] ;
+                         rdfs:subClassOf osnm:AnalyzeByYear ,
+                                         osnm:Place .
+
+
+###  http://www.oilspillsnear.me/TouristArrival
+osnm:TouristArrival rdf:type owl:Class ;
+                    owl:equivalentClass [ rdf:type owl:Restriction ;
+                                          owl:onProperty osnm:hasAmountTourists ;
+                                          owl:someValuesFrom xsd:integer
+                                        ] ;
+                    rdfs:subClassOf osnm:AnalyzeByYear ,
+                                    osnm:Place .
+
+
+###  http://www.oilspillsnear.me/TypeSeaSpecies
+osnm:TypeSeaSpecies rdf:type owl:Class .
+
+
+###  http://www.oilspillsnear.me/UnknownCause
+osnm:UnknownCause rdf:type owl:Class ;
+                  rdfs:subClassOf osnm:CauseOfSpill .
+
+
+###  http://www.oilspillsnear.me/War
+osnm:War rdf:type owl:Class ;
+         rdfs:subClassOf osnm:CauseOfSpill .
+
+
+###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi
