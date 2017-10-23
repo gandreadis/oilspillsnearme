@@ -6,9 +6,10 @@ const router = express.Router();
 router.get('/', function (req, res, next) {
   executeSparql(`
     PREFIX osnm: <http://www.oilspillsnear.me/>
-    SELECT * 
+    PREFIX time: <http://www.w3.org/2006/time#>
+    SELECT DISTINCT ?countryName ?count 
     WHERE {
-      ?oilRigCount osnm:year "2010" .
+      ?oilRigCount time:year "2010" .
       ?oilRigCount osnm:countryName ?countryName .
       ?oilRigCount osnm:count ?count .
     }
@@ -16,7 +17,7 @@ router.get('/', function (req, res, next) {
     reasoning: true
   }).then(({body}) => {
     res.json(body.results.bindings.map(binding => ({
-      year: 2009,
+      year: 2010,
       countryName: binding.countryName ? binding.countryName.value : undefined,
       count: binding.count ? binding.count.value : undefined,
     })))

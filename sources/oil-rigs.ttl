@@ -1,0 +1,5479 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix osnm: <http://www.oilspillsnear.me/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+
+
+osnm:0 a owl:NamedIndividual ;
+	osnm:countryName "Albania" ;
+	time:year "1999" ;
+	osnm:count "0" .
+
+osnm:1 a owl:NamedIndividual ;
+	osnm:countryName "Albania" ;
+	time:year "2000" ;
+	osnm:count "0" .
+
+osnm:2 a owl:NamedIndividual ;
+	osnm:countryName "Albania" ;
+	time:year "2001" ;
+	osnm:count "0" .
+
+osnm:3 a owl:NamedIndividual ;
+	osnm:countryName "Albania" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:4 a owl:NamedIndividual ;
+	osnm:countryName "Albania" ;
+	time:year "2003" ;
+	osnm:count "0" .
+
+osnm:5 a owl:NamedIndividual ;
+	osnm:countryName "Albania" ;
+	time:year "2004" ;
+	osnm:count "0" .
+
+osnm:6 a owl:NamedIndividual ;
+	osnm:countryName "Albania" ;
+	time:year "2005" ;
+	osnm:count "0" .
+
+osnm:7 a owl:NamedIndividual ;
+	osnm:countryName "Albania" ;
+	time:year "2006" ;
+	osnm:count "0" .
+
+osnm:8 a owl:NamedIndividual ;
+	osnm:countryName "Albania" ;
+	time:year "2007" ;
+	osnm:count "0" .
+
+osnm:9 a owl:NamedIndividual ;
+	osnm:countryName "Albania" ;
+	time:year "2008" ;
+	osnm:count "0" .
+
+osnm:10 a owl:NamedIndividual ;
+	osnm:countryName "Albania" ;
+	time:year "2009" ;
+	osnm:count "0" .
+
+osnm:11 a owl:NamedIndividual ;
+	osnm:countryName "Albania" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:12 a owl:NamedIndividual ;
+	osnm:countryName "Algeria" ;
+	time:year "1999" ;
+	osnm:count "0" .
+
+osnm:13 a owl:NamedIndividual ;
+	osnm:countryName "Algeria" ;
+	time:year "2000" ;
+	osnm:count "0" .
+
+osnm:14 a owl:NamedIndividual ;
+	osnm:countryName "Algeria" ;
+	time:year "2001" ;
+	osnm:count "0" .
+
+osnm:15 a owl:NamedIndividual ;
+	osnm:countryName "Algeria" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:16 a owl:NamedIndividual ;
+	osnm:countryName "Algeria" ;
+	time:year "2003" ;
+	osnm:count "0" .
+
+osnm:17 a owl:NamedIndividual ;
+	osnm:countryName "Algeria" ;
+	time:year "2004" ;
+	osnm:count "0" .
+
+osnm:18 a owl:NamedIndividual ;
+	osnm:countryName "Algeria" ;
+	time:year "2005" ;
+	osnm:count "0" .
+
+osnm:19 a owl:NamedIndividual ;
+	osnm:countryName "Algeria" ;
+	time:year "2006" ;
+	osnm:count "0" .
+
+osnm:20 a owl:NamedIndividual ;
+	osnm:countryName "Algeria" ;
+	time:year "2007" ;
+	osnm:count "0" .
+
+osnm:21 a owl:NamedIndividual ;
+	osnm:countryName "Algeria" ;
+	time:year "2008" ;
+	osnm:count "0" .
+
+osnm:22 a owl:NamedIndividual ;
+	osnm:countryName "Algeria" ;
+	time:year "2009" ;
+	osnm:count "0" .
+
+osnm:23 a owl:NamedIndividual ;
+	osnm:countryName "Algeria" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:24 a owl:NamedIndividual ;
+	osnm:countryName "Angola" ;
+	time:year "1999" ;
+	osnm:count "23" .
+
+osnm:25 a owl:NamedIndividual ;
+	osnm:countryName "Angola" ;
+	time:year "2000" ;
+	osnm:count "130" .
+
+osnm:26 a owl:NamedIndividual ;
+	osnm:countryName "Angola" ;
+	time:year "2001" ;
+	osnm:count "131" .
+
+osnm:27 a owl:NamedIndividual ;
+	osnm:countryName "Angola" ;
+	time:year "2002" ;
+	osnm:count "123" .
+
+osnm:28 a owl:NamedIndividual ;
+	osnm:countryName "Angola" ;
+	time:year "2003" ;
+	osnm:count "151" .
+
+osnm:29 a owl:NamedIndividual ;
+	osnm:countryName "Angola" ;
+	time:year "2004" ;
+	osnm:count "143" .
+
+osnm:30 a owl:NamedIndividual ;
+	osnm:countryName "Angola" ;
+	time:year "2005" ;
+	osnm:count "209" .
+
+osnm:31 a owl:NamedIndividual ;
+	osnm:countryName "Angola" ;
+	time:year "2006" ;
+	osnm:count "257" .
+
+osnm:32 a owl:NamedIndividual ;
+	osnm:countryName "Angola" ;
+	time:year "2007" ;
+	osnm:count "294" .
+
+osnm:33 a owl:NamedIndividual ;
+	osnm:countryName "Angola" ;
+	time:year "2008" ;
+	osnm:count "275" .
+
+osnm:34 a owl:NamedIndividual ;
+	osnm:countryName "Angola" ;
+	time:year "2009" ;
+	osnm:count "222" .
+
+osnm:35 a owl:NamedIndividual ;
+	osnm:countryName "Angola" ;
+	time:year "2010" ;
+	osnm:count "85" .
+
+osnm:36 a owl:NamedIndividual ;
+	osnm:countryName "Argentina" ;
+	time:year "1999" ;
+	osnm:count "0" .
+
+osnm:37 a owl:NamedIndividual ;
+	osnm:countryName "Argentina" ;
+	time:year "2000" ;
+	osnm:count "0" .
+
+osnm:38 a owl:NamedIndividual ;
+	osnm:countryName "Argentina" ;
+	time:year "2001" ;
+	osnm:count "0" .
+
+osnm:39 a owl:NamedIndividual ;
+	osnm:countryName "Argentina" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:40 a owl:NamedIndividual ;
+	osnm:countryName "Argentina" ;
+	time:year "2003" ;
+	osnm:count "10" .
+
+osnm:41 a owl:NamedIndividual ;
+	osnm:countryName "Argentina" ;
+	time:year "2004" ;
+	osnm:count "0" .
+
+osnm:42 a owl:NamedIndividual ;
+	osnm:countryName "Argentina" ;
+	time:year "2005" ;
+	osnm:count "0" .
+
+osnm:43 a owl:NamedIndividual ;
+	osnm:countryName "Argentina" ;
+	time:year "2006" ;
+	osnm:count "0" .
+
+osnm:44 a owl:NamedIndividual ;
+	osnm:countryName "Argentina" ;
+	time:year "2007" ;
+	osnm:count "0" .
+
+osnm:45 a owl:NamedIndividual ;
+	osnm:countryName "Argentina" ;
+	time:year "2008" ;
+	osnm:count "0" .
+
+osnm:46 a owl:NamedIndividual ;
+	osnm:countryName "Argentina" ;
+	time:year "2009" ;
+	osnm:count "3" .
+
+osnm:47 a owl:NamedIndividual ;
+	osnm:countryName "Argentina" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:48 a owl:NamedIndividual ;
+	osnm:countryName "Armenia" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:49 a owl:NamedIndividual ;
+	osnm:countryName "Armenia" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:50 a owl:NamedIndividual ;
+	osnm:countryName "Australia" ;
+	time:year "1999" ;
+	osnm:count "15" .
+
+osnm:51 a owl:NamedIndividual ;
+	osnm:countryName "Australia" ;
+	time:year "2000" ;
+	osnm:count "82" .
+
+osnm:52 a owl:NamedIndividual ;
+	osnm:countryName "Australia" ;
+	time:year "2001" ;
+	osnm:count "64" .
+
+osnm:53 a owl:NamedIndividual ;
+	osnm:countryName "Australia" ;
+	time:year "2002" ;
+	osnm:count "63" .
+
+osnm:54 a owl:NamedIndividual ;
+	osnm:countryName "Australia" ;
+	time:year "2003" ;
+	osnm:count "65" .
+
+osnm:55 a owl:NamedIndividual ;
+	osnm:countryName "Australia" ;
+	time:year "2004" ;
+	osnm:count "72" .
+
+osnm:56 a owl:NamedIndividual ;
+	osnm:countryName "Australia" ;
+	time:year "2005" ;
+	osnm:count "96" .
+
+osnm:57 a owl:NamedIndividual ;
+	osnm:countryName "Australia" ;
+	time:year "2006" ;
+	osnm:count "119" .
+
+osnm:58 a owl:NamedIndividual ;
+	osnm:countryName "Australia" ;
+	time:year "2007" ;
+	osnm:count "139" .
+
+osnm:59 a owl:NamedIndividual ;
+	osnm:countryName "Australia" ;
+	time:year "2008" ;
+	osnm:count "183" .
+
+osnm:60 a owl:NamedIndividual ;
+	osnm:countryName "Australia" ;
+	time:year "2009" ;
+	osnm:count "167" .
+
+osnm:61 a owl:NamedIndividual ;
+	osnm:countryName "Australia" ;
+	time:year "2010" ;
+	osnm:count "65" .
+
+osnm:62 a owl:NamedIndividual ;
+	osnm:countryName "Austria" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:63 a owl:NamedIndividual ;
+	osnm:countryName "Austria" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:64 a owl:NamedIndividual ;
+	osnm:countryName "Azerbaijan" ;
+	time:year "1999" ;
+	osnm:count "6" .
+
+osnm:65 a owl:NamedIndividual ;
+	osnm:countryName "Azerbaijan" ;
+	time:year "2000" ;
+	osnm:count "28" .
+
+osnm:66 a owl:NamedIndividual ;
+	osnm:countryName "Azerbaijan" ;
+	time:year "2001" ;
+	osnm:count "36" .
+
+osnm:67 a owl:NamedIndividual ;
+	osnm:countryName "Azerbaijan" ;
+	time:year "2002" ;
+	osnm:count "34" .
+
+osnm:68 a owl:NamedIndividual ;
+	osnm:countryName "Azerbaijan" ;
+	time:year "2003" ;
+	osnm:count "36" .
+
+osnm:69 a owl:NamedIndividual ;
+	osnm:countryName "Azerbaijan" ;
+	time:year "2004" ;
+	osnm:count "45" .
+
+osnm:70 a owl:NamedIndividual ;
+	osnm:countryName "Azerbaijan" ;
+	time:year "2005" ;
+	osnm:count "48" .
+
+osnm:71 a owl:NamedIndividual ;
+	osnm:countryName "Azerbaijan" ;
+	time:year "2006" ;
+	osnm:count "119" .
+
+osnm:72 a owl:NamedIndividual ;
+	osnm:countryName "Azerbaijan" ;
+	time:year "2007" ;
+	osnm:count "245" .
+
+osnm:73 a owl:NamedIndividual ;
+	osnm:countryName "Azerbaijan" ;
+	time:year "2008" ;
+	osnm:count "294" .
+
+osnm:74 a owl:NamedIndividual ;
+	osnm:countryName "Azerbaijan" ;
+	time:year "2009" ;
+	osnm:count "299" .
+
+osnm:75 a owl:NamedIndividual ;
+	osnm:countryName "Azerbaijan" ;
+	time:year "2010" ;
+	osnm:count "157" .
+
+osnm:76 a owl:NamedIndividual ;
+	osnm:countryName "Bahrain" ;
+	time:year "1999" ;
+	osnm:count "0" .
+
+osnm:77 a owl:NamedIndividual ;
+	osnm:countryName "Bahrain" ;
+	time:year "2000" ;
+	osnm:count "3" .
+
+osnm:78 a owl:NamedIndividual ;
+	osnm:countryName "Bahrain" ;
+	time:year "2001" ;
+	osnm:count "1" .
+
+osnm:79 a owl:NamedIndividual ;
+	osnm:countryName "Bahrain" ;
+	time:year "2002" ;
+	osnm:count "4" .
+
+osnm:80 a owl:NamedIndividual ;
+	osnm:countryName "Bahrain" ;
+	time:year "2003" ;
+	osnm:count "5" .
+
+osnm:81 a owl:NamedIndividual ;
+	osnm:countryName "Bahrain" ;
+	time:year "2004" ;
+	osnm:count "5" .
+
+osnm:82 a owl:NamedIndividual ;
+	osnm:countryName "Bahrain" ;
+	time:year "2005" ;
+	osnm:count "0" .
+
+osnm:83 a owl:NamedIndividual ;
+	osnm:countryName "Bahrain" ;
+	time:year "2006" ;
+	osnm:count "0" .
+
+osnm:84 a owl:NamedIndividual ;
+	osnm:countryName "Bahrain" ;
+	time:year "2007" ;
+	osnm:count "0" .
+
+osnm:85 a owl:NamedIndividual ;
+	osnm:countryName "Bahrain" ;
+	time:year "2008" ;
+	osnm:count "0" .
+
+osnm:86 a owl:NamedIndividual ;
+	osnm:countryName "Bahrain" ;
+	time:year "2009" ;
+	osnm:count "2" .
+
+osnm:87 a owl:NamedIndividual ;
+	osnm:countryName "Bahrain" ;
+	time:year "2010" ;
+	osnm:count "2" .
+
+osnm:88 a owl:NamedIndividual ;
+	osnm:countryName "Bangladesh" ;
+	time:year "1999" ;
+	osnm:count "4" .
+
+osnm:89 a owl:NamedIndividual ;
+	osnm:countryName "Bangladesh" ;
+	time:year "2000" ;
+	osnm:count "11" .
+
+osnm:90 a owl:NamedIndividual ;
+	osnm:countryName "Bangladesh" ;
+	time:year "2001" ;
+	osnm:count "6" .
+
+osnm:91 a owl:NamedIndividual ;
+	osnm:countryName "Bangladesh" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:92 a owl:NamedIndividual ;
+	osnm:countryName "Bangladesh" ;
+	time:year "2003" ;
+	osnm:count "0" .
+
+osnm:93 a owl:NamedIndividual ;
+	osnm:countryName "Bangladesh" ;
+	time:year "2004" ;
+	osnm:count "0" .
+
+osnm:94 a owl:NamedIndividual ;
+	osnm:countryName "Bangladesh" ;
+	time:year "2005" ;
+	osnm:count "0" .
+
+osnm:95 a owl:NamedIndividual ;
+	osnm:countryName "Bangladesh" ;
+	time:year "2006" ;
+	osnm:count "0" .
+
+osnm:96 a owl:NamedIndividual ;
+	osnm:countryName "Bangladesh" ;
+	time:year "2007" ;
+	osnm:count "6" .
+
+osnm:97 a owl:NamedIndividual ;
+	osnm:countryName "Bangladesh" ;
+	time:year "2008" ;
+	osnm:count "3" .
+
+osnm:98 a owl:NamedIndividual ;
+	osnm:countryName "Bangladesh" ;
+	time:year "2009" ;
+	osnm:count "0" .
+
+osnm:99 a owl:NamedIndividual ;
+	osnm:countryName "Bangladesh" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:100 a owl:NamedIndividual ;
+	osnm:countryName "Barbados" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:101 a owl:NamedIndividual ;
+	osnm:countryName "Belgium" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:102 a owl:NamedIndividual ;
+	osnm:countryName "Belgium" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:103 a owl:NamedIndividual ;
+	osnm:countryName "Belize" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:104 a owl:NamedIndividual ;
+	osnm:countryName "Belize" ;
+	time:year "2007" ;
+	osnm:count "0" .
+
+osnm:105 a owl:NamedIndividual ;
+	osnm:countryName "Belize" ;
+	time:year "2008" ;
+	osnm:count "0" .
+
+osnm:106 a owl:NamedIndividual ;
+	osnm:countryName "Belize" ;
+	time:year "2009" ;
+	osnm:count "0" .
+
+osnm:107 a owl:NamedIndividual ;
+	osnm:countryName "Belize" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:108 a owl:NamedIndividual ;
+	osnm:countryName "Benin" ;
+	time:year "2002" ;
+	osnm:count "2" .
+
+osnm:109 a owl:NamedIndividual ;
+	osnm:countryName "Benin" ;
+	time:year "2003" ;
+	osnm:count "2" .
+
+osnm:110 a owl:NamedIndividual ;
+	osnm:countryName "Benin" ;
+	time:year "2004" ;
+	osnm:count "0" .
+
+osnm:111 a owl:NamedIndividual ;
+	osnm:countryName "Benin" ;
+	time:year "2005" ;
+	osnm:count "2" .
+
+osnm:112 a owl:NamedIndividual ;
+	osnm:countryName "Benin" ;
+	time:year "2006" ;
+	osnm:count "0" .
+
+osnm:113 a owl:NamedIndividual ;
+	osnm:countryName "Benin" ;
+	time:year "2007" ;
+	osnm:count "1" .
+
+osnm:114 a owl:NamedIndividual ;
+	osnm:countryName "Benin" ;
+	time:year "2008" ;
+	osnm:count "0" .
+
+osnm:115 a owl:NamedIndividual ;
+	osnm:countryName "Benin" ;
+	time:year "2009" ;
+	osnm:count "0" .
+
+osnm:116 a owl:NamedIndividual ;
+	osnm:countryName "Benin" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:117 a owl:NamedIndividual ;
+	osnm:countryName "Bolivia" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:118 a owl:NamedIndividual ;
+	osnm:countryName "Bolivia" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:119 a owl:NamedIndividual ;
+	osnm:countryName "Brazil" ;
+	time:year "1999" ;
+	osnm:count "57" .
+
+osnm:120 a owl:NamedIndividual ;
+	osnm:countryName "Brazil" ;
+	time:year "2000" ;
+	osnm:count "210" .
+
+osnm:121 a owl:NamedIndividual ;
+	osnm:countryName "Brazil" ;
+	time:year "2001" ;
+	osnm:count "313" .
+
+osnm:122 a owl:NamedIndividual ;
+	osnm:countryName "Brazil" ;
+	time:year "2002" ;
+	osnm:count "251" .
+
+osnm:123 a owl:NamedIndividual ;
+	osnm:countryName "Brazil" ;
+	time:year "2003" ;
+	osnm:count "232" .
+
+osnm:124 a owl:NamedIndividual ;
+	osnm:countryName "Brazil" ;
+	time:year "2004" ;
+	osnm:count "212" .
+
+osnm:125 a owl:NamedIndividual ;
+	osnm:countryName "Brazil" ;
+	time:year "2005" ;
+	osnm:count "292" .
+
+osnm:126 a owl:NamedIndividual ;
+	osnm:countryName "Brazil" ;
+	time:year "2006" ;
+	osnm:count "279" .
+
+osnm:127 a owl:NamedIndividual ;
+	osnm:countryName "Brazil" ;
+	time:year "2007" ;
+	osnm:count "321" .
+
+osnm:128 a owl:NamedIndividual ;
+	osnm:countryName "Brazil" ;
+	time:year "2008" ;
+	osnm:count "350" .
+
+osnm:129 a owl:NamedIndividual ;
+	osnm:countryName "Brazil" ;
+	time:year "2009" ;
+	osnm:count "521" .
+
+osnm:130 a owl:NamedIndividual ;
+	osnm:countryName "Brazil" ;
+	time:year "2010" ;
+	osnm:count "230" .
+
+osnm:131 a owl:NamedIndividual ;
+	osnm:countryName "Brunei" ;
+	time:year "1999" ;
+	osnm:count "13" .
+
+osnm:132 a owl:NamedIndividual ;
+	osnm:countryName "Brunei" ;
+	time:year "2000" ;
+	osnm:count "33" .
+
+osnm:133 a owl:NamedIndividual ;
+	osnm:countryName "Brunei" ;
+	time:year "2001" ;
+	osnm:count "24" .
+
+osnm:134 a owl:NamedIndividual ;
+	osnm:countryName "Brunei" ;
+	time:year "2002" ;
+	osnm:count "22" .
+
+osnm:135 a owl:NamedIndividual ;
+	osnm:countryName "Brunei" ;
+	time:year "2003" ;
+	osnm:count "24" .
+
+osnm:136 a owl:NamedIndividual ;
+	osnm:countryName "Brunei" ;
+	time:year "2004" ;
+	osnm:count "36" .
+
+osnm:137 a owl:NamedIndividual ;
+	osnm:countryName "Brunei" ;
+	time:year "2005" ;
+	osnm:count "16" .
+
+osnm:138 a owl:NamedIndividual ;
+	osnm:countryName "Brunei" ;
+	time:year "2006" ;
+	osnm:count "0" .
+
+osnm:139 a owl:NamedIndividual ;
+	osnm:countryName "Brunei" ;
+	time:year "2007" ;
+	osnm:count "45" .
+
+osnm:140 a owl:NamedIndividual ;
+	osnm:countryName "Brunei" ;
+	time:year "2008" ;
+	osnm:count "54" .
+
+osnm:141 a owl:NamedIndividual ;
+	osnm:countryName "Brunei" ;
+	time:year "2009" ;
+	osnm:count "58" .
+
+osnm:142 a owl:NamedIndividual ;
+	osnm:countryName "Brunei" ;
+	time:year "2010" ;
+	osnm:count "18" .
+
+osnm:143 a owl:NamedIndividual ;
+	osnm:countryName "Bulgaria" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:144 a owl:NamedIndividual ;
+	osnm:countryName "Bulgaria" ;
+	time:year "2008" ;
+	osnm:count "3" .
+
+osnm:145 a owl:NamedIndividual ;
+	osnm:countryName "Bulgaria" ;
+	time:year "2009" ;
+	osnm:count "1" .
+
+osnm:146 a owl:NamedIndividual ;
+	osnm:countryName "Bulgaria" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:147 a owl:NamedIndividual ;
+	osnm:countryName "Cambodia" ;
+	time:year "1999" ;
+	osnm:count "0" .
+
+osnm:148 a owl:NamedIndividual ;
+	osnm:countryName "Cambodia" ;
+	time:year "2000" ;
+	osnm:count "0" .
+
+osnm:149 a owl:NamedIndividual ;
+	osnm:countryName "Cambodia" ;
+	time:year "2001" ;
+	osnm:count "0" .
+
+osnm:150 a owl:NamedIndividual ;
+	osnm:countryName "Cambodia" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:151 a owl:NamedIndividual ;
+	osnm:countryName "Cambodia" ;
+	time:year "2003" ;
+	osnm:count "0" .
+
+osnm:152 a owl:NamedIndividual ;
+	osnm:countryName "Cambodia" ;
+	time:year "2004" ;
+	osnm:count "0" .
+
+osnm:153 a owl:NamedIndividual ;
+	osnm:countryName "Cambodia" ;
+	time:year "2005" ;
+	osnm:count "0" .
+
+osnm:154 a owl:NamedIndividual ;
+	osnm:countryName "Cambodia" ;
+	time:year "2006" ;
+	osnm:count "4" .
+
+osnm:155 a owl:NamedIndividual ;
+	osnm:countryName "Cambodia" ;
+	time:year "2007" ;
+	osnm:count "1" .
+
+osnm:156 a owl:NamedIndividual ;
+	osnm:countryName "Cambodia" ;
+	time:year "2008" ;
+	osnm:count "2" .
+
+osnm:157 a owl:NamedIndividual ;
+	osnm:countryName "Cambodia" ;
+	time:year "2009" ;
+	osnm:count "0" .
+
+osnm:158 a owl:NamedIndividual ;
+	osnm:countryName "Cambodia" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:159 a owl:NamedIndividual ;
+	osnm:countryName "Cameroon" ;
+	time:year "1999" ;
+	osnm:count "4" .
+
+osnm:160 a owl:NamedIndividual ;
+	osnm:countryName "Cameroon" ;
+	time:year "2000" ;
+	osnm:count "5" .
+
+osnm:161 a owl:NamedIndividual ;
+	osnm:countryName "Cameroon" ;
+	time:year "2001" ;
+	osnm:count "9" .
+
+osnm:162 a owl:NamedIndividual ;
+	osnm:countryName "Cameroon" ;
+	time:year "2002" ;
+	osnm:count "13" .
+
+osnm:163 a owl:NamedIndividual ;
+	osnm:countryName "Cameroon" ;
+	time:year "2003" ;
+	osnm:count "9" .
+
+osnm:164 a owl:NamedIndividual ;
+	osnm:countryName "Cameroon" ;
+	time:year "2004" ;
+	osnm:count "12" .
+
+osnm:165 a owl:NamedIndividual ;
+	osnm:countryName "Cameroon" ;
+	time:year "2005" ;
+	osnm:count "22" .
+
+osnm:166 a owl:NamedIndividual ;
+	osnm:countryName "Cameroon" ;
+	time:year "2006" ;
+	osnm:count "19" .
+
+osnm:167 a owl:NamedIndividual ;
+	osnm:countryName "Cameroon" ;
+	time:year "2007" ;
+	osnm:count "24" .
+
+osnm:168 a owl:NamedIndividual ;
+	osnm:countryName "Cameroon" ;
+	time:year "2008" ;
+	osnm:count "21" .
+
+osnm:169 a owl:NamedIndividual ;
+	osnm:countryName "Cameroon" ;
+	time:year "2009" ;
+	osnm:count "11" .
+
+osnm:170 a owl:NamedIndividual ;
+	osnm:countryName "Cameroon" ;
+	time:year "2010" ;
+	osnm:count "3" .
+
+osnm:171 a owl:NamedIndividual ;
+	osnm:countryName "Canada" ;
+	time:year "1999" ;
+	osnm:count "29" .
+
+osnm:172 a owl:NamedIndividual ;
+	osnm:countryName "Canada" ;
+	time:year "2000" ;
+	osnm:count "79" .
+
+osnm:173 a owl:NamedIndividual ;
+	osnm:countryName "Canada" ;
+	time:year "2001" ;
+	osnm:count "56" .
+
+osnm:174 a owl:NamedIndividual ;
+	osnm:countryName "Canada" ;
+	time:year "2002" ;
+	osnm:count "66" .
+
+osnm:175 a owl:NamedIndividual ;
+	osnm:countryName "Canada" ;
+	time:year "2003" ;
+	osnm:count "64" .
+
+osnm:176 a owl:NamedIndividual ;
+	osnm:countryName "Canada" ;
+	time:year "2004" ;
+	osnm:count "62" .
+
+osnm:177 a owl:NamedIndividual ;
+	osnm:countryName "Canada" ;
+	time:year "2005" ;
+	osnm:count "69" .
+
+osnm:178 a owl:NamedIndividual ;
+	osnm:countryName "Canada" ;
+	time:year "2006" ;
+	osnm:count "64" .
+
+osnm:179 a owl:NamedIndividual ;
+	osnm:countryName "Canada" ;
+	time:year "2007" ;
+	osnm:count "46" .
+
+osnm:180 a owl:NamedIndividual ;
+	osnm:countryName "Canada" ;
+	time:year "2008" ;
+	osnm:count "45" .
+
+osnm:181 a owl:NamedIndividual ;
+	osnm:countryName "Canada" ;
+	time:year "2009" ;
+	osnm:count "69" .
+
+osnm:182 a owl:NamedIndividual ;
+	osnm:countryName "Canada" ;
+	time:year "2010" ;
+	osnm:count "21" .
+
+osnm:183 a owl:NamedIndividual ;
+	osnm:countryName "Central African Republic" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:184 a owl:NamedIndividual ;
+	osnm:countryName "Central African Republic" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:185 a owl:NamedIndividual ;
+	osnm:countryName "Chad" ;
+	time:year "1999" ;
+	osnm:count "0" .
+
+osnm:186 a owl:NamedIndividual ;
+	osnm:countryName "Chad" ;
+	time:year "2000" ;
+	osnm:count "0" .
+
+osnm:187 a owl:NamedIndividual ;
+	osnm:countryName "Chad" ;
+	time:year "2001" ;
+	osnm:count "0" .
+
+osnm:188 a owl:NamedIndividual ;
+	osnm:countryName "Chad" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:189 a owl:NamedIndividual ;
+	osnm:countryName "Chad" ;
+	time:year "2003" ;
+	osnm:count "0" .
+
+osnm:190 a owl:NamedIndividual ;
+	osnm:countryName "Chad" ;
+	time:year "2004" ;
+	osnm:count "0" .
+
+osnm:191 a owl:NamedIndividual ;
+	osnm:countryName "Chad" ;
+	time:year "2005" ;
+	osnm:count "0" .
+
+osnm:192 a owl:NamedIndividual ;
+	osnm:countryName "Chad" ;
+	time:year "2006" ;
+	osnm:count "0" .
+
+osnm:193 a owl:NamedIndividual ;
+	osnm:countryName "Chad" ;
+	time:year "2007" ;
+	osnm:count "0" .
+
+osnm:194 a owl:NamedIndividual ;
+	osnm:countryName "Chad" ;
+	time:year "2008" ;
+	osnm:count "0" .
+
+osnm:195 a owl:NamedIndividual ;
+	osnm:countryName "Chad" ;
+	time:year "2009" ;
+	osnm:count "0" .
+
+osnm:196 a owl:NamedIndividual ;
+	osnm:countryName "Chad" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:197 a owl:NamedIndividual ;
+	osnm:countryName "Chile" ;
+	time:year "1999" ;
+	osnm:count "0" .
+
+osnm:198 a owl:NamedIndividual ;
+	osnm:countryName "Chile" ;
+	time:year "2000" ;
+	osnm:count "9" .
+
+osnm:199 a owl:NamedIndividual ;
+	osnm:countryName "Chile" ;
+	time:year "2001" ;
+	osnm:count "7" .
+
+osnm:200 a owl:NamedIndividual ;
+	osnm:countryName "Chile" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:201 a owl:NamedIndividual ;
+	osnm:countryName "Chile" ;
+	time:year "2003" ;
+	osnm:count "0" .
+
+osnm:202 a owl:NamedIndividual ;
+	osnm:countryName "Chile" ;
+	time:year "2004" ;
+	osnm:count "0" .
+
+osnm:203 a owl:NamedIndividual ;
+	osnm:countryName "Chile" ;
+	time:year "2005" ;
+	osnm:count "0" .
+
+osnm:204 a owl:NamedIndividual ;
+	osnm:countryName "Chile" ;
+	time:year "2006" ;
+	osnm:count "0" .
+
+osnm:205 a owl:NamedIndividual ;
+	osnm:countryName "Chile" ;
+	time:year "2007" ;
+	osnm:count "0" .
+
+osnm:206 a owl:NamedIndividual ;
+	osnm:countryName "Chile" ;
+	time:year "2008" ;
+	osnm:count "0" .
+
+osnm:207 a owl:NamedIndividual ;
+	osnm:countryName "Chile" ;
+	time:year "2009" ;
+	osnm:count "0" .
+
+osnm:208 a owl:NamedIndividual ;
+	osnm:countryName "Chile" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:209 a owl:NamedIndividual ;
+	osnm:countryName "China" ;
+	time:year "1999" ;
+	osnm:count "45" .
+
+osnm:210 a owl:NamedIndividual ;
+	osnm:countryName "China" ;
+	time:year "2000" ;
+	osnm:count "140" .
+
+osnm:211 a owl:NamedIndividual ;
+	osnm:countryName "China" ;
+	time:year "2001" ;
+	osnm:count "142" .
+
+osnm:212 a owl:NamedIndividual ;
+	osnm:countryName "China" ;
+	time:year "2002" ;
+	osnm:count "125" .
+
+osnm:213 a owl:NamedIndividual ;
+	osnm:countryName "China" ;
+	time:year "2003" ;
+	osnm:count "164" .
+
+osnm:214 a owl:NamedIndividual ;
+	osnm:countryName "China" ;
+	time:year "2004" ;
+	osnm:count "154" .
+
+osnm:215 a owl:NamedIndividual ;
+	osnm:countryName "China" ;
+	time:year "2005" ;
+	osnm:count "188" .
+
+osnm:216 a owl:NamedIndividual ;
+	osnm:countryName "China" ;
+	time:year "2006" ;
+	osnm:count "192" .
+
+osnm:217 a owl:NamedIndividual ;
+	osnm:countryName "China" ;
+	time:year "2007" ;
+	osnm:count "263" .
+
+osnm:218 a owl:NamedIndividual ;
+	osnm:countryName "China" ;
+	time:year "2008" ;
+	osnm:count "324" .
+
+osnm:219 a owl:NamedIndividual ;
+	osnm:countryName "China" ;
+	time:year "2009" ;
+	osnm:count "414" .
+
+osnm:220 a owl:NamedIndividual ;
+	osnm:countryName "China" ;
+	time:year "2010" ;
+	osnm:count "199" .
+
+osnm:221 a owl:NamedIndividual ;
+	osnm:countryName "Colombia" ;
+	time:year "1999" ;
+	osnm:count "0" .
+
+osnm:222 a owl:NamedIndividual ;
+	osnm:countryName "Colombia" ;
+	time:year "2000" ;
+	osnm:count "0" .
+
+osnm:223 a owl:NamedIndividual ;
+	osnm:countryName "Colombia" ;
+	time:year "2001" ;
+	osnm:count "22" .
+
+osnm:224 a owl:NamedIndividual ;
+	osnm:countryName "Colombia" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:225 a owl:NamedIndividual ;
+	osnm:countryName "Colombia" ;
+	time:year "2003" ;
+	osnm:count "0" .
+
+osnm:226 a owl:NamedIndividual ;
+	osnm:countryName "Colombia" ;
+	time:year "2004" ;
+	osnm:count "0" .
+
+osnm:227 a owl:NamedIndividual ;
+	osnm:countryName "Colombia" ;
+	time:year "2005" ;
+	osnm:count "0" .
+
+osnm:228 a owl:NamedIndividual ;
+	osnm:countryName "Colombia" ;
+	time:year "2006" ;
+	osnm:count "0" .
+
+osnm:229 a owl:NamedIndividual ;
+	osnm:countryName "Colombia" ;
+	time:year "2007" ;
+	osnm:count "0" .
+
+osnm:230 a owl:NamedIndividual ;
+	osnm:countryName "Colombia" ;
+	time:year "2008" ;
+	osnm:count "0" .
+
+osnm:231 a owl:NamedIndividual ;
+	osnm:countryName "Colombia" ;
+	time:year "2009" ;
+	osnm:count "0" .
+
+osnm:232 a owl:NamedIndividual ;
+	osnm:countryName "Colombia" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:233 a owl:NamedIndividual ;
+	osnm:countryName "Croatia" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:234 a owl:NamedIndividual ;
+	osnm:countryName "Croatia" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:235 a owl:NamedIndividual ;
+	osnm:countryName "Czech Republic" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:236 a owl:NamedIndividual ;
+	osnm:countryName "Czech Republic" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:237 a owl:NamedIndividual ;
+	osnm:countryName "Democratic Republic of the Congo" ;
+	time:year "1999" ;
+	osnm:count "13" .
+
+osnm:238 a owl:NamedIndividual ;
+	osnm:countryName "Democratic Republic of the Congo" ;
+	time:year "2000" ;
+	osnm:count "43" .
+
+osnm:239 a owl:NamedIndividual ;
+	osnm:countryName "Democratic Republic of the Congo" ;
+	time:year "2001" ;
+	osnm:count "45" .
+
+osnm:240 a owl:NamedIndividual ;
+	osnm:countryName "Democratic Republic of the Congo" ;
+	time:year "2002" ;
+	osnm:count "34" .
+
+osnm:241 a owl:NamedIndividual ;
+	osnm:countryName "Democratic Republic of the Congo" ;
+	time:year "2003" ;
+	osnm:count "32" .
+
+osnm:242 a owl:NamedIndividual ;
+	osnm:countryName "Democratic Republic of the Congo" ;
+	time:year "2004" ;
+	osnm:count "40" .
+
+osnm:243 a owl:NamedIndividual ;
+	osnm:countryName "Democratic Republic of the Congo" ;
+	time:year "2005" ;
+	osnm:count "57" .
+
+osnm:244 a owl:NamedIndividual ;
+	osnm:countryName "Democratic Republic of the Congo" ;
+	time:year "2006" ;
+	osnm:count "54" .
+
+osnm:245 a owl:NamedIndividual ;
+	osnm:countryName "Democratic Republic of the Congo" ;
+	time:year "2007" ;
+	osnm:count "50" .
+
+osnm:246 a owl:NamedIndividual ;
+	osnm:countryName "Democratic Republic of the Congo" ;
+	time:year "2008" ;
+	osnm:count "53" .
+
+osnm:247 a owl:NamedIndividual ;
+	osnm:countryName "Democratic Republic of the Congo" ;
+	time:year "2009" ;
+	osnm:count "71" .
+
+osnm:248 a owl:NamedIndividual ;
+	osnm:countryName "Democratic Republic of the Congo" ;
+	time:year "2010" ;
+	osnm:count "20" .
+
+osnm:249 a owl:NamedIndividual ;
+	osnm:countryName "Denmark" ;
+	time:year "1999" ;
+	osnm:count "23" .
+
+osnm:250 a owl:NamedIndividual ;
+	osnm:countryName "Denmark" ;
+	time:year "2000" ;
+	osnm:count "70" .
+
+osnm:251 a owl:NamedIndividual ;
+	osnm:countryName "Denmark" ;
+	time:year "2001" ;
+	osnm:count "93" .
+
+osnm:252 a owl:NamedIndividual ;
+	osnm:countryName "Denmark" ;
+	time:year "2002" ;
+	osnm:count "83" .
+
+osnm:253 a owl:NamedIndividual ;
+	osnm:countryName "Denmark" ;
+	time:year "2003" ;
+	osnm:count "67" .
+
+osnm:254 a owl:NamedIndividual ;
+	osnm:countryName "Denmark" ;
+	time:year "2004" ;
+	osnm:count "53" .
+
+osnm:255 a owl:NamedIndividual ;
+	osnm:countryName "Denmark" ;
+	time:year "2005" ;
+	osnm:count "31" .
+
+osnm:256 a owl:NamedIndividual ;
+	osnm:countryName "Denmark" ;
+	time:year "2006" ;
+	osnm:count "43" .
+
+osnm:257 a owl:NamedIndividual ;
+	osnm:countryName "Denmark" ;
+	time:year "2007" ;
+	osnm:count "52" .
+
+osnm:258 a owl:NamedIndividual ;
+	osnm:countryName "Denmark" ;
+	time:year "2008" ;
+	osnm:count "34" .
+
+osnm:259 a owl:NamedIndividual ;
+	osnm:countryName "Denmark" ;
+	time:year "2009" ;
+	osnm:count "54" .
+
+osnm:260 a owl:NamedIndividual ;
+	osnm:countryName "Denmark" ;
+	time:year "2010" ;
+	osnm:count "18" .
+
+osnm:261 a owl:NamedIndividual ;
+	osnm:countryName "Ecuador" ;
+	time:year "1999" ;
+	osnm:count "0" .
+
+osnm:262 a owl:NamedIndividual ;
+	osnm:countryName "Ecuador" ;
+	time:year "2000" ;
+	osnm:count "7" .
+
+osnm:263 a owl:NamedIndividual ;
+	osnm:countryName "Ecuador" ;
+	time:year "2001" ;
+	osnm:count "12" .
+
+osnm:264 a owl:NamedIndividual ;
+	osnm:countryName "Ecuador" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:265 a owl:NamedIndividual ;
+	osnm:countryName "Ecuador" ;
+	time:year "2003" ;
+	osnm:count "0" .
+
+osnm:266 a owl:NamedIndividual ;
+	osnm:countryName "Ecuador" ;
+	time:year "2004" ;
+	osnm:count "7" .
+
+osnm:267 a owl:NamedIndividual ;
+	osnm:countryName "Ecuador" ;
+	time:year "2005" ;
+	osnm:count "0" .
+
+osnm:268 a owl:NamedIndividual ;
+	osnm:countryName "Ecuador" ;
+	time:year "2006" ;
+	osnm:count "0" .
+
+osnm:269 a owl:NamedIndividual ;
+	osnm:countryName "Ecuador" ;
+	time:year "2007" ;
+	osnm:count "0" .
+
+osnm:270 a owl:NamedIndividual ;
+	osnm:countryName "Ecuador" ;
+	time:year "2008" ;
+	osnm:count "0" .
+
+osnm:271 a owl:NamedIndividual ;
+	osnm:countryName "Ecuador" ;
+	time:year "2009" ;
+	osnm:count "0" .
+
+osnm:272 a owl:NamedIndividual ;
+	osnm:countryName "Ecuador" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:273 a owl:NamedIndividual ;
+	osnm:countryName "Egypt" ;
+	time:year "1999" ;
+	osnm:count "35" .
+
+osnm:274 a owl:NamedIndividual ;
+	osnm:countryName "Egypt" ;
+	time:year "2000" ;
+	osnm:count "129" .
+
+osnm:275 a owl:NamedIndividual ;
+	osnm:countryName "Egypt" ;
+	time:year "2001" ;
+	osnm:count "150" .
+
+osnm:276 a owl:NamedIndividual ;
+	osnm:countryName "Egypt" ;
+	time:year "2002" ;
+	osnm:count "100" .
+
+osnm:277 a owl:NamedIndividual ;
+	osnm:countryName "Egypt" ;
+	time:year "2003" ;
+	osnm:count "134" .
+
+osnm:278 a owl:NamedIndividual ;
+	osnm:countryName "Egypt" ;
+	time:year "2004" ;
+	osnm:count "189" .
+
+osnm:279 a owl:NamedIndividual ;
+	osnm:countryName "Egypt" ;
+	time:year "2005" ;
+	osnm:count "144" .
+
+osnm:280 a owl:NamedIndividual ;
+	osnm:countryName "Egypt" ;
+	time:year "2006" ;
+	osnm:count "159" .
+
+osnm:281 a owl:NamedIndividual ;
+	osnm:countryName "Egypt" ;
+	time:year "2007" ;
+	osnm:count "194" .
+
+osnm:282 a owl:NamedIndividual ;
+	osnm:countryName "Egypt" ;
+	time:year "2008" ;
+	osnm:count "203" .
+
+osnm:283 a owl:NamedIndividual ;
+	osnm:countryName "Egypt" ;
+	time:year "2009" ;
+	osnm:count "167" .
+
+osnm:284 a owl:NamedIndividual ;
+	osnm:countryName "Egypt" ;
+	time:year "2010" ;
+	osnm:count "74" .
+
+osnm:285 a owl:NamedIndividual ;
+	osnm:countryName "Equatorial Guinea" ;
+	time:year "1999" ;
+	osnm:count "3" .
+
+osnm:286 a owl:NamedIndividual ;
+	osnm:countryName "Equatorial Guinea" ;
+	time:year "2000" ;
+	osnm:count "43" .
+
+osnm:287 a owl:NamedIndividual ;
+	osnm:countryName "Equatorial Guinea" ;
+	time:year "2001" ;
+	osnm:count "61" .
+
+osnm:288 a owl:NamedIndividual ;
+	osnm:countryName "Equatorial Guinea" ;
+	time:year "2002" ;
+	osnm:count "59" .
+
+osnm:289 a owl:NamedIndividual ;
+	osnm:countryName "Equatorial Guinea" ;
+	time:year "2003" ;
+	osnm:count "62" .
+
+osnm:290 a owl:NamedIndividual ;
+	osnm:countryName "Equatorial Guinea" ;
+	time:year "2004" ;
+	osnm:count "52" .
+
+osnm:291 a owl:NamedIndividual ;
+	osnm:countryName "Equatorial Guinea" ;
+	time:year "2005" ;
+	osnm:count "40" .
+
+osnm:292 a owl:NamedIndividual ;
+	osnm:countryName "Equatorial Guinea" ;
+	time:year "2006" ;
+	osnm:count "47" .
+
+osnm:293 a owl:NamedIndividual ;
+	osnm:countryName "Equatorial Guinea" ;
+	time:year "2007" ;
+	osnm:count "49" .
+
+osnm:294 a owl:NamedIndividual ;
+	osnm:countryName "Equatorial Guinea" ;
+	time:year "2008" ;
+	osnm:count "23" .
+
+osnm:295 a owl:NamedIndividual ;
+	osnm:countryName "Equatorial Guinea" ;
+	time:year "2009" ;
+	osnm:count "17" .
+
+osnm:296 a owl:NamedIndividual ;
+	osnm:countryName "Equatorial Guinea" ;
+	time:year "2010" ;
+	osnm:count "30" .
+
+osnm:297 a owl:NamedIndividual ;
+	osnm:countryName "Eritrea" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:298 a owl:NamedIndividual ;
+	osnm:countryName "Eritrea" ;
+	time:year "2005" ;
+	osnm:count "3" .
+
+osnm:299 a owl:NamedIndividual ;
+	osnm:countryName "Eritrea" ;
+	time:year "2006" ;
+	osnm:count "0" .
+
+osnm:300 a owl:NamedIndividual ;
+	osnm:countryName "Eritrea" ;
+	time:year "2007" ;
+	osnm:count "0" .
+
+osnm:301 a owl:NamedIndividual ;
+	osnm:countryName "Eritrea" ;
+	time:year "2008" ;
+	osnm:count "0" .
+
+osnm:302 a owl:NamedIndividual ;
+	osnm:countryName "Eritrea" ;
+	time:year "2009" ;
+	osnm:count "0" .
+
+osnm:303 a owl:NamedIndividual ;
+	osnm:countryName "Eritrea" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:304 a owl:NamedIndividual ;
+	osnm:countryName "Ethiopia" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:305 a owl:NamedIndividual ;
+	osnm:countryName "Ethiopia" ;
+	time:year "2006" ;
+	osnm:count "0" .
+
+osnm:306 a owl:NamedIndividual ;
+	osnm:countryName "Ethiopia" ;
+	time:year "2007" ;
+	osnm:count "0" .
+
+osnm:307 a owl:NamedIndividual ;
+	osnm:countryName "Ethiopia" ;
+	time:year "2008" ;
+	osnm:count "0" .
+
+osnm:308 a owl:NamedIndividual ;
+	osnm:countryName "Ethiopia" ;
+	time:year "2009" ;
+	osnm:count "0" .
+
+osnm:309 a owl:NamedIndividual ;
+	osnm:countryName "Ethiopia" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:310 a owl:NamedIndividual ;
+	osnm:countryName "France" ;
+	time:year "1999" ;
+	osnm:count "0" .
+
+osnm:311 a owl:NamedIndividual ;
+	osnm:countryName "France" ;
+	time:year "2000" ;
+	osnm:count "2" .
+
+osnm:312 a owl:NamedIndividual ;
+	osnm:countryName "France" ;
+	time:year "2001" ;
+	osnm:count "0" .
+
+osnm:313 a owl:NamedIndividual ;
+	osnm:countryName "France" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:314 a owl:NamedIndividual ;
+	osnm:countryName "France" ;
+	time:year "2003" ;
+	osnm:count "0" .
+
+osnm:315 a owl:NamedIndividual ;
+	osnm:countryName "France" ;
+	time:year "2004" ;
+	osnm:count "0" .
+
+osnm:316 a owl:NamedIndividual ;
+	osnm:countryName "France" ;
+	time:year "2005" ;
+	osnm:count "0" .
+
+osnm:317 a owl:NamedIndividual ;
+	osnm:countryName "France" ;
+	time:year "2006" ;
+	osnm:count "0" .
+
+osnm:318 a owl:NamedIndividual ;
+	osnm:countryName "France" ;
+	time:year "2007" ;
+	osnm:count "2" .
+
+osnm:319 a owl:NamedIndividual ;
+	osnm:countryName "France" ;
+	time:year "2008" ;
+	osnm:count "0" .
+
+osnm:320 a owl:NamedIndividual ;
+	osnm:countryName "France" ;
+	time:year "2009" ;
+	osnm:count "0" .
+
+osnm:321 a owl:NamedIndividual ;
+	osnm:countryName "France" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:322 a owl:NamedIndividual ;
+	osnm:countryName "Gabon" ;
+	time:year "1999" ;
+	osnm:count "4" .
+
+osnm:323 a owl:NamedIndividual ;
+	osnm:countryName "Gabon" ;
+	time:year "2000" ;
+	osnm:count "14" .
+
+osnm:324 a owl:NamedIndividual ;
+	osnm:countryName "Gabon" ;
+	time:year "2001" ;
+	osnm:count "20" .
+
+osnm:325 a owl:NamedIndividual ;
+	osnm:countryName "Gabon" ;
+	time:year "2002" ;
+	osnm:count "24" .
+
+osnm:326 a owl:NamedIndividual ;
+	osnm:countryName "Gabon" ;
+	time:year "2003" ;
+	osnm:count "18" .
+
+osnm:327 a owl:NamedIndividual ;
+	osnm:countryName "Gabon" ;
+	time:year "2004" ;
+	osnm:count "22" .
+
+osnm:328 a owl:NamedIndividual ;
+	osnm:countryName "Gabon" ;
+	time:year "2005" ;
+	osnm:count "30" .
+
+osnm:329 a owl:NamedIndividual ;
+	osnm:countryName "Gabon" ;
+	time:year "2006" ;
+	osnm:count "33" .
+
+osnm:330 a owl:NamedIndividual ;
+	osnm:countryName "Gabon" ;
+	time:year "2007" ;
+	osnm:count "24" .
+
+osnm:331 a owl:NamedIndividual ;
+	osnm:countryName "Gabon" ;
+	time:year "2008" ;
+	osnm:count "37" .
+
+osnm:332 a owl:NamedIndividual ;
+	osnm:countryName "Gabon" ;
+	time:year "2009" ;
+	osnm:count "31" .
+
+osnm:333 a owl:NamedIndividual ;
+	osnm:countryName "Gabon" ;
+	time:year "2010" ;
+	osnm:count "13" .
+
+osnm:334 a owl:NamedIndividual ;
+	osnm:countryName "Georgia" ;
+	time:year "1999" ;
+	osnm:count "0" .
+
+osnm:335 a owl:NamedIndividual ;
+	osnm:countryName "Georgia" ;
+	time:year "2000" ;
+	osnm:count "0" .
+
+osnm:336 a owl:NamedIndividual ;
+	osnm:countryName "Georgia" ;
+	time:year "2001" ;
+	osnm:count "0" .
+
+osnm:337 a owl:NamedIndividual ;
+	osnm:countryName "Georgia" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:338 a owl:NamedIndividual ;
+	osnm:countryName "Georgia" ;
+	time:year "2003" ;
+	osnm:count "0" .
+
+osnm:339 a owl:NamedIndividual ;
+	osnm:countryName "Georgia" ;
+	time:year "2004" ;
+	osnm:count "0" .
+
+osnm:340 a owl:NamedIndividual ;
+	osnm:countryName "Georgia" ;
+	time:year "2005" ;
+	osnm:count "0" .
+
+osnm:341 a owl:NamedIndividual ;
+	osnm:countryName "Georgia" ;
+	time:year "2006" ;
+	osnm:count "0" .
+
+osnm:342 a owl:NamedIndividual ;
+	osnm:countryName "Georgia" ;
+	time:year "2007" ;
+	osnm:count "0" .
+
+osnm:343 a owl:NamedIndividual ;
+	osnm:countryName "Georgia" ;
+	time:year "2008" ;
+	osnm:count "0" .
+
+osnm:344 a owl:NamedIndividual ;
+	osnm:countryName "Georgia" ;
+	time:year "2009" ;
+	osnm:count "0" .
+
+osnm:345 a owl:NamedIndividual ;
+	osnm:countryName "Georgia" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:346 a owl:NamedIndividual ;
+	osnm:countryName "Germany" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:347 a owl:NamedIndividual ;
+	osnm:countryName "Germany" ;
+	time:year "2004" ;
+	osnm:count "2" .
+
+osnm:348 a owl:NamedIndividual ;
+	osnm:countryName "Germany" ;
+	time:year "2005" ;
+	osnm:count "2" .
+
+osnm:349 a owl:NamedIndividual ;
+	osnm:countryName "Germany" ;
+	time:year "2006" ;
+	osnm:count "9" .
+
+osnm:350 a owl:NamedIndividual ;
+	osnm:countryName "Germany" ;
+	time:year "2007" ;
+	osnm:count "11" .
+
+osnm:351 a owl:NamedIndividual ;
+	osnm:countryName "Germany" ;
+	time:year "2008" ;
+	osnm:count "9" .
+
+osnm:352 a owl:NamedIndividual ;
+	osnm:countryName "Germany" ;
+	time:year "2009" ;
+	osnm:count "12" .
+
+osnm:353 a owl:NamedIndividual ;
+	osnm:countryName "Germany" ;
+	time:year "2010" ;
+	osnm:count "5" .
+
+osnm:354 a owl:NamedIndividual ;
+	osnm:countryName "Ghana" ;
+	time:year "1999" ;
+	osnm:count "2" .
+
+osnm:355 a owl:NamedIndividual ;
+	osnm:countryName "Ghana" ;
+	time:year "2000" ;
+	osnm:count "2" .
+
+osnm:356 a owl:NamedIndividual ;
+	osnm:countryName "Ghana" ;
+	time:year "2001" ;
+	osnm:count "4" .
+
+osnm:357 a owl:NamedIndividual ;
+	osnm:countryName "Ghana" ;
+	time:year "2002" ;
+	osnm:count "2" .
+
+osnm:358 a owl:NamedIndividual ;
+	osnm:countryName "Ghana" ;
+	time:year "2003" ;
+	osnm:count "2" .
+
+osnm:359 a owl:NamedIndividual ;
+	osnm:countryName "Ghana" ;
+	time:year "2004" ;
+	osnm:count "0" .
+
+osnm:360 a owl:NamedIndividual ;
+	osnm:countryName "Ghana" ;
+	time:year "2005" ;
+	osnm:count "0" .
+
+osnm:361 a owl:NamedIndividual ;
+	osnm:countryName "Ghana" ;
+	time:year "2006" ;
+	osnm:count "0" .
+
+osnm:362 a owl:NamedIndividual ;
+	osnm:countryName "Ghana" ;
+	time:year "2007" ;
+	osnm:count "3" .
+
+osnm:363 a owl:NamedIndividual ;
+	osnm:countryName "Ghana" ;
+	time:year "2008" ;
+	osnm:count "17" .
+
+osnm:364 a owl:NamedIndividual ;
+	osnm:countryName "Ghana" ;
+	time:year "2009" ;
+	osnm:count "31" .
+
+osnm:365 a owl:NamedIndividual ;
+	osnm:countryName "Ghana" ;
+	time:year "2010" ;
+	osnm:count "11" .
+
+osnm:366 a owl:NamedIndividual ;
+	osnm:countryName "Greece" ;
+	time:year "1999" ;
+	osnm:count "0" .
+
+osnm:367 a owl:NamedIndividual ;
+	osnm:countryName "Greece" ;
+	time:year "2000" ;
+	osnm:count "5" .
+
+osnm:368 a owl:NamedIndividual ;
+	osnm:countryName "Greece" ;
+	time:year "2001" ;
+	osnm:count "5" .
+
+osnm:369 a owl:NamedIndividual ;
+	osnm:countryName "Greece" ;
+	time:year "2002" ;
+	osnm:count "7" .
+
+osnm:370 a owl:NamedIndividual ;
+	osnm:countryName "Greece" ;
+	time:year "2003" ;
+	osnm:count "3" .
+
+osnm:371 a owl:NamedIndividual ;
+	osnm:countryName "Greece" ;
+	time:year "2004" ;
+	osnm:count "8" .
+
+osnm:372 a owl:NamedIndividual ;
+	osnm:countryName "Greece" ;
+	time:year "2005" ;
+	osnm:count "4" .
+
+osnm:373 a owl:NamedIndividual ;
+	osnm:countryName "Greece" ;
+	time:year "2006" ;
+	osnm:count "0" .
+
+osnm:374 a owl:NamedIndividual ;
+	osnm:countryName "Greece" ;
+	time:year "2007" ;
+	osnm:count "0" .
+
+osnm:375 a owl:NamedIndividual ;
+	osnm:countryName "Greece" ;
+	time:year "2008" ;
+	osnm:count "3" .
+
+osnm:376 a owl:NamedIndividual ;
+	osnm:countryName "Greece" ;
+	time:year "2009" ;
+	osnm:count "12" .
+
+osnm:377 a owl:NamedIndividual ;
+	osnm:countryName "Greece" ;
+	time:year "2010" ;
+	osnm:count "2" .
+
+osnm:378 a owl:NamedIndividual ;
+	osnm:countryName "Guatemala" ;
+	time:year "1999" ;
+	osnm:count "0" .
+
+osnm:379 a owl:NamedIndividual ;
+	osnm:countryName "Guatemala" ;
+	time:year "2000" ;
+	osnm:count "0" .
+
+osnm:380 a owl:NamedIndividual ;
+	osnm:countryName "Guatemala" ;
+	time:year "2001" ;
+	osnm:count "0" .
+
+osnm:381 a owl:NamedIndividual ;
+	osnm:countryName "Guatemala" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:382 a owl:NamedIndividual ;
+	osnm:countryName "Guatemala" ;
+	time:year "2003" ;
+	osnm:count "0" .
+
+osnm:383 a owl:NamedIndividual ;
+	osnm:countryName "Guatemala" ;
+	time:year "2004" ;
+	osnm:count "0" .
+
+osnm:384 a owl:NamedIndividual ;
+	osnm:countryName "Guatemala" ;
+	time:year "2005" ;
+	osnm:count "0" .
+
+osnm:385 a owl:NamedIndividual ;
+	osnm:countryName "Guatemala" ;
+	time:year "2006" ;
+	osnm:count "0" .
+
+osnm:386 a owl:NamedIndividual ;
+	osnm:countryName "Guatemala" ;
+	time:year "2007" ;
+	osnm:count "0" .
+
+osnm:387 a owl:NamedIndividual ;
+	osnm:countryName "Guatemala" ;
+	time:year "2008" ;
+	osnm:count "0" .
+
+osnm:388 a owl:NamedIndividual ;
+	osnm:countryName "Guatemala" ;
+	time:year "2009" ;
+	osnm:count "0" .
+
+osnm:389 a owl:NamedIndividual ;
+	osnm:countryName "Guatemala" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:390 a owl:NamedIndividual ;
+	osnm:countryName "Guinea-Bissau" ;
+	time:year "1999" ;
+	osnm:count "0" .
+
+osnm:391 a owl:NamedIndividual ;
+	osnm:countryName "Guinea-Bissau" ;
+	time:year "2000" ;
+	osnm:count "0" .
+
+osnm:392 a owl:NamedIndividual ;
+	osnm:countryName "Guinea-Bissau" ;
+	time:year "2001" ;
+	osnm:count "0" .
+
+osnm:393 a owl:NamedIndividual ;
+	osnm:countryName "Guinea-Bissau" ;
+	time:year "2002" ;
+	osnm:count "3" .
+
+osnm:394 a owl:NamedIndividual ;
+	osnm:countryName "Guinea-Bissau" ;
+	time:year "2003" ;
+	osnm:count "0" .
+
+osnm:395 a owl:NamedIndividual ;
+	osnm:countryName "Guinea-Bissau" ;
+	time:year "2004" ;
+	osnm:count "4" .
+
+osnm:396 a owl:NamedIndividual ;
+	osnm:countryName "Guinea-Bissau" ;
+	time:year "2005" ;
+	osnm:count "0" .
+
+osnm:397 a owl:NamedIndividual ;
+	osnm:countryName "Guinea-Bissau" ;
+	time:year "2006" ;
+	osnm:count "0" .
+
+osnm:398 a owl:NamedIndividual ;
+	osnm:countryName "Guinea-Bissau" ;
+	time:year "2007" ;
+	osnm:count "3" .
+
+osnm:399 a owl:NamedIndividual ;
+	osnm:countryName "Guinea-Bissau" ;
+	time:year "2008" ;
+	osnm:count "0" .
+
+osnm:400 a owl:NamedIndividual ;
+	osnm:countryName "Guinea-Bissau" ;
+	time:year "2009" ;
+	osnm:count "0" .
+
+osnm:401 a owl:NamedIndividual ;
+	osnm:countryName "Guinea-Bissau" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:402 a owl:NamedIndividual ;
+	osnm:countryName "Hungary" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:403 a owl:NamedIndividual ;
+	osnm:countryName "Hungary" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:404 a owl:NamedIndividual ;
+	osnm:countryName "India" ;
+	time:year "1999" ;
+	osnm:count "65" .
+
+osnm:405 a owl:NamedIndividual ;
+	osnm:countryName "India" ;
+	time:year "2000" ;
+	osnm:count "176" .
+
+osnm:406 a owl:NamedIndividual ;
+	osnm:countryName "India" ;
+	time:year "2001" ;
+	osnm:count "160" .
+
+osnm:407 a owl:NamedIndividual ;
+	osnm:countryName "India" ;
+	time:year "2002" ;
+	osnm:count "188" .
+
+osnm:408 a owl:NamedIndividual ;
+	osnm:countryName "India" ;
+	time:year "2003" ;
+	osnm:count "248" .
+
+osnm:409 a owl:NamedIndividual ;
+	osnm:countryName "India" ;
+	time:year "2004" ;
+	osnm:count "263" .
+
+osnm:410 a owl:NamedIndividual ;
+	osnm:countryName "India" ;
+	time:year "2005" ;
+	osnm:count "282" .
+
+osnm:411 a owl:NamedIndividual ;
+	osnm:countryName "India" ;
+	time:year "2006" ;
+	osnm:count "284" .
+
+osnm:412 a owl:NamedIndividual ;
+	osnm:countryName "India" ;
+	time:year "2007" ;
+	osnm:count "344" .
+
+osnm:413 a owl:NamedIndividual ;
+	osnm:countryName "India" ;
+	time:year "2008" ;
+	osnm:count "494" .
+
+osnm:414 a owl:NamedIndividual ;
+	osnm:countryName "India" ;
+	time:year "2009" ;
+	osnm:count "519" .
+
+osnm:415 a owl:NamedIndividual ;
+	osnm:countryName "India" ;
+	time:year "2010" ;
+	osnm:count "223" .
+
+osnm:416 a owl:NamedIndividual ;
+	osnm:countryName "Indonesia" ;
+	time:year "1999" ;
+	osnm:count "56" .
+
+osnm:417 a owl:NamedIndividual ;
+	osnm:countryName "Indonesia" ;
+	time:year "2000" ;
+	osnm:count "137" .
+
+osnm:418 a owl:NamedIndividual ;
+	osnm:countryName "Indonesia" ;
+	time:year "2001" ;
+	osnm:count "154" .
+
+osnm:419 a owl:NamedIndividual ;
+	osnm:countryName "Indonesia" ;
+	time:year "2002" ;
+	osnm:count "145" .
+
+osnm:420 a owl:NamedIndividual ;
+	osnm:countryName "Indonesia" ;
+	time:year "2003" ;
+	osnm:count "166" .
+
+osnm:421 a owl:NamedIndividual ;
+	osnm:countryName "Indonesia" ;
+	time:year "2004" ;
+	osnm:count "195" .
+
+osnm:422 a owl:NamedIndividual ;
+	osnm:countryName "Indonesia" ;
+	time:year "2005" ;
+	osnm:count "198" .
+
+osnm:423 a owl:NamedIndividual ;
+	osnm:countryName "Indonesia" ;
+	time:year "2006" ;
+	osnm:count "189" .
+
+osnm:424 a owl:NamedIndividual ;
+	osnm:countryName "Indonesia" ;
+	time:year "2007" ;
+	osnm:count "117" .
+
+osnm:425 a owl:NamedIndividual ;
+	osnm:countryName "Indonesia" ;
+	time:year "2008" ;
+	osnm:count "148" .
+
+osnm:426 a owl:NamedIndividual ;
+	osnm:countryName "Indonesia" ;
+	time:year "2009" ;
+	osnm:count "128" .
+
+osnm:427 a owl:NamedIndividual ;
+	osnm:countryName "Indonesia" ;
+	time:year "2010" ;
+	osnm:count "47" .
+
+osnm:428 a owl:NamedIndividual ;
+	osnm:countryName "Iran" ;
+	time:year "1999" ;
+	osnm:count "13" .
+
+osnm:429 a owl:NamedIndividual ;
+	osnm:countryName "Iran" ;
+	time:year "2000" ;
+	osnm:count "94" .
+
+osnm:430 a owl:NamedIndividual ;
+	osnm:countryName "Iran" ;
+	time:year "2001" ;
+	osnm:count "140" .
+
+osnm:431 a owl:NamedIndividual ;
+	osnm:countryName "Iran" ;
+	time:year "2002" ;
+	osnm:count "162" .
+
+osnm:432 a owl:NamedIndividual ;
+	osnm:countryName "Iran" ;
+	time:year "2003" ;
+	osnm:count "154" .
+
+osnm:433 a owl:NamedIndividual ;
+	osnm:countryName "Iran" ;
+	time:year "2004" ;
+	osnm:count "175" .
+
+osnm:434 a owl:NamedIndividual ;
+	osnm:countryName "Iran" ;
+	time:year "2005" ;
+	osnm:count "154" .
+
+osnm:435 a owl:NamedIndividual ;
+	osnm:countryName "Iran" ;
+	time:year "2006" ;
+	osnm:count "113" .
+
+osnm:436 a owl:NamedIndividual ;
+	osnm:countryName "Iran" ;
+	time:year "2007" ;
+	osnm:count "87" .
+
+osnm:437 a owl:NamedIndividual ;
+	osnm:countryName "Iran" ;
+	time:year "2008" ;
+	osnm:count "110" .
+
+osnm:438 a owl:NamedIndividual ;
+	osnm:countryName "Iran" ;
+	time:year "2009" ;
+	osnm:count "130" .
+
+osnm:439 a owl:NamedIndividual ;
+	osnm:countryName "Iran" ;
+	time:year "2010" ;
+	osnm:count "76" .
+
+osnm:440 a owl:NamedIndividual ;
+	osnm:countryName "Iraq" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:441 a owl:NamedIndividual ;
+	osnm:countryName "Iraq" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:442 a owl:NamedIndividual ;
+	osnm:countryName "Israel" ;
+	time:year "1999" ;
+	osnm:count "0" .
+
+osnm:443 a owl:NamedIndividual ;
+	osnm:countryName "Israel" ;
+	time:year "2000" ;
+	osnm:count "0" .
+
+osnm:444 a owl:NamedIndividual ;
+	osnm:countryName "Israel" ;
+	time:year "2001" ;
+	osnm:count "5" .
+
+osnm:445 a owl:NamedIndividual ;
+	osnm:countryName "Israel" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:446 a owl:NamedIndividual ;
+	osnm:countryName "Israel" ;
+	time:year "2003" ;
+	osnm:count "5" .
+
+osnm:447 a owl:NamedIndividual ;
+	osnm:countryName "Israel" ;
+	time:year "2004" ;
+	osnm:count "0" .
+
+osnm:448 a owl:NamedIndividual ;
+	osnm:countryName "Israel" ;
+	time:year "2005" ;
+	osnm:count "4" .
+
+osnm:449 a owl:NamedIndividual ;
+	osnm:countryName "Israel" ;
+	time:year "2006" ;
+	osnm:count "3" .
+
+osnm:450 a owl:NamedIndividual ;
+	osnm:countryName "Israel" ;
+	time:year "2007" ;
+	osnm:count "3" .
+
+osnm:451 a owl:NamedIndividual ;
+	osnm:countryName "Israel" ;
+	time:year "2008" ;
+	osnm:count "1" .
+
+osnm:452 a owl:NamedIndividual ;
+	osnm:countryName "Israel" ;
+	time:year "2009" ;
+	osnm:count "7" .
+
+osnm:453 a owl:NamedIndividual ;
+	osnm:countryName "Israel" ;
+	time:year "2010" ;
+	osnm:count "5" .
+
+osnm:454 a owl:NamedIndividual ;
+	osnm:countryName "Italy" ;
+	time:year "1999" ;
+	osnm:count "16" .
+
+osnm:455 a owl:NamedIndividual ;
+	osnm:countryName "Italy" ;
+	time:year "2000" ;
+	osnm:count "50" .
+
+osnm:456 a owl:NamedIndividual ;
+	osnm:countryName "Italy" ;
+	time:year "2001" ;
+	osnm:count "36" .
+
+osnm:457 a owl:NamedIndividual ;
+	osnm:countryName "Italy" ;
+	time:year "2002" ;
+	osnm:count "42" .
+
+osnm:458 a owl:NamedIndividual ;
+	osnm:countryName "Italy" ;
+	time:year "2003" ;
+	osnm:count "50" .
+
+osnm:459 a owl:NamedIndividual ;
+	osnm:countryName "Italy" ;
+	time:year "2004" ;
+	osnm:count "41" .
+
+osnm:460 a owl:NamedIndividual ;
+	osnm:countryName "Italy" ;
+	time:year "2005" ;
+	osnm:count "52" .
+
+osnm:461 a owl:NamedIndividual ;
+	osnm:countryName "Italy" ;
+	time:year "2006" ;
+	osnm:count "52" .
+
+osnm:462 a owl:NamedIndividual ;
+	osnm:countryName "Italy" ;
+	time:year "2007" ;
+	osnm:count "47" .
+
+osnm:463 a owl:NamedIndividual ;
+	osnm:countryName "Italy" ;
+	time:year "2008" ;
+	osnm:count "53" .
+
+osnm:464 a owl:NamedIndividual ;
+	osnm:countryName "Italy" ;
+	time:year "2009" ;
+	osnm:count "41" .
+
+osnm:465 a owl:NamedIndividual ;
+	osnm:countryName "Italy" ;
+	time:year "2010" ;
+	osnm:count "15" .
+
+osnm:466 a owl:NamedIndividual ;
+	osnm:countryName "Ivory Coast" ;
+	time:year "1999" ;
+	osnm:count "1" .
+
+osnm:467 a owl:NamedIndividual ;
+	osnm:countryName "Ivory Coast" ;
+	time:year "2000" ;
+	osnm:count "10" .
+
+osnm:468 a owl:NamedIndividual ;
+	osnm:countryName "Ivory Coast" ;
+	time:year "2001" ;
+	osnm:count "11" .
+
+osnm:469 a owl:NamedIndividual ;
+	osnm:countryName "Ivory Coast" ;
+	time:year "2002" ;
+	osnm:count "16" .
+
+osnm:470 a owl:NamedIndividual ;
+	osnm:countryName "Ivory Coast" ;
+	time:year "2003" ;
+	osnm:count "10" .
+
+osnm:471 a owl:NamedIndividual ;
+	osnm:countryName "Ivory Coast" ;
+	time:year "2004" ;
+	osnm:count "14" .
+
+osnm:472 a owl:NamedIndividual ;
+	osnm:countryName "Ivory Coast" ;
+	time:year "2005" ;
+	osnm:count "32" .
+
+osnm:473 a owl:NamedIndividual ;
+	osnm:countryName "Ivory Coast" ;
+	time:year "2006" ;
+	osnm:count "16" .
+
+osnm:474 a owl:NamedIndividual ;
+	osnm:countryName "Ivory Coast" ;
+	time:year "2007" ;
+	osnm:count "24" .
+
+osnm:475 a owl:NamedIndividual ;
+	osnm:countryName "Ivory Coast" ;
+	time:year "2008" ;
+	osnm:count "9" .
+
+osnm:476 a owl:NamedIndividual ;
+	osnm:countryName "Ivory Coast" ;
+	time:year "2009" ;
+	osnm:count "6" .
+
+osnm:477 a owl:NamedIndividual ;
+	osnm:countryName "Ivory Coast" ;
+	time:year "2010" ;
+	osnm:count "3" .
+
+osnm:478 a owl:NamedIndividual ;
+	osnm:countryName "Japan" ;
+	time:year "1999" ;
+	osnm:count "8" .
+
+osnm:479 a owl:NamedIndividual ;
+	osnm:countryName "Japan" ;
+	time:year "2000" ;
+	osnm:count "17" .
+
+osnm:480 a owl:NamedIndividual ;
+	osnm:countryName "Japan" ;
+	time:year "2001" ;
+	osnm:count "0" .
+
+osnm:481 a owl:NamedIndividual ;
+	osnm:countryName "Japan" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:482 a owl:NamedIndividual ;
+	osnm:countryName "Japan" ;
+	time:year "2003" ;
+	osnm:count "0" .
+
+osnm:483 a owl:NamedIndividual ;
+	osnm:countryName "Japan" ;
+	time:year "2004" ;
+	osnm:count "0" .
+
+osnm:484 a owl:NamedIndividual ;
+	osnm:countryName "Japan" ;
+	time:year "2005" ;
+	osnm:count "0" .
+
+osnm:485 a owl:NamedIndividual ;
+	osnm:countryName "Japan" ;
+	time:year "2006" ;
+	osnm:count "0" .
+
+osnm:486 a owl:NamedIndividual ;
+	osnm:countryName "Japan" ;
+	time:year "2007" ;
+	osnm:count "17" .
+
+osnm:487 a owl:NamedIndividual ;
+	osnm:countryName "Japan" ;
+	time:year "2008" ;
+	osnm:count "12" .
+
+osnm:488 a owl:NamedIndividual ;
+	osnm:countryName "Japan" ;
+	time:year "2009" ;
+	osnm:count "6" .
+
+osnm:489 a owl:NamedIndividual ;
+	osnm:countryName "Japan" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:490 a owl:NamedIndividual ;
+	osnm:countryName "Jordan" ;
+	time:year "1999" ;
+	osnm:count "0" .
+
+osnm:491 a owl:NamedIndividual ;
+	osnm:countryName "Jordan" ;
+	time:year "2000" ;
+	osnm:count "0" .
+
+osnm:492 a owl:NamedIndividual ;
+	osnm:countryName "Jordan" ;
+	time:year "2001" ;
+	osnm:count "0" .
+
+osnm:493 a owl:NamedIndividual ;
+	osnm:countryName "Jordan" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:494 a owl:NamedIndividual ;
+	osnm:countryName "Jordan" ;
+	time:year "2003" ;
+	osnm:count "0" .
+
+osnm:495 a owl:NamedIndividual ;
+	osnm:countryName "Jordan" ;
+	time:year "2004" ;
+	osnm:count "0" .
+
+osnm:496 a owl:NamedIndividual ;
+	osnm:countryName "Jordan" ;
+	time:year "2005" ;
+	osnm:count "0" .
+
+osnm:497 a owl:NamedIndividual ;
+	osnm:countryName "Jordan" ;
+	time:year "2006" ;
+	osnm:count "0" .
+
+osnm:498 a owl:NamedIndividual ;
+	osnm:countryName "Jordan" ;
+	time:year "2007" ;
+	osnm:count "0" .
+
+osnm:499 a owl:NamedIndividual ;
+	osnm:countryName "Jordan" ;
+	time:year "2008" ;
+	osnm:count "0" .
+
+osnm:500 a owl:NamedIndividual ;
+	osnm:countryName "Jordan" ;
+	time:year "2009" ;
+	osnm:count "0" .
+
+osnm:501 a owl:NamedIndividual ;
+	osnm:countryName "Jordan" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:502 a owl:NamedIndividual ;
+	osnm:countryName "Kazakhstan" ;
+	time:year "1999" ;
+	osnm:count "2" .
+
+osnm:503 a owl:NamedIndividual ;
+	osnm:countryName "Kazakhstan" ;
+	time:year "2000" ;
+	osnm:count "12" .
+
+osnm:504 a owl:NamedIndividual ;
+	osnm:countryName "Kazakhstan" ;
+	time:year "2001" ;
+	osnm:count "10" .
+
+osnm:505 a owl:NamedIndividual ;
+	osnm:countryName "Kazakhstan" ;
+	time:year "2002" ;
+	osnm:count "23" .
+
+osnm:506 a owl:NamedIndividual ;
+	osnm:countryName "Kazakhstan" ;
+	time:year "2003" ;
+	osnm:count "29" .
+
+osnm:507 a owl:NamedIndividual ;
+	osnm:countryName "Kazakhstan" ;
+	time:year "2004" ;
+	osnm:count "23" .
+
+osnm:508 a owl:NamedIndividual ;
+	osnm:countryName "Kazakhstan" ;
+	time:year "2005" ;
+	osnm:count "24" .
+
+osnm:509 a owl:NamedIndividual ;
+	osnm:countryName "Kazakhstan" ;
+	time:year "2006" ;
+	osnm:count "27" .
+
+osnm:510 a owl:NamedIndividual ;
+	osnm:countryName "Kazakhstan" ;
+	time:year "2007" ;
+	osnm:count "38" .
+
+osnm:511 a owl:NamedIndividual ;
+	osnm:countryName "Kazakhstan" ;
+	time:year "2008" ;
+	osnm:count "66" .
+
+osnm:512 a owl:NamedIndividual ;
+	osnm:countryName "Kazakhstan" ;
+	time:year "2009" ;
+	osnm:count "36" .
+
+osnm:513 a owl:NamedIndividual ;
+	osnm:countryName "Kazakhstan" ;
+	time:year "2010" ;
+	osnm:count "5" .
+
+osnm:514 a owl:NamedIndividual ;
+	osnm:countryName "Kenya" ;
+	time:year "1999" ;
+	osnm:count "0" .
+
+osnm:515 a owl:NamedIndividual ;
+	osnm:countryName "Kenya" ;
+	time:year "2000" ;
+	osnm:count "0" .
+
+osnm:516 a owl:NamedIndividual ;
+	osnm:countryName "Kenya" ;
+	time:year "2001" ;
+	osnm:count "0" .
+
+osnm:517 a owl:NamedIndividual ;
+	osnm:countryName "Kenya" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:518 a owl:NamedIndividual ;
+	osnm:countryName "Kenya" ;
+	time:year "2003" ;
+	osnm:count "0" .
+
+osnm:519 a owl:NamedIndividual ;
+	osnm:countryName "Kenya" ;
+	time:year "2004" ;
+	osnm:count "0" .
+
+osnm:520 a owl:NamedIndividual ;
+	osnm:countryName "Kenya" ;
+	time:year "2005" ;
+	osnm:count "0" .
+
+osnm:521 a owl:NamedIndividual ;
+	osnm:countryName "Kenya" ;
+	time:year "2006" ;
+	osnm:count "0" .
+
+osnm:522 a owl:NamedIndividual ;
+	osnm:countryName "Kenya" ;
+	time:year "2007" ;
+	osnm:count "2" .
+
+osnm:523 a owl:NamedIndividual ;
+	osnm:countryName "Kenya" ;
+	time:year "2008" ;
+	osnm:count "0" .
+
+osnm:524 a owl:NamedIndividual ;
+	osnm:countryName "Kenya" ;
+	time:year "2009" ;
+	osnm:count "0" .
+
+osnm:525 a owl:NamedIndividual ;
+	osnm:countryName "Kenya" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:526 a owl:NamedIndividual ;
+	osnm:countryName "Kuwait" ;
+	time:year "1999" ;
+	osnm:count "0" .
+
+osnm:527 a owl:NamedIndividual ;
+	osnm:countryName "Kuwait" ;
+	time:year "2000" ;
+	osnm:count "0" .
+
+osnm:528 a owl:NamedIndividual ;
+	osnm:countryName "Kuwait" ;
+	time:year "2001" ;
+	osnm:count "0" .
+
+osnm:529 a owl:NamedIndividual ;
+	osnm:countryName "Kuwait" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:530 a owl:NamedIndividual ;
+	osnm:countryName "Kuwait" ;
+	time:year "2003" ;
+	osnm:count "0" .
+
+osnm:531 a owl:NamedIndividual ;
+	osnm:countryName "Kuwait" ;
+	time:year "2004" ;
+	osnm:count "0" .
+
+osnm:532 a owl:NamedIndividual ;
+	osnm:countryName "Kuwait" ;
+	time:year "2005" ;
+	osnm:count "0" .
+
+osnm:533 a owl:NamedIndividual ;
+	osnm:countryName "Kuwait" ;
+	time:year "2006" ;
+	osnm:count "0" .
+
+osnm:534 a owl:NamedIndividual ;
+	osnm:countryName "Kuwait" ;
+	time:year "2007" ;
+	osnm:count "0" .
+
+osnm:535 a owl:NamedIndividual ;
+	osnm:countryName "Kuwait" ;
+	time:year "2008" ;
+	osnm:count "0" .
+
+osnm:536 a owl:NamedIndividual ;
+	osnm:countryName "Kuwait" ;
+	time:year "2009" ;
+	osnm:count "0" .
+
+osnm:537 a owl:NamedIndividual ;
+	osnm:countryName "Kuwait" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:538 a owl:NamedIndividual ;
+	osnm:countryName "Libya" ;
+	time:year "1999" ;
+	osnm:count "6" .
+
+osnm:539 a owl:NamedIndividual ;
+	osnm:countryName "Libya" ;
+	time:year "2000" ;
+	osnm:count "12" .
+
+osnm:540 a owl:NamedIndividual ;
+	osnm:countryName "Libya" ;
+	time:year "2001" ;
+	osnm:count "10" .
+
+osnm:541 a owl:NamedIndividual ;
+	osnm:countryName "Libya" ;
+	time:year "2002" ;
+	osnm:count "9" .
+
+osnm:542 a owl:NamedIndividual ;
+	osnm:countryName "Libya" ;
+	time:year "2003" ;
+	osnm:count "46" .
+
+osnm:543 a owl:NamedIndividual ;
+	osnm:countryName "Libya" ;
+	time:year "2004" ;
+	osnm:count "31" .
+
+osnm:544 a owl:NamedIndividual ;
+	osnm:countryName "Libya" ;
+	time:year "2005" ;
+	osnm:count "42" .
+
+osnm:545 a owl:NamedIndividual ;
+	osnm:countryName "Libya" ;
+	time:year "2006" ;
+	osnm:count "23" .
+
+osnm:546 a owl:NamedIndividual ;
+	osnm:countryName "Libya" ;
+	time:year "2007" ;
+	osnm:count "21" .
+
+osnm:547 a owl:NamedIndividual ;
+	osnm:countryName "Libya" ;
+	time:year "2008" ;
+	osnm:count "27" .
+
+osnm:548 a owl:NamedIndividual ;
+	osnm:countryName "Libya" ;
+	time:year "2009" ;
+	osnm:count "53" .
+
+osnm:549 a owl:NamedIndividual ;
+	osnm:countryName "Libya" ;
+	time:year "2010" ;
+	osnm:count "10" .
+
+osnm:550 a owl:NamedIndividual ;
+	osnm:countryName "Madagascar" ;
+	time:year "1999" ;
+	osnm:count "0" .
+
+osnm:551 a owl:NamedIndividual ;
+	osnm:countryName "Madagascar" ;
+	time:year "2000" ;
+	osnm:count "0" .
+
+osnm:552 a owl:NamedIndividual ;
+	osnm:countryName "Madagascar" ;
+	time:year "2001" ;
+	osnm:count "0" .
+
+osnm:553 a owl:NamedIndividual ;
+	osnm:countryName "Madagascar" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:554 a owl:NamedIndividual ;
+	osnm:countryName "Madagascar" ;
+	time:year "2003" ;
+	osnm:count "0" .
+
+osnm:555 a owl:NamedIndividual ;
+	osnm:countryName "Madagascar" ;
+	time:year "2004" ;
+	osnm:count "0" .
+
+osnm:556 a owl:NamedIndividual ;
+	osnm:countryName "Madagascar" ;
+	time:year "2005" ;
+	osnm:count "0" .
+
+osnm:557 a owl:NamedIndividual ;
+	osnm:countryName "Madagascar" ;
+	time:year "2006" ;
+	osnm:count "0" .
+
+osnm:558 a owl:NamedIndividual ;
+	osnm:countryName "Madagascar" ;
+	time:year "2007" ;
+	osnm:count "0" .
+
+osnm:559 a owl:NamedIndividual ;
+	osnm:countryName "Madagascar" ;
+	time:year "2008" ;
+	osnm:count "0" .
+
+osnm:560 a owl:NamedIndividual ;
+	osnm:countryName "Madagascar" ;
+	time:year "2009" ;
+	osnm:count "0" .
+
+osnm:561 a owl:NamedIndividual ;
+	osnm:countryName "Madagascar" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:562 a owl:NamedIndividual ;
+	osnm:countryName "Malaysia" ;
+	time:year "1999" ;
+	osnm:count "31" .
+
+osnm:563 a owl:NamedIndividual ;
+	osnm:countryName "Malaysia" ;
+	time:year "2000" ;
+	osnm:count "99" .
+
+osnm:564 a owl:NamedIndividual ;
+	osnm:countryName "Malaysia" ;
+	time:year "2001" ;
+	osnm:count "156" .
+
+osnm:565 a owl:NamedIndividual ;
+	osnm:countryName "Malaysia" ;
+	time:year "2002" ;
+	osnm:count "208" .
+
+osnm:566 a owl:NamedIndividual ;
+	osnm:countryName "Malaysia" ;
+	time:year "2003" ;
+	osnm:count "203" .
+
+osnm:567 a owl:NamedIndividual ;
+	osnm:countryName "Malaysia" ;
+	time:year "2004" ;
+	osnm:count "192" .
+
+osnm:568 a owl:NamedIndividual ;
+	osnm:countryName "Malaysia" ;
+	time:year "2005" ;
+	osnm:count "201" .
+
+osnm:569 a owl:NamedIndividual ;
+	osnm:countryName "Malaysia" ;
+	time:year "2006" ;
+	osnm:count "198" .
+
+osnm:570 a owl:NamedIndividual ;
+	osnm:countryName "Malaysia" ;
+	time:year "2007" ;
+	osnm:count "196" .
+
+osnm:571 a owl:NamedIndividual ;
+	osnm:countryName "Malaysia" ;
+	time:year "2008" ;
+	osnm:count "199" .
+
+osnm:572 a owl:NamedIndividual ;
+	osnm:countryName "Malaysia" ;
+	time:year "2009" ;
+	osnm:count "215" .
+
+osnm:573 a owl:NamedIndividual ;
+	osnm:countryName "Malaysia" ;
+	time:year "2010" ;
+	osnm:count "91" .
+
+osnm:574 a owl:NamedIndividual ;
+	osnm:countryName "Mauritania" ;
+	time:year "1999" ;
+	osnm:count "0" .
+
+osnm:575 a owl:NamedIndividual ;
+	osnm:countryName "Mauritania" ;
+	time:year "2000" ;
+	osnm:count "0" .
+
+osnm:576 a owl:NamedIndividual ;
+	osnm:countryName "Mauritania" ;
+	time:year "2001" ;
+	osnm:count "0" .
+
+osnm:577 a owl:NamedIndividual ;
+	osnm:countryName "Mauritania" ;
+	time:year "2002" ;
+	osnm:count "2" .
+
+osnm:578 a owl:NamedIndividual ;
+	osnm:countryName "Mauritania" ;
+	time:year "2003" ;
+	osnm:count "4" .
+
+osnm:579 a owl:NamedIndividual ;
+	osnm:countryName "Mauritania" ;
+	time:year "2004" ;
+	osnm:count "10" .
+
+osnm:580 a owl:NamedIndividual ;
+	osnm:countryName "Mauritania" ;
+	time:year "2005" ;
+	osnm:count "18" .
+
+osnm:581 a owl:NamedIndividual ;
+	osnm:countryName "Mauritania" ;
+	time:year "2006" ;
+	osnm:count "0" .
+
+osnm:582 a owl:NamedIndividual ;
+	osnm:countryName "Mauritania" ;
+	time:year "2007" ;
+	osnm:count "1" .
+
+osnm:583 a owl:NamedIndividual ;
+	osnm:countryName "Mauritania" ;
+	time:year "2008" ;
+	osnm:count "0" .
+
+osnm:584 a owl:NamedIndividual ;
+	osnm:countryName "Mauritania" ;
+	time:year "2009" ;
+	osnm:count "0" .
+
+osnm:585 a owl:NamedIndividual ;
+	osnm:countryName "Mauritania" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:586 a owl:NamedIndividual ;
+	osnm:countryName "Mexico" ;
+	time:year "1999" ;
+	osnm:count "59" .
+
+osnm:587 a owl:NamedIndividual ;
+	osnm:countryName "Mexico" ;
+	time:year "2000" ;
+	osnm:count "197" .
+
+osnm:588 a owl:NamedIndividual ;
+	osnm:countryName "Mexico" ;
+	time:year "2001" ;
+	osnm:count "113" .
+
+osnm:589 a owl:NamedIndividual ;
+	osnm:countryName "Mexico" ;
+	time:year "2002" ;
+	osnm:count "158" .
+
+osnm:590 a owl:NamedIndividual ;
+	osnm:countryName "Mexico" ;
+	time:year "2003" ;
+	osnm:count "353" .
+
+osnm:591 a owl:NamedIndividual ;
+	osnm:countryName "Mexico" ;
+	time:year "2004" ;
+	osnm:count "538" .
+
+osnm:592 a owl:NamedIndividual ;
+	osnm:countryName "Mexico" ;
+	time:year "2005" ;
+	osnm:count "460" .
+
+osnm:593 a owl:NamedIndividual ;
+	osnm:countryName "Mexico" ;
+	time:year "2006" ;
+	osnm:count "424" .
+
+osnm:594 a owl:NamedIndividual ;
+	osnm:countryName "Mexico" ;
+	time:year "2007" ;
+	osnm:count "482" .
+
+osnm:595 a owl:NamedIndividual ;
+	osnm:countryName "Mexico" ;
+	time:year "2008" ;
+	osnm:count "441" .
+
+osnm:596 a owl:NamedIndividual ;
+	osnm:countryName "Mexico" ;
+	time:year "2009" ;
+	osnm:count "701" .
+
+osnm:597 a owl:NamedIndividual ;
+	osnm:countryName "Mexico" ;
+	time:year "2010" ;
+	osnm:count "262" .
+
+osnm:598 a owl:NamedIndividual ;
+	osnm:countryName "Morocco" ;
+	time:year "1999" ;
+	osnm:count "0" .
+
+osnm:599 a owl:NamedIndividual ;
+	osnm:countryName "Morocco" ;
+	time:year "2000" ;
+	osnm:count "0" .
+
+osnm:600 a owl:NamedIndividual ;
+	osnm:countryName "Morocco" ;
+	time:year "2001" ;
+	osnm:count "6" .
+
+osnm:601 a owl:NamedIndividual ;
+	osnm:countryName "Morocco" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:602 a owl:NamedIndividual ;
+	osnm:countryName "Morocco" ;
+	time:year "2003" ;
+	osnm:count "0" .
+
+osnm:603 a owl:NamedIndividual ;
+	osnm:countryName "Morocco" ;
+	time:year "2004" ;
+	osnm:count "6" .
+
+osnm:604 a owl:NamedIndividual ;
+	osnm:countryName "Morocco" ;
+	time:year "2005" ;
+	osnm:count "0" .
+
+osnm:605 a owl:NamedIndividual ;
+	osnm:countryName "Morocco" ;
+	time:year "2006" ;
+	osnm:count "0" .
+
+osnm:606 a owl:NamedIndividual ;
+	osnm:countryName "Morocco" ;
+	time:year "2007" ;
+	osnm:count "0" .
+
+osnm:607 a owl:NamedIndividual ;
+	osnm:countryName "Morocco" ;
+	time:year "2008" ;
+	osnm:count "1" .
+
+osnm:608 a owl:NamedIndividual ;
+	osnm:countryName "Morocco" ;
+	time:year "2009" ;
+	osnm:count "0" .
+
+osnm:609 a owl:NamedIndividual ;
+	osnm:countryName "Morocco" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:610 a owl:NamedIndividual ;
+	osnm:countryName "Mozambique" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:611 a owl:NamedIndividual ;
+	osnm:countryName "Mozambique" ;
+	time:year "2003" ;
+	osnm:count "0" .
+
+osnm:612 a owl:NamedIndividual ;
+	osnm:countryName "Mozambique" ;
+	time:year "2004" ;
+	osnm:count "0" .
+
+osnm:613 a owl:NamedIndividual ;
+	osnm:countryName "Mozambique" ;
+	time:year "2005" ;
+	osnm:count "0" .
+
+osnm:614 a owl:NamedIndividual ;
+	osnm:countryName "Mozambique" ;
+	time:year "2006" ;
+	osnm:count "0" .
+
+osnm:615 a owl:NamedIndividual ;
+	osnm:countryName "Mozambique" ;
+	time:year "2007" ;
+	osnm:count "8" .
+
+osnm:616 a owl:NamedIndividual ;
+	osnm:countryName "Mozambique" ;
+	time:year "2008" ;
+	osnm:count "2" .
+
+osnm:617 a owl:NamedIndividual ;
+	osnm:countryName "Mozambique" ;
+	time:year "2009" ;
+	osnm:count "3" .
+
+osnm:618 a owl:NamedIndividual ;
+	osnm:countryName "Mozambique" ;
+	time:year "2010" ;
+	osnm:count "4" .
+
+osnm:619 a owl:NamedIndividual ;
+	osnm:countryName "Myanmar" ;
+	time:year "1999" ;
+	osnm:count "0" .
+
+osnm:620 a owl:NamedIndividual ;
+	osnm:countryName "Myanmar" ;
+	time:year "2000" ;
+	osnm:count "2" .
+
+osnm:621 a owl:NamedIndividual ;
+	osnm:countryName "Myanmar" ;
+	time:year "2001" ;
+	osnm:count "0" .
+
+osnm:622 a owl:NamedIndividual ;
+	osnm:countryName "Myanmar" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:623 a owl:NamedIndividual ;
+	osnm:countryName "Myanmar" ;
+	time:year "2003" ;
+	osnm:count "0" .
+
+osnm:624 a owl:NamedIndividual ;
+	osnm:countryName "Myanmar" ;
+	time:year "2004" ;
+	osnm:count "4" .
+
+osnm:625 a owl:NamedIndividual ;
+	osnm:countryName "Myanmar" ;
+	time:year "2005" ;
+	osnm:count "25" .
+
+osnm:626 a owl:NamedIndividual ;
+	osnm:countryName "Myanmar" ;
+	time:year "2006" ;
+	osnm:count "23" .
+
+osnm:627 a owl:NamedIndividual ;
+	osnm:countryName "Myanmar" ;
+	time:year "2007" ;
+	osnm:count "16" .
+
+osnm:628 a owl:NamedIndividual ;
+	osnm:countryName "Myanmar" ;
+	time:year "2008" ;
+	osnm:count "14" .
+
+osnm:629 a owl:NamedIndividual ;
+	osnm:countryName "Myanmar" ;
+	time:year "2009" ;
+	osnm:count "15" .
+
+osnm:630 a owl:NamedIndividual ;
+	osnm:countryName "Myanmar" ;
+	time:year "2010" ;
+	osnm:count "8" .
+
+osnm:631 a owl:NamedIndividual ;
+	osnm:countryName "Namibia" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:632 a owl:NamedIndividual ;
+	osnm:countryName "Namibia" ;
+	time:year "2007" ;
+	osnm:count "4" .
+
+osnm:633 a owl:NamedIndividual ;
+	osnm:countryName "Namibia" ;
+	time:year "2008" ;
+	osnm:count "0" .
+
+osnm:634 a owl:NamedIndividual ;
+	osnm:countryName "Namibia" ;
+	time:year "2009" ;
+	osnm:count "0" .
+
+osnm:635 a owl:NamedIndividual ;
+	osnm:countryName "Namibia" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:636 a owl:NamedIndividual ;
+	osnm:countryName "Netherlands" ;
+	time:year "1999" ;
+	osnm:count "14" .
+
+osnm:637 a owl:NamedIndividual ;
+	osnm:countryName "Netherlands" ;
+	time:year "2000" ;
+	osnm:count "60" .
+
+osnm:638 a owl:NamedIndividual ;
+	osnm:countryName "Netherlands" ;
+	time:year "2001" ;
+	osnm:count "81" .
+
+osnm:639 a owl:NamedIndividual ;
+	osnm:countryName "Netherlands" ;
+	time:year "2002" ;
+	osnm:count "96" .
+
+osnm:640 a owl:NamedIndividual ;
+	osnm:countryName "Netherlands" ;
+	time:year "2003" ;
+	osnm:count "109" .
+
+osnm:641 a owl:NamedIndividual ;
+	osnm:countryName "Netherlands" ;
+	time:year "2004" ;
+	osnm:count "87" .
+
+osnm:642 a owl:NamedIndividual ;
+	osnm:countryName "Netherlands" ;
+	time:year "2005" ;
+	osnm:count "109" .
+
+osnm:643 a owl:NamedIndividual ;
+	osnm:countryName "Netherlands" ;
+	time:year "2006" ;
+	osnm:count "119" .
+
+osnm:644 a owl:NamedIndividual ;
+	osnm:countryName "Netherlands" ;
+	time:year "2007" ;
+	osnm:count "90" .
+
+osnm:645 a owl:NamedIndividual ;
+	osnm:countryName "Netherlands" ;
+	time:year "2008" ;
+	osnm:count "87" .
+
+osnm:646 a owl:NamedIndividual ;
+	osnm:countryName "Netherlands" ;
+	time:year "2009" ;
+	osnm:count "77" .
+
+osnm:647 a owl:NamedIndividual ;
+	osnm:countryName "Netherlands" ;
+	time:year "2010" ;
+	osnm:count "31" .
+
+osnm:648 a owl:NamedIndividual ;
+	osnm:countryName "New Zealand" ;
+	time:year "1999" ;
+	osnm:count "2" .
+
+osnm:649 a owl:NamedIndividual ;
+	osnm:countryName "New Zealand" ;
+	time:year "2000" ;
+	osnm:count "16" .
+
+osnm:650 a owl:NamedIndividual ;
+	osnm:countryName "New Zealand" ;
+	time:year "2001" ;
+	osnm:count "0" .
+
+osnm:651 a owl:NamedIndividual ;
+	osnm:countryName "New Zealand" ;
+	time:year "2002" ;
+	osnm:count "3" .
+
+osnm:652 a owl:NamedIndividual ;
+	osnm:countryName "New Zealand" ;
+	time:year "2003" ;
+	osnm:count "0" .
+
+osnm:653 a owl:NamedIndividual ;
+	osnm:countryName "New Zealand" ;
+	time:year "2004" ;
+	osnm:count "8" .
+
+osnm:654 a owl:NamedIndividual ;
+	osnm:countryName "New Zealand" ;
+	time:year "2005" ;
+	osnm:count "0" .
+
+osnm:655 a owl:NamedIndividual ;
+	osnm:countryName "New Zealand" ;
+	time:year "2006" ;
+	osnm:count "9" .
+
+osnm:656 a owl:NamedIndividual ;
+	osnm:countryName "New Zealand" ;
+	time:year "2007" ;
+	osnm:count "24" .
+
+osnm:657 a owl:NamedIndividual ;
+	osnm:countryName "New Zealand" ;
+	time:year "2008" ;
+	osnm:count "17" .
+
+osnm:658 a owl:NamedIndividual ;
+	osnm:countryName "New Zealand" ;
+	time:year "2009" ;
+	osnm:count "16" .
+
+osnm:659 a owl:NamedIndividual ;
+	osnm:countryName "New Zealand" ;
+	time:year "2010" ;
+	osnm:count "6" .
+
+osnm:660 a owl:NamedIndividual ;
+	osnm:countryName "Nicaragua" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:661 a owl:NamedIndividual ;
+	osnm:countryName "Nicaragua" ;
+	time:year "2007" ;
+	osnm:count "0" .
+
+osnm:662 a owl:NamedIndividual ;
+	osnm:countryName "Nicaragua" ;
+	time:year "2008" ;
+	osnm:count "0" .
+
+osnm:663 a owl:NamedIndividual ;
+	osnm:countryName "Nicaragua" ;
+	time:year "2009" ;
+	osnm:count "0" .
+
+osnm:664 a owl:NamedIndividual ;
+	osnm:countryName "Nicaragua" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:665 a owl:NamedIndividual ;
+	osnm:countryName "Niger" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:666 a owl:NamedIndividual ;
+	osnm:countryName "Niger" ;
+	time:year "2004" ;
+	osnm:count "0" .
+
+osnm:667 a owl:NamedIndividual ;
+	osnm:countryName "Niger" ;
+	time:year "2005" ;
+	osnm:count "0" .
+
+osnm:668 a owl:NamedIndividual ;
+	osnm:countryName "Niger" ;
+	time:year "2006" ;
+	osnm:count "0" .
+
+osnm:669 a owl:NamedIndividual ;
+	osnm:countryName "Niger" ;
+	time:year "2007" ;
+	osnm:count "0" .
+
+osnm:670 a owl:NamedIndividual ;
+	osnm:countryName "Niger" ;
+	time:year "2008" ;
+	osnm:count "0" .
+
+osnm:671 a owl:NamedIndividual ;
+	osnm:countryName "Niger" ;
+	time:year "2009" ;
+	osnm:count "0" .
+
+osnm:672 a owl:NamedIndividual ;
+	osnm:countryName "Niger" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:673 a owl:NamedIndividual ;
+	osnm:countryName "Nigeria" ;
+	time:year "1999" ;
+	osnm:count "28" .
+
+osnm:674 a owl:NamedIndividual ;
+	osnm:countryName "Nigeria" ;
+	time:year "2000" ;
+	osnm:count "145" .
+
+osnm:675 a owl:NamedIndividual ;
+	osnm:countryName "Nigeria" ;
+	time:year "2001" ;
+	osnm:count "229" .
+
+osnm:676 a owl:NamedIndividual ;
+	osnm:countryName "Nigeria" ;
+	time:year "2002" ;
+	osnm:count "260" .
+
+osnm:677 a owl:NamedIndividual ;
+	osnm:countryName "Nigeria" ;
+	time:year "2003" ;
+	osnm:count "204" .
+
+osnm:678 a owl:NamedIndividual ;
+	osnm:countryName "Nigeria" ;
+	time:year "2004" ;
+	osnm:count "152" .
+
+osnm:679 a owl:NamedIndividual ;
+	osnm:countryName "Nigeria" ;
+	time:year "2005" ;
+	osnm:count "199" .
+
+osnm:680 a owl:NamedIndividual ;
+	osnm:countryName "Nigeria" ;
+	time:year "2006" ;
+	osnm:count "204" .
+
+osnm:681 a owl:NamedIndividual ;
+	osnm:countryName "Nigeria" ;
+	time:year "2007" ;
+	osnm:count "211" .
+
+osnm:682 a owl:NamedIndividual ;
+	osnm:countryName "Nigeria" ;
+	time:year "2008" ;
+	osnm:count "131" .
+
+osnm:683 a owl:NamedIndividual ;
+	osnm:countryName "Nigeria" ;
+	time:year "2009" ;
+	osnm:count "122" .
+
+osnm:684 a owl:NamedIndividual ;
+	osnm:countryName "Nigeria" ;
+	time:year "2010" ;
+	osnm:count "57" .
+
+osnm:685 a owl:NamedIndividual ;
+	osnm:countryName "Norway" ;
+	time:year "1999" ;
+	osnm:count "115" .
+
+osnm:686 a owl:NamedIndividual ;
+	osnm:countryName "Norway" ;
+	time:year "2000" ;
+	osnm:count "398" .
+
+osnm:687 a owl:NamedIndividual ;
+	osnm:countryName "Norway" ;
+	time:year "2001" ;
+	osnm:count "414" .
+
+osnm:688 a owl:NamedIndividual ;
+	osnm:countryName "Norway" ;
+	time:year "2002" ;
+	osnm:count "377" .
+
+osnm:689 a owl:NamedIndividual ;
+	osnm:countryName "Norway" ;
+	time:year "2003" ;
+	osnm:count "376" .
+
+osnm:690 a owl:NamedIndividual ;
+	osnm:countryName "Norway" ;
+	time:year "2004" ;
+	osnm:count "365" .
+
+osnm:691 a owl:NamedIndividual ;
+	osnm:countryName "Norway" ;
+	time:year "2005" ;
+	osnm:count "428" .
+
+osnm:692 a owl:NamedIndividual ;
+	osnm:countryName "Norway" ;
+	time:year "2006" ;
+	osnm:count "449" .
+
+osnm:693 a owl:NamedIndividual ;
+	osnm:countryName "Norway" ;
+	time:year "2007" ;
+	osnm:count "479" .
+
+osnm:694 a owl:NamedIndividual ;
+	osnm:countryName "Norway" ;
+	time:year "2008" ;
+	osnm:count "527" .
+
+osnm:695 a owl:NamedIndividual ;
+	osnm:countryName "Norway" ;
+	time:year "2009" ;
+	osnm:count "541" .
+
+osnm:696 a owl:NamedIndividual ;
+	osnm:countryName "Norway" ;
+	time:year "2010" ;
+	osnm:count "229" .
+
+osnm:697 a owl:NamedIndividual ;
+	osnm:countryName "Oman" ;
+	time:year "1999" ;
+	osnm:count "0" .
+
+osnm:698 a owl:NamedIndividual ;
+	osnm:countryName "Oman" ;
+	time:year "2000" ;
+	osnm:count "0" .
+
+osnm:699 a owl:NamedIndividual ;
+	osnm:countryName "Oman" ;
+	time:year "2001" ;
+	osnm:count "0" .
+
+osnm:700 a owl:NamedIndividual ;
+	osnm:countryName "Oman" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:701 a owl:NamedIndividual ;
+	osnm:countryName "Oman" ;
+	time:year "2003" ;
+	osnm:count "0" .
+
+osnm:702 a owl:NamedIndividual ;
+	osnm:countryName "Oman" ;
+	time:year "2004" ;
+	osnm:count "0" .
+
+osnm:703 a owl:NamedIndividual ;
+	osnm:countryName "Oman" ;
+	time:year "2005" ;
+	osnm:count "0" .
+
+osnm:704 a owl:NamedIndividual ;
+	osnm:countryName "Oman" ;
+	time:year "2006" ;
+	osnm:count "7" .
+
+osnm:705 a owl:NamedIndividual ;
+	osnm:countryName "Oman" ;
+	time:year "2007" ;
+	osnm:count "1" .
+
+osnm:706 a owl:NamedIndividual ;
+	osnm:countryName "Oman" ;
+	time:year "2008" ;
+	osnm:count "7" .
+
+osnm:707 a owl:NamedIndividual ;
+	osnm:countryName "Oman" ;
+	time:year "2009" ;
+	osnm:count "2" .
+
+osnm:708 a owl:NamedIndividual ;
+	osnm:countryName "Oman" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:709 a owl:NamedIndividual ;
+	osnm:countryName "Pakistan" ;
+	time:year "1999" ;
+	osnm:count "3" .
+
+osnm:710 a owl:NamedIndividual ;
+	osnm:countryName "Pakistan" ;
+	time:year "2000" ;
+	osnm:count "3" .
+
+osnm:711 a owl:NamedIndividual ;
+	osnm:countryName "Pakistan" ;
+	time:year "2001" ;
+	osnm:count "0" .
+
+osnm:712 a owl:NamedIndividual ;
+	osnm:countryName "Pakistan" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:713 a owl:NamedIndividual ;
+	osnm:countryName "Pakistan" ;
+	time:year "2003" ;
+	osnm:count "0" .
+
+osnm:714 a owl:NamedIndividual ;
+	osnm:countryName "Pakistan" ;
+	time:year "2004" ;
+	osnm:count "1" .
+
+osnm:715 a owl:NamedIndividual ;
+	osnm:countryName "Pakistan" ;
+	time:year "2005" ;
+	osnm:count "11" .
+
+osnm:716 a owl:NamedIndividual ;
+	osnm:countryName "Pakistan" ;
+	time:year "2006" ;
+	osnm:count "0" .
+
+osnm:717 a owl:NamedIndividual ;
+	osnm:countryName "Pakistan" ;
+	time:year "2007" ;
+	osnm:count "3" .
+
+osnm:718 a owl:NamedIndividual ;
+	osnm:countryName "Pakistan" ;
+	time:year "2008" ;
+	osnm:count "0" .
+
+osnm:719 a owl:NamedIndividual ;
+	osnm:countryName "Pakistan" ;
+	time:year "2009" ;
+	osnm:count "0" .
+
+osnm:720 a owl:NamedIndividual ;
+	osnm:countryName "Pakistan" ;
+	time:year "2010" ;
+	osnm:count "3" .
+
+osnm:721 a owl:NamedIndividual ;
+	osnm:countryName "Papua New Guinea" ;
+	time:year "1999" ;
+	osnm:count "0" .
+
+osnm:722 a owl:NamedIndividual ;
+	osnm:countryName "Papua New Guinea" ;
+	time:year "2000" ;
+	osnm:count "4" .
+
+osnm:723 a owl:NamedIndividual ;
+	osnm:countryName "Papua New Guinea" ;
+	time:year "2001" ;
+	osnm:count "0" .
+
+osnm:724 a owl:NamedIndividual ;
+	osnm:countryName "Papua New Guinea" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:725 a owl:NamedIndividual ;
+	osnm:countryName "Papua New Guinea" ;
+	time:year "2003" ;
+	osnm:count "0" .
+
+osnm:726 a owl:NamedIndividual ;
+	osnm:countryName "Papua New Guinea" ;
+	time:year "2004" ;
+	osnm:count "0" .
+
+osnm:727 a owl:NamedIndividual ;
+	osnm:countryName "Papua New Guinea" ;
+	time:year "2005" ;
+	osnm:count "0" .
+
+osnm:728 a owl:NamedIndividual ;
+	osnm:countryName "Papua New Guinea" ;
+	time:year "2006" ;
+	osnm:count "0" .
+
+osnm:729 a owl:NamedIndividual ;
+	osnm:countryName "Papua New Guinea" ;
+	time:year "2007" ;
+	osnm:count "0" .
+
+osnm:730 a owl:NamedIndividual ;
+	osnm:countryName "Papua New Guinea" ;
+	time:year "2008" ;
+	osnm:count "0" .
+
+osnm:731 a owl:NamedIndividual ;
+	osnm:countryName "Papua New Guinea" ;
+	time:year "2009" ;
+	osnm:count "0" .
+
+osnm:732 a owl:NamedIndividual ;
+	osnm:countryName "Papua New Guinea" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:733 a owl:NamedIndividual ;
+	osnm:countryName "Paraguay" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:734 a owl:NamedIndividual ;
+	osnm:countryName "Paraguay" ;
+	time:year "2005" ;
+	osnm:count "0" .
+
+osnm:735 a owl:NamedIndividual ;
+	osnm:countryName "Paraguay" ;
+	time:year "2006" ;
+	osnm:count "0" .
+
+osnm:736 a owl:NamedIndividual ;
+	osnm:countryName "Paraguay" ;
+	time:year "2007" ;
+	osnm:count "0" .
+
+osnm:737 a owl:NamedIndividual ;
+	osnm:countryName "Paraguay" ;
+	time:year "2008" ;
+	osnm:count "0" .
+
+osnm:738 a owl:NamedIndividual ;
+	osnm:countryName "Paraguay" ;
+	time:year "2009" ;
+	osnm:count "0" .
+
+osnm:739 a owl:NamedIndividual ;
+	osnm:countryName "Paraguay" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:740 a owl:NamedIndividual ;
+	osnm:countryName "Peru" ;
+	time:year "1999" ;
+	osnm:count "0" .
+
+osnm:741 a owl:NamedIndividual ;
+	osnm:countryName "Peru" ;
+	time:year "2000" ;
+	osnm:count "10" .
+
+osnm:742 a owl:NamedIndividual ;
+	osnm:countryName "Peru" ;
+	time:year "2001" ;
+	osnm:count "11" .
+
+osnm:743 a owl:NamedIndividual ;
+	osnm:countryName "Peru" ;
+	time:year "2002" ;
+	osnm:count "10" .
+
+osnm:744 a owl:NamedIndividual ;
+	osnm:countryName "Peru" ;
+	time:year "2003" ;
+	osnm:count "0" .
+
+osnm:745 a owl:NamedIndividual ;
+	osnm:countryName "Peru" ;
+	time:year "2004" ;
+	osnm:count "8" .
+
+osnm:746 a owl:NamedIndividual ;
+	osnm:countryName "Peru" ;
+	time:year "2005" ;
+	osnm:count "8" .
+
+osnm:747 a owl:NamedIndividual ;
+	osnm:countryName "Peru" ;
+	time:year "2006" ;
+	osnm:count "12" .
+
+osnm:748 a owl:NamedIndividual ;
+	osnm:countryName "Peru" ;
+	time:year "2007" ;
+	osnm:count "32" .
+
+osnm:749 a owl:NamedIndividual ;
+	osnm:countryName "Peru" ;
+	time:year "2008" ;
+	osnm:count "35" .
+
+osnm:750 a owl:NamedIndividual ;
+	osnm:countryName "Peru" ;
+	time:year "2009" ;
+	osnm:count "28" .
+
+osnm:751 a owl:NamedIndividual ;
+	osnm:countryName "Peru" ;
+	time:year "2010" ;
+	osnm:count "16" .
+
+osnm:752 a owl:NamedIndividual ;
+	osnm:countryName "Philippines" ;
+	time:year "1999" ;
+	osnm:count "0" .
+
+osnm:753 a owl:NamedIndividual ;
+	osnm:countryName "Philippines" ;
+	time:year "2000" ;
+	osnm:count "9" .
+
+osnm:754 a owl:NamedIndividual ;
+	osnm:countryName "Philippines" ;
+	time:year "2001" ;
+	osnm:count "6" .
+
+osnm:755 a owl:NamedIndividual ;
+	osnm:countryName "Philippines" ;
+	time:year "2002" ;
+	osnm:count "10" .
+
+osnm:756 a owl:NamedIndividual ;
+	osnm:countryName "Philippines" ;
+	time:year "2003" ;
+	osnm:count "11" .
+
+osnm:757 a owl:NamedIndividual ;
+	osnm:countryName "Philippines" ;
+	time:year "2004" ;
+	osnm:count "10" .
+
+osnm:758 a owl:NamedIndividual ;
+	osnm:countryName "Philippines" ;
+	time:year "2005" ;
+	osnm:count "0" .
+
+osnm:759 a owl:NamedIndividual ;
+	osnm:countryName "Philippines" ;
+	time:year "2006" ;
+	osnm:count "0" .
+
+osnm:760 a owl:NamedIndividual ;
+	osnm:countryName "Philippines" ;
+	time:year "2007" ;
+	osnm:count "12" .
+
+osnm:761 a owl:NamedIndividual ;
+	osnm:countryName "Philippines" ;
+	time:year "2008" ;
+	osnm:count "8" .
+
+osnm:762 a owl:NamedIndividual ;
+	osnm:countryName "Philippines" ;
+	time:year "2009" ;
+	osnm:count "3" .
+
+osnm:763 a owl:NamedIndividual ;
+	osnm:countryName "Philippines" ;
+	time:year "2010" ;
+	osnm:count "3" .
+
+osnm:764 a owl:NamedIndividual ;
+	osnm:countryName "Poland" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:765 a owl:NamedIndividual ;
+	osnm:countryName "Poland" ;
+	time:year "2005" ;
+	osnm:count "3" .
+
+osnm:766 a owl:NamedIndividual ;
+	osnm:countryName "Poland" ;
+	time:year "2006" ;
+	osnm:count "0" .
+
+osnm:767 a owl:NamedIndividual ;
+	osnm:countryName "Poland" ;
+	time:year "2007" ;
+	osnm:count "0" .
+
+osnm:768 a owl:NamedIndividual ;
+	osnm:countryName "Poland" ;
+	time:year "2008" ;
+	osnm:count "0" .
+
+osnm:769 a owl:NamedIndividual ;
+	osnm:countryName "Poland" ;
+	time:year "2009" ;
+	osnm:count "0" .
+
+osnm:770 a owl:NamedIndividual ;
+	osnm:countryName "Poland" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:771 a owl:NamedIndividual ;
+	osnm:countryName "Portugal" ;
+	time:year "1999" ;
+	osnm:count "0" .
+
+osnm:772 a owl:NamedIndividual ;
+	osnm:countryName "Portugal" ;
+	time:year "2000" ;
+	osnm:count "0" .
+
+osnm:773 a owl:NamedIndividual ;
+	osnm:countryName "Portugal" ;
+	time:year "2001" ;
+	osnm:count "0" .
+
+osnm:774 a owl:NamedIndividual ;
+	osnm:countryName "Portugal" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:775 a owl:NamedIndividual ;
+	osnm:countryName "Portugal" ;
+	time:year "2003" ;
+	osnm:count "0" .
+
+osnm:776 a owl:NamedIndividual ;
+	osnm:countryName "Portugal" ;
+	time:year "2004" ;
+	osnm:count "0" .
+
+osnm:777 a owl:NamedIndividual ;
+	osnm:countryName "Portugal" ;
+	time:year "2005" ;
+	osnm:count "0" .
+
+osnm:778 a owl:NamedIndividual ;
+	osnm:countryName "Portugal" ;
+	time:year "2006" ;
+	osnm:count "0" .
+
+osnm:779 a owl:NamedIndividual ;
+	osnm:countryName "Portugal" ;
+	time:year "2007" ;
+	osnm:count "0" .
+
+osnm:780 a owl:NamedIndividual ;
+	osnm:countryName "Portugal" ;
+	time:year "2008" ;
+	osnm:count "0" .
+
+osnm:781 a owl:NamedIndividual ;
+	osnm:countryName "Portugal" ;
+	time:year "2009" ;
+	osnm:count "0" .
+
+osnm:782 a owl:NamedIndividual ;
+	osnm:countryName "Portugal" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:783 a owl:NamedIndividual ;
+	osnm:countryName "Qatar" ;
+	time:year "1999" ;
+	osnm:count "14" .
+
+osnm:784 a owl:NamedIndividual ;
+	osnm:countryName "Qatar" ;
+	time:year "2000" ;
+	osnm:count "61" .
+
+osnm:785 a owl:NamedIndividual ;
+	osnm:countryName "Qatar" ;
+	time:year "2001" ;
+	osnm:count "98" .
+
+osnm:786 a owl:NamedIndividual ;
+	osnm:countryName "Qatar" ;
+	time:year "2002" ;
+	osnm:count "106" .
+
+osnm:787 a owl:NamedIndividual ;
+	osnm:countryName "Qatar" ;
+	time:year "2003" ;
+	osnm:count "106" .
+
+osnm:788 a owl:NamedIndividual ;
+	osnm:countryName "Qatar" ;
+	time:year "2004" ;
+	osnm:count "145" .
+
+osnm:789 a owl:NamedIndividual ;
+	osnm:countryName "Qatar" ;
+	time:year "2005" ;
+	osnm:count "180" .
+
+osnm:790 a owl:NamedIndividual ;
+	osnm:countryName "Qatar" ;
+	time:year "2006" ;
+	osnm:count "174" .
+
+osnm:791 a owl:NamedIndividual ;
+	osnm:countryName "Qatar" ;
+	time:year "2007" ;
+	osnm:count "207" .
+
+osnm:792 a owl:NamedIndividual ;
+	osnm:countryName "Qatar" ;
+	time:year "2008" ;
+	osnm:count "189" .
+
+osnm:793 a owl:NamedIndividual ;
+	osnm:countryName "Qatar" ;
+	time:year "2009" ;
+	osnm:count "153" .
+
+osnm:794 a owl:NamedIndividual ;
+	osnm:countryName "Qatar" ;
+	time:year "2010" ;
+	osnm:count "63" .
+
+osnm:795 a owl:NamedIndividual ;
+	osnm:countryName "Republic of the Congo" ;
+	time:year "1999" ;
+	osnm:count "13" .
+
+osnm:796 a owl:NamedIndividual ;
+	osnm:countryName "Republic of the Congo" ;
+	time:year "2000" ;
+	osnm:count "43" .
+
+osnm:797 a owl:NamedIndividual ;
+	osnm:countryName "Republic of the Congo" ;
+	time:year "2001" ;
+	osnm:count "45" .
+
+osnm:798 a owl:NamedIndividual ;
+	osnm:countryName "Republic of the Congo" ;
+	time:year "2002" ;
+	osnm:count "34" .
+
+osnm:799 a owl:NamedIndividual ;
+	osnm:countryName "Republic of the Congo" ;
+	time:year "2003" ;
+	osnm:count "32" .
+
+osnm:800 a owl:NamedIndividual ;
+	osnm:countryName "Republic of the Congo" ;
+	time:year "2004" ;
+	osnm:count "40" .
+
+osnm:801 a owl:NamedIndividual ;
+	osnm:countryName "Republic of the Congo" ;
+	time:year "2005" ;
+	osnm:count "57" .
+
+osnm:802 a owl:NamedIndividual ;
+	osnm:countryName "Republic of the Congo" ;
+	time:year "2006" ;
+	osnm:count "54" .
+
+osnm:803 a owl:NamedIndividual ;
+	osnm:countryName "Republic of the Congo" ;
+	time:year "2007" ;
+	osnm:count "50" .
+
+osnm:804 a owl:NamedIndividual ;
+	osnm:countryName "Republic of the Congo" ;
+	time:year "2008" ;
+	osnm:count "53" .
+
+osnm:805 a owl:NamedIndividual ;
+	osnm:countryName "Republic of the Congo" ;
+	time:year "2009" ;
+	osnm:count "71" .
+
+osnm:806 a owl:NamedIndividual ;
+	osnm:countryName "Republic of the Congo" ;
+	time:year "2010" ;
+	osnm:count "20" .
+
+osnm:807 a owl:NamedIndividual ;
+	osnm:countryName "Romania" ;
+	time:year "1999" ;
+	osnm:count "6" .
+
+osnm:808 a owl:NamedIndividual ;
+	osnm:countryName "Romania" ;
+	time:year "2000" ;
+	osnm:count "20" .
+
+osnm:809 a owl:NamedIndividual ;
+	osnm:countryName "Romania" ;
+	time:year "2001" ;
+	osnm:count "15" .
+
+osnm:810 a owl:NamedIndividual ;
+	osnm:countryName "Romania" ;
+	time:year "2002" ;
+	osnm:count "15" .
+
+osnm:811 a owl:NamedIndividual ;
+	osnm:countryName "Romania" ;
+	time:year "2003" ;
+	osnm:count "15" .
+
+osnm:812 a owl:NamedIndividual ;
+	osnm:countryName "Romania" ;
+	time:year "2004" ;
+	osnm:count "11" .
+
+osnm:813 a owl:NamedIndividual ;
+	osnm:countryName "Romania" ;
+	time:year "2005" ;
+	osnm:count "4" .
+
+osnm:814 a owl:NamedIndividual ;
+	osnm:countryName "Romania" ;
+	time:year "2006" ;
+	osnm:count "6" .
+
+osnm:815 a owl:NamedIndividual ;
+	osnm:countryName "Romania" ;
+	time:year "2007" ;
+	osnm:count "11" .
+
+osnm:816 a owl:NamedIndividual ;
+	osnm:countryName "Romania" ;
+	time:year "2008" ;
+	osnm:count "24" .
+
+osnm:817 a owl:NamedIndividual ;
+	osnm:countryName "Romania" ;
+	time:year "2009" ;
+	osnm:count "9" .
+
+osnm:818 a owl:NamedIndividual ;
+	osnm:countryName "Romania" ;
+	time:year "2010" ;
+	osnm:count "4" .
+
+osnm:819 a owl:NamedIndividual ;
+	osnm:countryName "Russia" ;
+	time:year "1999" ;
+	osnm:count "8" .
+
+osnm:820 a owl:NamedIndividual ;
+	osnm:countryName "Russia" ;
+	time:year "2000" ;
+	osnm:count "23" .
+
+osnm:821 a owl:NamedIndividual ;
+	osnm:countryName "Russia" ;
+	time:year "2001" ;
+	osnm:count "9" .
+
+osnm:822 a owl:NamedIndividual ;
+	osnm:countryName "Russia" ;
+	time:year "2002" ;
+	osnm:count "21" .
+
+osnm:823 a owl:NamedIndividual ;
+	osnm:countryName "Russia" ;
+	time:year "2003" ;
+	osnm:count "24" .
+
+osnm:824 a owl:NamedIndividual ;
+	osnm:countryName "Russia" ;
+	time:year "2004" ;
+	osnm:count "23" .
+
+osnm:825 a owl:NamedIndividual ;
+	osnm:countryName "Russia" ;
+	time:year "2005" ;
+	osnm:count "17" .
+
+osnm:826 a owl:NamedIndividual ;
+	osnm:countryName "Russia" ;
+	time:year "2006" ;
+	osnm:count "22" .
+
+osnm:827 a owl:NamedIndividual ;
+	osnm:countryName "Russia" ;
+	time:year "2007" ;
+	osnm:count "46" .
+
+osnm:828 a owl:NamedIndividual ;
+	osnm:countryName "Russia" ;
+	time:year "2008" ;
+	osnm:count "65" .
+
+osnm:829 a owl:NamedIndividual ;
+	osnm:countryName "Russia" ;
+	time:year "2009" ;
+	osnm:count "43" .
+
+osnm:830 a owl:NamedIndividual ;
+	osnm:countryName "Russia" ;
+	time:year "2010" ;
+	osnm:count "30" .
+
+osnm:831 a owl:NamedIndividual ;
+	osnm:countryName "Saudi Arabia" ;
+	time:year "1999" ;
+	osnm:count "8" .
+
+osnm:832 a owl:NamedIndividual ;
+	osnm:countryName "Saudi Arabia" ;
+	time:year "2000" ;
+	osnm:count "34" .
+
+osnm:833 a owl:NamedIndividual ;
+	osnm:countryName "Saudi Arabia" ;
+	time:year "2001" ;
+	osnm:count "38" .
+
+osnm:834 a owl:NamedIndividual ;
+	osnm:countryName "Saudi Arabia" ;
+	time:year "2002" ;
+	osnm:count "76" .
+
+osnm:835 a owl:NamedIndividual ;
+	osnm:countryName "Saudi Arabia" ;
+	time:year "2003" ;
+	osnm:count "75" .
+
+osnm:836 a owl:NamedIndividual ;
+	osnm:countryName "Saudi Arabia" ;
+	time:year "2004" ;
+	osnm:count "60" .
+
+osnm:837 a owl:NamedIndividual ;
+	osnm:countryName "Saudi Arabia" ;
+	time:year "2005" ;
+	osnm:count "66" .
+
+osnm:838 a owl:NamedIndividual ;
+	osnm:countryName "Saudi Arabia" ;
+	time:year "2006" ;
+	osnm:count "103" .
+
+osnm:839 a owl:NamedIndividual ;
+	osnm:countryName "Saudi Arabia" ;
+	time:year "2007" ;
+	osnm:count "159" .
+
+osnm:840 a owl:NamedIndividual ;
+	osnm:countryName "Saudi Arabia" ;
+	time:year "2008" ;
+	osnm:count "215" .
+
+osnm:841 a owl:NamedIndividual ;
+	osnm:countryName "Saudi Arabia" ;
+	time:year "2009" ;
+	osnm:count "204" .
+
+osnm:842 a owl:NamedIndividual ;
+	osnm:countryName "Saudi Arabia" ;
+	time:year "2010" ;
+	osnm:count "72" .
+
+osnm:843 a owl:NamedIndividual ;
+	osnm:countryName "Senegal" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:844 a owl:NamedIndividual ;
+	osnm:countryName "Senegal" ;
+	time:year "2005" ;
+	osnm:count "0" .
+
+osnm:845 a owl:NamedIndividual ;
+	osnm:countryName "Senegal" ;
+	time:year "2006" ;
+	osnm:count "0" .
+
+osnm:846 a owl:NamedIndividual ;
+	osnm:countryName "Senegal" ;
+	time:year "2007" ;
+	osnm:count "0" .
+
+osnm:847 a owl:NamedIndividual ;
+	osnm:countryName "Senegal" ;
+	time:year "2008" ;
+	osnm:count "0" .
+
+osnm:848 a owl:NamedIndividual ;
+	osnm:countryName "Senegal" ;
+	time:year "2009" ;
+	osnm:count "0" .
+
+osnm:849 a owl:NamedIndividual ;
+	osnm:countryName "Senegal" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:850 a owl:NamedIndividual ;
+	osnm:countryName "Serbia" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:851 a owl:NamedIndividual ;
+	osnm:countryName "Serbia" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:852 a owl:NamedIndividual ;
+	osnm:countryName "Sierra Leone" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:853 a owl:NamedIndividual ;
+	osnm:countryName "Sierra Leone" ;
+	time:year "2009" ;
+	osnm:count "3" .
+
+osnm:854 a owl:NamedIndividual ;
+	osnm:countryName "Sierra Leone" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:855 a owl:NamedIndividual ;
+	osnm:countryName "Singapore" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:856 a owl:NamedIndividual ;
+	osnm:countryName "Singapore" ;
+	time:year "2009" ;
+	osnm:count "0" .
+
+osnm:857 a owl:NamedIndividual ;
+	osnm:countryName "Singapore" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:858 a owl:NamedIndividual ;
+	osnm:countryName "Slovakia" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:859 a owl:NamedIndividual ;
+	osnm:countryName "Slovakia" ;
+	time:year "2004" ;
+	osnm:count "0" .
+
+osnm:860 a owl:NamedIndividual ;
+	osnm:countryName "Slovakia" ;
+	time:year "2005" ;
+	osnm:count "0" .
+
+osnm:861 a owl:NamedIndividual ;
+	osnm:countryName "Slovakia" ;
+	time:year "2006" ;
+	osnm:count "0" .
+
+osnm:862 a owl:NamedIndividual ;
+	osnm:countryName "Slovakia" ;
+	time:year "2007" ;
+	osnm:count "0" .
+
+osnm:863 a owl:NamedIndividual ;
+	osnm:countryName "Slovakia" ;
+	time:year "2008" ;
+	osnm:count "0" .
+
+osnm:864 a owl:NamedIndividual ;
+	osnm:countryName "Slovakia" ;
+	time:year "2009" ;
+	osnm:count "0" .
+
+osnm:865 a owl:NamedIndividual ;
+	osnm:countryName "Slovakia" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:866 a owl:NamedIndividual ;
+	osnm:countryName "Slovenia" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:867 a owl:NamedIndividual ;
+	osnm:countryName "Slovenia" ;
+	time:year "2004" ;
+	osnm:count "0" .
+
+osnm:868 a owl:NamedIndividual ;
+	osnm:countryName "Slovenia" ;
+	time:year "2005" ;
+	osnm:count "0" .
+
+osnm:869 a owl:NamedIndividual ;
+	osnm:countryName "Slovenia" ;
+	time:year "2006" ;
+	osnm:count "0" .
+
+osnm:870 a owl:NamedIndividual ;
+	osnm:countryName "Slovenia" ;
+	time:year "2007" ;
+	osnm:count "0" .
+
+osnm:871 a owl:NamedIndividual ;
+	osnm:countryName "Slovenia" ;
+	time:year "2008" ;
+	osnm:count "0" .
+
+osnm:872 a owl:NamedIndividual ;
+	osnm:countryName "Slovenia" ;
+	time:year "2009" ;
+	osnm:count "0" .
+
+osnm:873 a owl:NamedIndividual ;
+	osnm:countryName "Slovenia" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:874 a owl:NamedIndividual ;
+	osnm:countryName "South Africa" ;
+	time:year "1999" ;
+	osnm:count "2" .
+
+osnm:875 a owl:NamedIndividual ;
+	osnm:countryName "South Africa" ;
+	time:year "2000" ;
+	osnm:count "16" .
+
+osnm:876 a owl:NamedIndividual ;
+	osnm:countryName "South Africa" ;
+	time:year "2001" ;
+	osnm:count "20" .
+
+osnm:877 a owl:NamedIndividual ;
+	osnm:countryName "South Africa" ;
+	time:year "2002" ;
+	osnm:count "16" .
+
+osnm:878 a owl:NamedIndividual ;
+	osnm:countryName "South Africa" ;
+	time:year "2003" ;
+	osnm:count "6" .
+
+osnm:879 a owl:NamedIndividual ;
+	osnm:countryName "South Africa" ;
+	time:year "2004" ;
+	osnm:count "3" .
+
+osnm:880 a owl:NamedIndividual ;
+	osnm:countryName "South Africa" ;
+	time:year "2005" ;
+	osnm:count "0" .
+
+osnm:881 a owl:NamedIndividual ;
+	osnm:countryName "South Africa" ;
+	time:year "2006" ;
+	osnm:count "7" .
+
+osnm:882 a owl:NamedIndividual ;
+	osnm:countryName "South Africa" ;
+	time:year "2007" ;
+	osnm:count "3" .
+
+osnm:883 a owl:NamedIndividual ;
+	osnm:countryName "South Africa" ;
+	time:year "2008" ;
+	osnm:count "10" .
+
+osnm:884 a owl:NamedIndividual ;
+	osnm:countryName "South Africa" ;
+	time:year "2009" ;
+	osnm:count "8" .
+
+osnm:885 a owl:NamedIndividual ;
+	osnm:countryName "South Africa" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:886 a owl:NamedIndividual ;
+	osnm:countryName "South Korea" ;
+	time:year "1999" ;
+	osnm:count "0" .
+
+osnm:887 a owl:NamedIndividual ;
+	osnm:countryName "South Korea" ;
+	time:year "2000" ;
+	osnm:count "0" .
+
+osnm:888 a owl:NamedIndividual ;
+	osnm:countryName "South Korea" ;
+	time:year "2001" ;
+	osnm:count "0" .
+
+osnm:889 a owl:NamedIndividual ;
+	osnm:countryName "South Korea" ;
+	time:year "2002" ;
+	osnm:count "4" .
+
+osnm:890 a owl:NamedIndividual ;
+	osnm:countryName "South Korea" ;
+	time:year "2003" ;
+	osnm:count "5" .
+
+osnm:891 a owl:NamedIndividual ;
+	osnm:countryName "South Korea" ;
+	time:year "2004" ;
+	osnm:count "2" .
+
+osnm:892 a owl:NamedIndividual ;
+	osnm:countryName "South Korea" ;
+	time:year "2005" ;
+	osnm:count "7" .
+
+osnm:893 a owl:NamedIndividual ;
+	osnm:countryName "South Korea" ;
+	time:year "2006" ;
+	osnm:count "2" .
+
+osnm:894 a owl:NamedIndividual ;
+	osnm:countryName "South Korea" ;
+	time:year "2007" ;
+	osnm:count "4" .
+
+osnm:895 a owl:NamedIndividual ;
+	osnm:countryName "South Korea" ;
+	time:year "2008" ;
+	osnm:count "0" .
+
+osnm:896 a owl:NamedIndividual ;
+	osnm:countryName "South Korea" ;
+	time:year "2009" ;
+	osnm:count "2" .
+
+osnm:897 a owl:NamedIndividual ;
+	osnm:countryName "South Korea" ;
+	time:year "2010" ;
+	osnm:count "1" .
+
+osnm:898 a owl:NamedIndividual ;
+	osnm:countryName "Spain" ;
+	time:year "1999" ;
+	osnm:count "0" .
+
+osnm:899 a owl:NamedIndividual ;
+	osnm:countryName "Spain" ;
+	time:year "2000" ;
+	osnm:count "7" .
+
+osnm:900 a owl:NamedIndividual ;
+	osnm:countryName "Spain" ;
+	time:year "2001" ;
+	osnm:count "12" .
+
+osnm:901 a owl:NamedIndividual ;
+	osnm:countryName "Spain" ;
+	time:year "2002" ;
+	osnm:count "2" .
+
+osnm:902 a owl:NamedIndividual ;
+	osnm:countryName "Spain" ;
+	time:year "2003" ;
+	osnm:count "1" .
+
+osnm:903 a owl:NamedIndividual ;
+	osnm:countryName "Spain" ;
+	time:year "2004" ;
+	osnm:count "1" .
+
+osnm:904 a owl:NamedIndividual ;
+	osnm:countryName "Spain" ;
+	time:year "2005" ;
+	osnm:count "3" .
+
+osnm:905 a owl:NamedIndividual ;
+	osnm:countryName "Spain" ;
+	time:year "2006" ;
+	osnm:count "0" .
+
+osnm:906 a owl:NamedIndividual ;
+	osnm:countryName "Spain" ;
+	time:year "2007" ;
+	osnm:count "0" .
+
+osnm:907 a owl:NamedIndividual ;
+	osnm:countryName "Spain" ;
+	time:year "2008" ;
+	osnm:count "0" .
+
+osnm:908 a owl:NamedIndividual ;
+	osnm:countryName "Spain" ;
+	time:year "2009" ;
+	osnm:count "6" .
+
+osnm:909 a owl:NamedIndividual ;
+	osnm:countryName "Spain" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:910 a owl:NamedIndividual ;
+	osnm:countryName "Sudan" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:911 a owl:NamedIndividual ;
+	osnm:countryName "Sudan" ;
+	time:year "2010" ;
+	osnm:count "3" .
+
+osnm:912 a owl:NamedIndividual ;
+	osnm:countryName "Sweden" ;
+	time:year "1999" ;
+	osnm:count "0" .
+
+osnm:913 a owl:NamedIndividual ;
+	osnm:countryName "Sweden" ;
+	time:year "2000" ;
+	osnm:count "0" .
+
+osnm:914 a owl:NamedIndividual ;
+	osnm:countryName "Sweden" ;
+	time:year "2001" ;
+	osnm:count "0" .
+
+osnm:915 a owl:NamedIndividual ;
+	osnm:countryName "Sweden" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:916 a owl:NamedIndividual ;
+	osnm:countryName "Sweden" ;
+	time:year "2003" ;
+	osnm:count "0" .
+
+osnm:917 a owl:NamedIndividual ;
+	osnm:countryName "Sweden" ;
+	time:year "2004" ;
+	osnm:count "0" .
+
+osnm:918 a owl:NamedIndividual ;
+	osnm:countryName "Sweden" ;
+	time:year "2005" ;
+	osnm:count "0" .
+
+osnm:919 a owl:NamedIndividual ;
+	osnm:countryName "Sweden" ;
+	time:year "2006" ;
+	osnm:count "0" .
+
+osnm:920 a owl:NamedIndividual ;
+	osnm:countryName "Sweden" ;
+	time:year "2007" ;
+	osnm:count "0" .
+
+osnm:921 a owl:NamedIndividual ;
+	osnm:countryName "Sweden" ;
+	time:year "2008" ;
+	osnm:count "0" .
+
+osnm:922 a owl:NamedIndividual ;
+	osnm:countryName "Sweden" ;
+	time:year "2009" ;
+	osnm:count "0" .
+
+osnm:923 a owl:NamedIndividual ;
+	osnm:countryName "Sweden" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:924 a owl:NamedIndividual ;
+	osnm:countryName "Switzerland" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:925 a owl:NamedIndividual ;
+	osnm:countryName "Switzerland" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:926 a owl:NamedIndividual ;
+	osnm:countryName "Syria" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:927 a owl:NamedIndividual ;
+	osnm:countryName "Syria" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:928 a owl:NamedIndividual ;
+	osnm:countryName "Taiwan" ;
+	time:year "1999" ;
+	osnm:count "4" .
+
+osnm:929 a owl:NamedIndividual ;
+	osnm:countryName "Taiwan" ;
+	time:year "2000" ;
+	osnm:count "7" .
+
+osnm:930 a owl:NamedIndividual ;
+	osnm:countryName "Taiwan" ;
+	time:year "2001" ;
+	osnm:count "0" .
+
+osnm:931 a owl:NamedIndividual ;
+	osnm:countryName "Taiwan" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:932 a owl:NamedIndividual ;
+	osnm:countryName "Taiwan" ;
+	time:year "2003" ;
+	osnm:count "0" .
+
+osnm:933 a owl:NamedIndividual ;
+	osnm:countryName "Taiwan" ;
+	time:year "2004" ;
+	osnm:count "0" .
+
+osnm:934 a owl:NamedIndividual ;
+	osnm:countryName "Taiwan" ;
+	time:year "2005" ;
+	osnm:count "0" .
+
+osnm:935 a owl:NamedIndividual ;
+	osnm:countryName "Taiwan" ;
+	time:year "2006" ;
+	osnm:count "0" .
+
+osnm:936 a owl:NamedIndividual ;
+	osnm:countryName "Taiwan" ;
+	time:year "2007" ;
+	osnm:count "0" .
+
+osnm:937 a owl:NamedIndividual ;
+	osnm:countryName "Taiwan" ;
+	time:year "2008" ;
+	osnm:count "0" .
+
+osnm:938 a owl:NamedIndividual ;
+	osnm:countryName "Taiwan" ;
+	time:year "2009" ;
+	osnm:count "0" .
+
+osnm:939 a owl:NamedIndividual ;
+	osnm:countryName "Taiwan" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:940 a owl:NamedIndividual ;
+	osnm:countryName "Tanzania" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:941 a owl:NamedIndividual ;
+	osnm:countryName "Tanzania" ;
+	time:year "2003" ;
+	osnm:count "0" .
+
+osnm:942 a owl:NamedIndividual ;
+	osnm:countryName "Tanzania" ;
+	time:year "2004" ;
+	osnm:count "0" .
+
+osnm:943 a owl:NamedIndividual ;
+	osnm:countryName "Tanzania" ;
+	time:year "2005" ;
+	osnm:count "0" .
+
+osnm:944 a owl:NamedIndividual ;
+	osnm:countryName "Tanzania" ;
+	time:year "2006" ;
+	osnm:count "1" .
+
+osnm:945 a owl:NamedIndividual ;
+	osnm:countryName "Tanzania" ;
+	time:year "2007" ;
+	osnm:count "0" .
+
+osnm:946 a owl:NamedIndividual ;
+	osnm:countryName "Tanzania" ;
+	time:year "2008" ;
+	osnm:count "0" .
+
+osnm:947 a owl:NamedIndividual ;
+	osnm:countryName "Tanzania" ;
+	time:year "2009" ;
+	osnm:count "0" .
+
+osnm:948 a owl:NamedIndividual ;
+	osnm:countryName "Tanzania" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:949 a owl:NamedIndividual ;
+	osnm:countryName "Thailand" ;
+	time:year "1999" ;
+	osnm:count "15" .
+
+osnm:950 a owl:NamedIndividual ;
+	osnm:countryName "Thailand" ;
+	time:year "2000" ;
+	osnm:count "58" .
+
+osnm:951 a owl:NamedIndividual ;
+	osnm:countryName "Thailand" ;
+	time:year "2001" ;
+	osnm:count "66" .
+
+osnm:952 a owl:NamedIndividual ;
+	osnm:countryName "Thailand" ;
+	time:year "2002" ;
+	osnm:count "85" .
+
+osnm:953 a owl:NamedIndividual ;
+	osnm:countryName "Thailand" ;
+	time:year "2003" ;
+	osnm:count "61" .
+
+osnm:954 a owl:NamedIndividual ;
+	osnm:countryName "Thailand" ;
+	time:year "2004" ;
+	osnm:count "62" .
+
+osnm:955 a owl:NamedIndividual ;
+	osnm:countryName "Thailand" ;
+	time:year "2005" ;
+	osnm:count "89" .
+
+osnm:956 a owl:NamedIndividual ;
+	osnm:countryName "Thailand" ;
+	time:year "2006" ;
+	osnm:count "96" .
+
+osnm:957 a owl:NamedIndividual ;
+	osnm:countryName "Thailand" ;
+	time:year "2007" ;
+	osnm:count "105" .
+
+osnm:958 a owl:NamedIndividual ;
+	osnm:countryName "Thailand" ;
+	time:year "2008" ;
+	osnm:count "121" .
+
+osnm:959 a owl:NamedIndividual ;
+	osnm:countryName "Thailand" ;
+	time:year "2009" ;
+	osnm:count "122" .
+
+osnm:960 a owl:NamedIndividual ;
+	osnm:countryName "Thailand" ;
+	time:year "2010" ;
+	osnm:count "52" .
+
+osnm:961 a owl:NamedIndividual ;
+	osnm:countryName "Togo" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:962 a owl:NamedIndividual ;
+	osnm:countryName "Togo" ;
+	time:year "2003" ;
+	osnm:count "2" .
+
+osnm:963 a owl:NamedIndividual ;
+	osnm:countryName "Togo" ;
+	time:year "2004" ;
+	osnm:count "1" .
+
+osnm:964 a owl:NamedIndividual ;
+	osnm:countryName "Togo" ;
+	time:year "2005" ;
+	osnm:count "0" .
+
+osnm:965 a owl:NamedIndividual ;
+	osnm:countryName "Togo" ;
+	time:year "2006" ;
+	osnm:count "0" .
+
+osnm:966 a owl:NamedIndividual ;
+	osnm:countryName "Togo" ;
+	time:year "2007" ;
+	osnm:count "0" .
+
+osnm:967 a owl:NamedIndividual ;
+	osnm:countryName "Togo" ;
+	time:year "2008" ;
+	osnm:count "0" .
+
+osnm:968 a owl:NamedIndividual ;
+	osnm:countryName "Togo" ;
+	time:year "2009" ;
+	osnm:count "0" .
+
+osnm:969 a owl:NamedIndividual ;
+	osnm:countryName "Togo" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:970 a owl:NamedIndividual ;
+	osnm:countryName "Trinidad and Tobago" ;
+	time:year "1999" ;
+	osnm:count "16" .
+
+osnm:971 a owl:NamedIndividual ;
+	osnm:countryName "Trinidad and Tobago" ;
+	time:year "2000" ;
+	osnm:count "75" .
+
+osnm:972 a owl:NamedIndividual ;
+	osnm:countryName "Trinidad and Tobago" ;
+	time:year "2001" ;
+	osnm:count "75" .
+
+osnm:973 a owl:NamedIndividual ;
+	osnm:countryName "Trinidad and Tobago" ;
+	time:year "2002" ;
+	osnm:count "82" .
+
+osnm:974 a owl:NamedIndividual ;
+	osnm:countryName "Trinidad and Tobago" ;
+	time:year "2003" ;
+	osnm:count "59" .
+
+osnm:975 a owl:NamedIndividual ;
+	osnm:countryName "Trinidad and Tobago" ;
+	time:year "2004" ;
+	osnm:count "66" .
+
+osnm:976 a owl:NamedIndividual ;
+	osnm:countryName "Trinidad and Tobago" ;
+	time:year "2005" ;
+	osnm:count "57" .
+
+osnm:977 a owl:NamedIndividual ;
+	osnm:countryName "Trinidad and Tobago" ;
+	time:year "2006" ;
+	osnm:count "69" .
+
+osnm:978 a owl:NamedIndividual ;
+	osnm:countryName "Trinidad and Tobago" ;
+	time:year "2007" ;
+	osnm:count "74" .
+
+osnm:979 a owl:NamedIndividual ;
+	osnm:countryName "Trinidad and Tobago" ;
+	time:year "2008" ;
+	osnm:count "70" .
+
+osnm:980 a owl:NamedIndividual ;
+	osnm:countryName "Trinidad and Tobago" ;
+	time:year "2009" ;
+	osnm:count "21" .
+
+osnm:981 a owl:NamedIndividual ;
+	osnm:countryName "Trinidad and Tobago" ;
+	time:year "2010" ;
+	osnm:count "11" .
+
+osnm:982 a owl:NamedIndividual ;
+	osnm:countryName "Tunisia" ;
+	time:year "1999" ;
+	osnm:count "0" .
+
+osnm:983 a owl:NamedIndividual ;
+	osnm:countryName "Tunisia" ;
+	time:year "2000" ;
+	osnm:count "3" .
+
+osnm:984 a owl:NamedIndividual ;
+	osnm:countryName "Tunisia" ;
+	time:year "2001" ;
+	osnm:count "18" .
+
+osnm:985 a owl:NamedIndividual ;
+	osnm:countryName "Tunisia" ;
+	time:year "2002" ;
+	osnm:count "29" .
+
+osnm:986 a owl:NamedIndividual ;
+	osnm:countryName "Tunisia" ;
+	time:year "2003" ;
+	osnm:count "14" .
+
+osnm:987 a owl:NamedIndividual ;
+	osnm:countryName "Tunisia" ;
+	time:year "2004" ;
+	osnm:count "11" .
+
+osnm:988 a owl:NamedIndividual ;
+	osnm:countryName "Tunisia" ;
+	time:year "2005" ;
+	osnm:count "10" .
+
+osnm:989 a owl:NamedIndividual ;
+	osnm:countryName "Tunisia" ;
+	time:year "2006" ;
+	osnm:count "23" .
+
+osnm:990 a owl:NamedIndividual ;
+	osnm:countryName "Tunisia" ;
+	time:year "2007" ;
+	osnm:count "35" .
+
+osnm:991 a owl:NamedIndividual ;
+	osnm:countryName "Tunisia" ;
+	time:year "2008" ;
+	osnm:count "30" .
+
+osnm:992 a owl:NamedIndividual ;
+	osnm:countryName "Tunisia" ;
+	time:year "2009" ;
+	osnm:count "43" .
+
+osnm:993 a owl:NamedIndividual ;
+	osnm:countryName "Tunisia" ;
+	time:year "2010" ;
+	osnm:count "13" .
+
+osnm:994 a owl:NamedIndividual ;
+	osnm:countryName "Turkey" ;
+	time:year "1999" ;
+	osnm:count "4" .
+
+osnm:995 a owl:NamedIndividual ;
+	osnm:countryName "Turkey" ;
+	time:year "2000" ;
+	osnm:count "0" .
+
+osnm:996 a owl:NamedIndividual ;
+	osnm:countryName "Turkey" ;
+	time:year "2001" ;
+	osnm:count "6" .
+
+osnm:997 a owl:NamedIndividual ;
+	osnm:countryName "Turkey" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:998 a owl:NamedIndividual ;
+	osnm:countryName "Turkey" ;
+	time:year "2003" ;
+	osnm:count "0" .
+
+osnm:999 a owl:NamedIndividual ;
+	osnm:countryName "Turkey" ;
+	time:year "2004" ;
+	osnm:count "0" .
+
+osnm:1000 a owl:NamedIndividual ;
+	osnm:countryName "Turkey" ;
+	time:year "2005" ;
+	osnm:count "0" .
+
+osnm:1001 a owl:NamedIndividual ;
+	osnm:countryName "Turkey" ;
+	time:year "2006" ;
+	osnm:count "0" .
+
+osnm:1002 a owl:NamedIndividual ;
+	osnm:countryName "Turkey" ;
+	time:year "2007" ;
+	osnm:count "0" .
+
+osnm:1003 a owl:NamedIndividual ;
+	osnm:countryName "Turkey" ;
+	time:year "2008" ;
+	osnm:count "3" .
+
+osnm:1004 a owl:NamedIndividual ;
+	osnm:countryName "Turkey" ;
+	time:year "2009" ;
+	osnm:count "6" .
+
+osnm:1005 a owl:NamedIndividual ;
+	osnm:countryName "Turkey" ;
+	time:year "2010" ;
+	osnm:count "5" .
+
+osnm:1006 a owl:NamedIndividual ;
+	osnm:countryName "Turkmenistan" ;
+	time:year "1999" ;
+	osnm:count "0" .
+
+osnm:1007 a owl:NamedIndividual ;
+	osnm:countryName "Turkmenistan" ;
+	time:year "2000" ;
+	osnm:count "0" .
+
+osnm:1008 a owl:NamedIndividual ;
+	osnm:countryName "Turkmenistan" ;
+	time:year "2001" ;
+	osnm:count "4" .
+
+osnm:1009 a owl:NamedIndividual ;
+	osnm:countryName "Turkmenistan" ;
+	time:year "2002" ;
+	osnm:count "17" .
+
+osnm:1010 a owl:NamedIndividual ;
+	osnm:countryName "Turkmenistan" ;
+	time:year "2003" ;
+	osnm:count "2" .
+
+osnm:1011 a owl:NamedIndividual ;
+	osnm:countryName "Turkmenistan" ;
+	time:year "2004" ;
+	osnm:count "13" .
+
+osnm:1012 a owl:NamedIndividual ;
+	osnm:countryName "Turkmenistan" ;
+	time:year "2005" ;
+	osnm:count "29" .
+
+osnm:1013 a owl:NamedIndividual ;
+	osnm:countryName "Turkmenistan" ;
+	time:year "2006" ;
+	osnm:count "36" .
+
+osnm:1014 a owl:NamedIndividual ;
+	osnm:countryName "Turkmenistan" ;
+	time:year "2007" ;
+	osnm:count "31" .
+
+osnm:1015 a owl:NamedIndividual ;
+	osnm:countryName "Turkmenistan" ;
+	time:year "2008" ;
+	osnm:count "57" .
+
+osnm:1016 a owl:NamedIndividual ;
+	osnm:countryName "Turkmenistan" ;
+	time:year "2009" ;
+	osnm:count "34" .
+
+osnm:1017 a owl:NamedIndividual ;
+	osnm:countryName "Turkmenistan" ;
+	time:year "2010" ;
+	osnm:count "19" .
+
+osnm:1018 a owl:NamedIndividual ;
+	osnm:countryName "Uganda" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:1019 a owl:NamedIndividual ;
+	osnm:countryName "Uganda" ;
+	time:year "2004" ;
+	osnm:count "0" .
+
+osnm:1020 a owl:NamedIndividual ;
+	osnm:countryName "Uganda" ;
+	time:year "2005" ;
+	osnm:count "0" .
+
+osnm:1021 a owl:NamedIndividual ;
+	osnm:countryName "Uganda" ;
+	time:year "2006" ;
+	osnm:count "0" .
+
+osnm:1022 a owl:NamedIndividual ;
+	osnm:countryName "Uganda" ;
+	time:year "2007" ;
+	osnm:count "0" .
+
+osnm:1023 a owl:NamedIndividual ;
+	osnm:countryName "Uganda" ;
+	time:year "2008" ;
+	osnm:count "0" .
+
+osnm:1024 a owl:NamedIndividual ;
+	osnm:countryName "Uganda" ;
+	time:year "2009" ;
+	osnm:count "0" .
+
+osnm:1025 a owl:NamedIndividual ;
+	osnm:countryName "Uganda" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:1026 a owl:NamedIndividual ;
+	osnm:countryName "United Arab Emirates" ;
+	time:year "1999" ;
+	osnm:count "59" .
+
+osnm:1027 a owl:NamedIndividual ;
+	osnm:countryName "United Arab Emirates" ;
+	time:year "2000" ;
+	osnm:count "146" .
+
+osnm:1028 a owl:NamedIndividual ;
+	osnm:countryName "United Arab Emirates" ;
+	time:year "2001" ;
+	osnm:count "179" .
+
+osnm:1029 a owl:NamedIndividual ;
+	osnm:countryName "United Arab Emirates" ;
+	time:year "2002" ;
+	osnm:count "166" .
+
+osnm:1030 a owl:NamedIndividual ;
+	osnm:countryName "United Arab Emirates" ;
+	time:year "2003" ;
+	osnm:count "101" .
+
+osnm:1031 a owl:NamedIndividual ;
+	osnm:countryName "United Arab Emirates" ;
+	time:year "2004" ;
+	osnm:count "104" .
+
+osnm:1032 a owl:NamedIndividual ;
+	osnm:countryName "United Arab Emirates" ;
+	time:year "2005" ;
+	osnm:count "109" .
+
+osnm:1033 a owl:NamedIndividual ;
+	osnm:countryName "United Arab Emirates" ;
+	time:year "2006" ;
+	osnm:count "119" .
+
+osnm:1034 a owl:NamedIndividual ;
+	osnm:countryName "United Arab Emirates" ;
+	time:year "2007" ;
+	osnm:count "103" .
+
+osnm:1035 a owl:NamedIndividual ;
+	osnm:countryName "United Arab Emirates" ;
+	time:year "2008" ;
+	osnm:count "101" .
+
+osnm:1036 a owl:NamedIndividual ;
+	osnm:countryName "United Arab Emirates" ;
+	time:year "2009" ;
+	osnm:count "119" .
+
+osnm:1037 a owl:NamedIndividual ;
+	osnm:countryName "United Arab Emirates" ;
+	time:year "2010" ;
+	osnm:count "67" .
+
+osnm:1038 a owl:NamedIndividual ;
+	osnm:countryName "United Kingdom" ;
+	time:year "1999" ;
+	osnm:count "175" .
+
+osnm:1039 a owl:NamedIndividual ;
+	osnm:countryName "United Kingdom" ;
+	time:year "2000" ;
+	osnm:count "538" .
+
+osnm:1040 a owl:NamedIndividual ;
+	osnm:countryName "United Kingdom" ;
+	time:year "2001" ;
+	osnm:count "587" .
+
+osnm:1041 a owl:NamedIndividual ;
+	osnm:countryName "United Kingdom" ;
+	time:year "2002" ;
+	osnm:count "496" .
+
+osnm:1042 a owl:NamedIndividual ;
+	osnm:countryName "United Kingdom" ;
+	time:year "2003" ;
+	osnm:count "407" .
+
+osnm:1043 a owl:NamedIndividual ;
+	osnm:countryName "United Kingdom" ;
+	time:year "2004" ;
+	osnm:count "330" .
+
+osnm:1044 a owl:NamedIndividual ;
+	osnm:countryName "United Kingdom" ;
+	time:year "2005" ;
+	osnm:count "463" .
+
+osnm:1045 a owl:NamedIndividual ;
+	osnm:countryName "United Kingdom" ;
+	time:year "2006" ;
+	osnm:count "493" .
+
+osnm:1046 a owl:NamedIndividual ;
+	osnm:countryName "United Kingdom" ;
+	time:year "2007" ;
+	osnm:count "459" .
+
+osnm:1047 a owl:NamedIndividual ;
+	osnm:countryName "United Kingdom" ;
+	time:year "2008" ;
+	osnm:count "407" .
+
+osnm:1048 a owl:NamedIndividual ;
+	osnm:countryName "United Kingdom" ;
+	time:year "2009" ;
+	osnm:count "348" .
+
+osnm:1049 a owl:NamedIndividual ;
+	osnm:countryName "United Kingdom" ;
+	time:year "2010" ;
+	osnm:count "135" .
+
+osnm:1050 a owl:NamedIndividual ;
+	osnm:countryName "United States of America" ;
+	time:year "1999" ;
+	osnm:count "472" .
+
+osnm:1051 a owl:NamedIndividual ;
+	osnm:countryName "United States of America" ;
+	time:year "2000" ;
+	osnm:count "1594" .
+
+osnm:1052 a owl:NamedIndividual ;
+	osnm:countryName "United States of America" ;
+	time:year "2001" ;
+	osnm:count "1786" .
+
+osnm:1053 a owl:NamedIndividual ;
+	osnm:countryName "United States of America" ;
+	time:year "2002" ;
+	osnm:count "1461" .
+
+osnm:1054 a owl:NamedIndividual ;
+	osnm:countryName "United States of America" ;
+	time:year "2003" ;
+	osnm:count "1424" .
+
+osnm:1055 a owl:NamedIndividual ;
+	osnm:countryName "United States of America" ;
+	time:year "2004" ;
+	osnm:count "1340" .
+
+osnm:1056 a owl:NamedIndividual ;
+	osnm:countryName "United States of America" ;
+	time:year "2005" ;
+	osnm:count "1380" .
+
+osnm:1057 a owl:NamedIndividual ;
+	osnm:countryName "United States of America" ;
+	time:year "2006" ;
+	osnm:count "1378" .
+
+osnm:1058 a owl:NamedIndividual ;
+	osnm:countryName "United States of America" ;
+	time:year "2007" ;
+	osnm:count "1211" .
+
+osnm:1059 a owl:NamedIndividual ;
+	osnm:countryName "United States of America" ;
+	time:year "2008" ;
+	osnm:count "1224" .
+
+osnm:1060 a owl:NamedIndividual ;
+	osnm:countryName "United States of America" ;
+	time:year "2009" ;
+	osnm:count "695" .
+
+osnm:1061 a owl:NamedIndividual ;
+	osnm:countryName "United States of America" ;
+	time:year "2010" ;
+	osnm:count "313" .
+
+osnm:1062 a owl:NamedIndividual ;
+	osnm:countryName "Uzbekistan" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:1063 a owl:NamedIndividual ;
+	osnm:countryName "Uzbekistan" ;
+	time:year "2005" ;
+	osnm:count "0" .
+
+osnm:1064 a owl:NamedIndividual ;
+	osnm:countryName "Uzbekistan" ;
+	time:year "2006" ;
+	osnm:count "0" .
+
+osnm:1065 a owl:NamedIndividual ;
+	osnm:countryName "Uzbekistan" ;
+	time:year "2007" ;
+	osnm:count "0" .
+
+osnm:1066 a owl:NamedIndividual ;
+	osnm:countryName "Uzbekistan" ;
+	time:year "2008" ;
+	osnm:count "0" .
+
+osnm:1067 a owl:NamedIndividual ;
+	osnm:countryName "Uzbekistan" ;
+	time:year "2009" ;
+	osnm:count "0" .
+
+osnm:1068 a owl:NamedIndividual ;
+	osnm:countryName "Uzbekistan" ;
+	time:year "2010" ;
+	osnm:count "0" .
+
+osnm:1069 a owl:NamedIndividual ;
+	osnm:countryName "Venezuela" ;
+	time:year "1999" ;
+	osnm:count "76" .
+
+osnm:1070 a owl:NamedIndividual ;
+	osnm:countryName "Venezuela" ;
+	time:year "2000" ;
+	osnm:count "231" .
+
+osnm:1071 a owl:NamedIndividual ;
+	osnm:countryName "Venezuela" ;
+	time:year "2001" ;
+	osnm:count "256" .
+
+osnm:1072 a owl:NamedIndividual ;
+	osnm:countryName "Venezuela" ;
+	time:year "2002" ;
+	osnm:count "184" .
+
+osnm:1073 a owl:NamedIndividual ;
+	osnm:countryName "Venezuela" ;
+	time:year "2003" ;
+	osnm:count "146" .
+
+osnm:1074 a owl:NamedIndividual ;
+	osnm:countryName "Venezuela" ;
+	time:year "2004" ;
+	osnm:count "163" .
+
+osnm:1075 a owl:NamedIndividual ;
+	osnm:countryName "Venezuela" ;
+	time:year "2005" ;
+	osnm:count "179" .
+
+osnm:1076 a owl:NamedIndividual ;
+	osnm:countryName "Venezuela" ;
+	time:year "2006" ;
+	osnm:count "230" .
+
+osnm:1077 a owl:NamedIndividual ;
+	osnm:countryName "Venezuela" ;
+	time:year "2007" ;
+	osnm:count "249" .
+
+osnm:1078 a owl:NamedIndividual ;
+	osnm:countryName "Venezuela" ;
+	time:year "2008" ;
+	osnm:count "253" .
+
+osnm:1079 a owl:NamedIndividual ;
+	osnm:countryName "Venezuela" ;
+	time:year "2009" ;
+	osnm:count "217" .
+
+osnm:1080 a owl:NamedIndividual ;
+	osnm:countryName "Venezuela" ;
+	time:year "2010" ;
+	osnm:count "82" .
+
+osnm:1081 a owl:NamedIndividual ;
+	osnm:countryName "Vietnam" ;
+	time:year "1999" ;
+	osnm:count "13" .
+
+osnm:1082 a owl:NamedIndividual ;
+	osnm:countryName "Vietnam" ;
+	time:year "2000" ;
+	osnm:count "60" .
+
+osnm:1083 a owl:NamedIndividual ;
+	osnm:countryName "Vietnam" ;
+	time:year "2001" ;
+	osnm:count "79" .
+
+osnm:1084 a owl:NamedIndividual ;
+	osnm:countryName "Vietnam" ;
+	time:year "2002" ;
+	osnm:count "83" .
+
+osnm:1085 a owl:NamedIndividual ;
+	osnm:countryName "Vietnam" ;
+	time:year "2003" ;
+	osnm:count "87" .
+
+osnm:1086 a owl:NamedIndividual ;
+	osnm:countryName "Vietnam" ;
+	time:year "2004" ;
+	osnm:count "75" .
+
+osnm:1087 a owl:NamedIndividual ;
+	osnm:countryName "Vietnam" ;
+	time:year "2005" ;
+	osnm:count "107" .
+
+osnm:1088 a owl:NamedIndividual ;
+	osnm:countryName "Vietnam" ;
+	time:year "2006" ;
+	osnm:count "117" .
+
+osnm:1089 a owl:NamedIndividual ;
+	osnm:countryName "Vietnam" ;
+	time:year "2007" ;
+	osnm:count "128" .
+
+osnm:1090 a owl:NamedIndividual ;
+	osnm:countryName "Vietnam" ;
+	time:year "2008" ;
+	osnm:count "150" .
+
+osnm:1091 a owl:NamedIndividual ;
+	osnm:countryName "Vietnam" ;
+	time:year "2009" ;
+	osnm:count "156" .
+
+osnm:1092 a owl:NamedIndividual ;
+	osnm:countryName "Vietnam" ;
+	time:year "2010" ;
+	osnm:count "63" .
+
+osnm:1093 a owl:NamedIndividual ;
+	osnm:countryName "Yemen" ;
+	time:year "2002" ;
+	osnm:count "0" .
+
+osnm:1094 a owl:NamedIndividual ;
+	osnm:countryName "Yemen" ;
+	time:year "2010" ;
+	osnm:count "0" .
