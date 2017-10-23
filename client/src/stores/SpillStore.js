@@ -2,6 +2,8 @@ import {action, computed, observable} from "mobx";
 import fetchJSON from "../api/fetch-json";
 
 export class SpillStore {
+  static NUM_NEAREST_SPILLS = 5;
+
   @observable spillRegistry = observable.map();
   currentLatitude = observable(0);
   currentLongitude = observable(0);
@@ -35,41 +37,44 @@ export class SpillStore {
   }
 
   getNearestSpills() {
-    if (this.spills.length === 0) {
-      return [];
+    if (this.spills.length <= SpillStore.NUM_NEAREST_SPILLS) {
+      return this.spills.map(spill => spill.id);
     }
+
     var tempList, oilSpillList, dif, i;
     tempList = oilSpillList = [];
     for (i = 0; i < this.spills.length; i++) {
-      dif = DistanceFromCurrentLocationToOilSpill(
+      dif = computeDistanceToSpill(
         this.currentLatitude, this.currentLongitude, this.spills[i].lat, this.spills[i].lng);
       tempList.push([dif, this.spills[i].id]);
     }
-    tempList.sort(sortDistance);
-    for (i = 0; i < 5; i++)
-    {
+    tempList.sort(sortOnDistance);
+    for (i = 0; i < SpillStore.NUM_NEAREST_SPILLS; i++) {
       oilSpillList.push(tempList[i][1]);
     }
     return oilSpillList;
   }
 }
 
-function DegressToRadians(deg) {
+function degreesToRadians(deg) {
   return deg * (Math.PI / 180);
 }
 
-function DistanceFromCurrentLocationToOilSpill(lat1, lon1, lat2, lon2) {
-  lat1 = DegressToRadians(lat1);
-  lat2 = DegressToRadians(lat2);
-  lon1 = DegressToRadians(lon1);
-  lon2 = DegressToRadians(lon2);
-  var R = 6371; // Radius of the earth in km
-  var x = (lon2 - lon1) * Math.cos((lat1 + lat2) / 2);
-  var y = (lat2 - lat1);
-  return Math.sqrt(x * x + y * y) * R; // Distance in km from current location to each oil spill
+function computeDistanceToSpill(lat1, lon1, lat2, lon2) {
+  lat1 = degreesToRadians(lat1);
+  lat2 = degreesToRadians(lat2);
+  lon1 = degreesToRadians(lon1);
+  lon2 = degreesToRadians(lon2);
+
+  const earthRadius = 6371;
+  const x = (lon2 - lon1) * Math.cos((lat1 + lat2) / 2);
+  const y = (lat2 - lat1);
+
+  // Distance in km from current location to the spill with given coordinates
+  return Math.sqrt(x * x + y * y) * earthRadius;
 }
 
-function sortDistance(a, b) {
+function sortOnDistance(a, b) {
   return a[0] === b[0] ? 0 : (a[0] < b[0]) ? -1 : 1;
 }
 
