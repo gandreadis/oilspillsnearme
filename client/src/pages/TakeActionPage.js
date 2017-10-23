@@ -1,10 +1,14 @@
 import React from 'react';
+import {Helmet} from "react-helmet";
 import Footer from "../components/navigation/Footer";
 import PageHeader from "../components/navigation/PageHeader";
 import "./osnm.css";
 
 const TakeActionPage = () => (
   <div>
+    <Helmet>
+      <title>Take Action - oilspillsnear.me</title>
+    </Helmet>
     <PageHeader>
       Take Action
     </PageHeader>
@@ -109,7 +113,7 @@ const TakeActionPage = () => (
               Visit website
             </a>
           </p>
-          <p className="lead">The IPIECA also has three regional programmes:</p>
+          <p className="lead mt-4">The IPIECA also has three regional programmes:</p>
           <div className="list-group">
             <a href="http://ospri.moonfruit.com/" className="list-group-item" target="_blank" rel="noopener noreferrer">
               The Black Sea, Caspian Sea and Central Eurasia (OSPRI)
