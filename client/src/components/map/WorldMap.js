@@ -38,10 +38,6 @@ class WorldMap extends React.Component {
             url='http://{s}.tile.osm.org/{z}/{x}/{y}.png'
             attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
           />
-          {this.state.locationIsShared ?
-            <MyCurrentLocationMarker/> :
-            undefined
-          }
           {this.state.showRigs ?
             <CountryLayer/> :
             undefined
@@ -52,6 +48,10 @@ class WorldMap extends React.Component {
               onSelectSpill={id => this.setState({selectedSpill: id})}
               locationIsShared={this.state.locationIsShared}
             /> :
+            undefined
+          }
+          {this.state.locationIsShared ?
+            <MyCurrentLocationMarker/> :
             undefined
           }
         </Map>
