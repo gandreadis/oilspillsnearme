@@ -50,6 +50,7 @@ class BeachMap extends React.Component {
             oilSpill={this.props.singleSpillStore.spill}
             color="red"
             fillColor="#f03"
+            onSelectSpill={() => {}}
           />
           {this.props.singleSpillStore.beaches.map((beach, index) => (
             <Marker
