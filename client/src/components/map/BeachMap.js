@@ -51,10 +51,10 @@ class BeachMap extends React.Component {
             color="red"
             fillColor="#f03"
           />
-          {this.props.singleSpillStore.beaches.map(beach => (
+          {this.props.singleSpillStore.beaches.map((beach, index) => (
             <Marker
               position={[parseFloat(beach.lat), parseFloat(beach.lng)]}
-              key={beach.lat + " " + beach.lng}
+              key={index}
             >
               <Tooltip>
                 <div>
