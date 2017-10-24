@@ -1,0 +1,1582 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix osnm: <http://www.oilspillsnear.me/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+<http://sws.geonames.org/1149361/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Afghanistan" ;
+	osnm:hasCode "AF" ;
+	osnm:hasLatitude "33" ;
+	osnm:hasLongitude "66" .
+
+<http://sws.geonames.org/661882/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Aland Islands" ;
+	osnm:hasCode "AX" ;
+	osnm:hasLatitude "60,25" ;
+	osnm:hasLongitude "20" .
+
+<http://sws.geonames.org/783754/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Albania" ;
+	osnm:hasCode "AL" ;
+	osnm:hasLatitude "41" ;
+	osnm:hasLongitude "20" .
+
+<http://sws.geonames.org/2589581/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Algeria" ;
+	osnm:hasCode "DZ" ;
+	osnm:hasLatitude "28" ;
+	osnm:hasLongitude "3" .
+
+<http://sws.geonames.org/5880801/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "American Samoa" ;
+	osnm:hasCode "AS" ;
+	osnm:hasLatitude "-14,23377" ;
+	osnm:hasLongitude "-169,47767" .
+
+<http://sws.geonames.org/3041565/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Andorra" ;
+	osnm:hasCode "AD" ;
+	osnm:hasLatitude "42,55" ;
+	osnm:hasLongitude "1,58333" .
+
+<http://sws.geonames.org/3351879/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Angola" ;
+	osnm:hasCode "AO" ;
+	osnm:hasLatitude "-12,5" ;
+	osnm:hasLongitude "18,5" .
+
+<http://sws.geonames.org/3573511/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Anguilla" ;
+	osnm:hasCode "AI" ;
+	osnm:hasLatitude "18,21667" ;
+	osnm:hasLongitude "-63,05" .
+
+<http://sws.geonames.org/6697173/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Antarctica" ;
+	osnm:hasCode "AQ" ;
+	osnm:hasLatitude "-82,67628" ;
+	osnm:hasLongitude "8,78906" .
+
+<http://sws.geonames.org/3576396/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Antigua and Barbuda" ;
+	osnm:hasCode "AG" ;
+	osnm:hasLatitude "17,05" ;
+	osnm:hasLongitude "-61,8" .
+
+<http://sws.geonames.org/3865483/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Argentina" ;
+	osnm:hasCode "AR" ;
+	osnm:hasLatitude "-34" ;
+	osnm:hasLongitude "-64" .
+
+<http://sws.geonames.org/174982/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Armenia" ;
+	osnm:hasCode "AM" ;
+	osnm:hasLatitude "40,25" ;
+	osnm:hasLongitude "45" .
+
+<http://sws.geonames.org/3577279/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Aruba" ;
+	osnm:hasCode "AW" ;
+	osnm:hasLatitude "12,5" ;
+	osnm:hasLongitude "-69,96667" .
+
+<http://sws.geonames.org/2077507/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Ashmore and Cartier Islands" ;
+	osnm:hasCode "AU" ;
+	osnm:hasLatitude "-12,41667" ;
+	osnm:hasLongitude "123,33333" .
+
+<http://sws.geonames.org/2077456/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Australia" ;
+	osnm:hasCode "AU" ;
+	osnm:hasLatitude "-25" ;
+	osnm:hasLongitude "135" .
+
+<http://sws.geonames.org/2782113/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Austria" ;
+	osnm:hasCode "AT" ;
+	osnm:hasLatitude "47,33333" ;
+	osnm:hasLongitude "13,33333" .
+
+<http://sws.geonames.org/587116/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Azerbaijan" ;
+	osnm:hasCode "AZ" ;
+	osnm:hasLatitude "40,5" ;
+	osnm:hasLongitude "47,5" .
+
+<http://sws.geonames.org/3572887/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Bahamas" ;
+	osnm:hasCode "BS" ;
+	osnm:hasLatitude "25,04082" ;
+	osnm:hasLongitude "-77,37122" .
+
+<http://sws.geonames.org/290291/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Bahrain" ;
+	osnm:hasCode "BH" ;
+	osnm:hasLatitude "26,03333" ;
+	osnm:hasLongitude "50,55" .
+
+<http://sws.geonames.org/1210997/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Bangladesh" ;
+	osnm:hasCode "BD" ;
+	osnm:hasLatitude "24" ;
+	osnm:hasLongitude "90" .
+
+<http://sws.geonames.org/3374084/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Barbados" ;
+	osnm:hasCode "BB" ;
+	osnm:hasLatitude "13,16667" ;
+	osnm:hasLongitude "-59,53333" .
+
+<http://sws.geonames.org/630336/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Belarus" ;
+	osnm:hasCode "BY" ;
+	osnm:hasLatitude "53" ;
+	osnm:hasLongitude "28" .
+
+<http://sws.geonames.org/2802361/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Belgium" ;
+	osnm:hasCode "BE" ;
+	osnm:hasLatitude "50,75" ;
+	osnm:hasLongitude "4,5" .
+
+<http://sws.geonames.org/3582678/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Belize" ;
+	osnm:hasCode "BZ" ;
+	osnm:hasLatitude "17,25" ;
+	osnm:hasLongitude "-88,75" .
+
+<http://sws.geonames.org/2395170/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Benin" ;
+	osnm:hasCode "BJ" ;
+	osnm:hasLatitude "9,5" ;
+	osnm:hasLongitude "2,25" .
+
+<http://sws.geonames.org/3573345/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Bermuda" ;
+	osnm:hasCode "BM" ;
+	osnm:hasLatitude "32,33022" ;
+	osnm:hasLongitude "-64,74003" .
+
+<http://sws.geonames.org/1252634/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Bhutan" ;
+	osnm:hasCode "BT" ;
+	osnm:hasLatitude "27,5" ;
+	osnm:hasLongitude "90,5" .
+
+<http://sws.geonames.org/3923057/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Bolivia" ;
+	osnm:hasCode "BO" ;
+	osnm:hasLatitude "-17" ;
+	osnm:hasLongitude "-65" .
+
+<http://sws.geonames.org/7626844/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Bonaire, Saint Eustatius and Saba" ;
+	osnm:hasCode "BQ" ;
+	osnm:hasLatitude "12,21286" ;
+	osnm:hasLongitude "-68,29445" .
+
+<http://sws.geonames.org/3277605/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Bosnia and Herzegovina" ;
+	osnm:hasCode "BA" ;
+	osnm:hasLatitude "44,25" ;
+	osnm:hasLongitude "17,83333" .
+
+<http://sws.geonames.org/933860/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Botswana" ;
+	osnm:hasCode "BW" ;
+	osnm:hasLatitude "-22" ;
+	osnm:hasLongitude "24" .
+
+<http://sws.geonames.org/3371123/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Bouvet Island" ;
+	osnm:hasCode "BV" ;
+	osnm:hasLatitude "-54,43333" ;
+	osnm:hasLongitude "3,4" .
+
+<http://sws.geonames.org/3469034/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Brazil" ;
+	osnm:hasCode "BR" ;
+	osnm:hasLatitude "-10" ;
+	osnm:hasLongitude "-55" .
+
+<http://sws.geonames.org/1282588/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "British Indian Ocean Territory" ;
+	osnm:hasCode "IO" ;
+	osnm:hasLatitude "-6" ;
+	osnm:hasLongitude "72" .
+
+<http://sws.geonames.org/3577718/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "British Virgin Islands" ;
+	osnm:hasCode "VG" ;
+	osnm:hasLatitude "18,5" ;
+	osnm:hasLongitude "-64,5" .
+
+<http://sws.geonames.org/1820814/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Brunei" ;
+	osnm:hasCode "BN" ;
+	osnm:hasLatitude "4,5" ;
+	osnm:hasLongitude "114,66667" .
+
+<http://sws.geonames.org/732800/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Bulgaria" ;
+	osnm:hasCode "BG" ;
+	osnm:hasLatitude "42,66667" ;
+	osnm:hasLongitude "25,25" .
+
+<http://sws.geonames.org/2361809/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Burkina Faso" ;
+	osnm:hasCode "BF" ;
+	osnm:hasLatitude "12,5" ;
+	osnm:hasLongitude "-1,66667" .
+
+<http://sws.geonames.org/433561/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Burundi" ;
+	osnm:hasCode "BI" ;
+	osnm:hasLatitude "-3,5" ;
+	osnm:hasLongitude "30" .
+
+<http://sws.geonames.org/1831722/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Cambodia" ;
+	osnm:hasCode "KH" ;
+	osnm:hasLatitude "13" ;
+	osnm:hasLongitude "105" .
+
+<http://sws.geonames.org/2233387/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Cameroon" ;
+	osnm:hasCode "CM" ;
+	osnm:hasLatitude "6" ;
+	osnm:hasLongitude "12,5" .
+
+<http://sws.geonames.org/6251999/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Canada" ;
+	osnm:hasCode "CA" ;
+	osnm:hasLatitude "60,10867" ;
+	osnm:hasLongitude "-113,64258" .
+
+<http://sws.geonames.org/3374766/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Cape Verde" ;
+	osnm:hasCode "CV" ;
+	osnm:hasLatitude "16" ;
+	osnm:hasLongitude "-24" .
+
+<http://sws.geonames.org/3580718/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Cayman Islands" ;
+	osnm:hasCode "KY" ;
+	osnm:hasLatitude "19,5" ;
+	osnm:hasLongitude "-80,66667" .
+
+<http://sws.geonames.org/239880/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Central African Republic" ;
+	osnm:hasCode "CF" ;
+	osnm:hasLatitude "7" ;
+	osnm:hasLongitude "21" .
+
+<http://sws.geonames.org/2434508/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Chad" ;
+	osnm:hasCode "TD" ;
+	osnm:hasLatitude "15" ;
+	osnm:hasLongitude "19" .
+
+<http://sws.geonames.org/3895114/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Chile" ;
+	osnm:hasCode "CL" ;
+	osnm:hasLatitude "-30" ;
+	osnm:hasLongitude "-71" .
+
+<http://sws.geonames.org/1814991/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "China" ;
+	osnm:hasCode "CN" ;
+	osnm:hasLatitude "35" ;
+	osnm:hasLongitude "105" .
+
+<http://sws.geonames.org/2078138/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Christmas Island" ;
+	osnm:hasCode "CX" ;
+	osnm:hasLatitude "-10,5" ;
+	osnm:hasLongitude "105,66667" .
+
+<http://sws.geonames.org/1547376/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Cocos Islands" ;
+	osnm:hasCode "CC" ;
+	osnm:hasLatitude "-12,1642" ;
+	osnm:hasLongitude "96,87332" .
+
+<http://sws.geonames.org/3686110/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Colombia" ;
+	osnm:hasCode "CO" ;
+	osnm:hasLatitude "4" ;
+	osnm:hasLongitude "-73,25" .
+
+<http://sws.geonames.org/921929/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Comoros" ;
+	osnm:hasCode "KM" ;
+	osnm:hasLatitude "-12,23333" ;
+	osnm:hasLongitude "44,44553" .
+
+<http://sws.geonames.org/1899402/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Cook Islands" ;
+	osnm:hasCode "CK" ;
+	osnm:hasLatitude "-21,24842" ;
+	osnm:hasLongitude "-159,78516" .
+
+<http://sws.geonames.org/2170371/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Coral Sea Islands" ;
+	osnm:hasCode "AU" ;
+	osnm:hasLatitude "-17,5" ;
+	osnm:hasLongitude "151" .
+
+<http://sws.geonames.org/3624060/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Costa Rica" ;
+	osnm:hasCode "CR" ;
+	osnm:hasLatitude "10" ;
+	osnm:hasLongitude "-84" .
+
+<http://sws.geonames.org/3202326/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Croatia" ;
+	osnm:hasCode "HR" ;
+	osnm:hasLatitude "45,16667" ;
+	osnm:hasLongitude "15,5" .
+
+<http://sws.geonames.org/3562981/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Cuba" ;
+	osnm:hasCode "CU" ;
+	osnm:hasLatitude "22" ;
+	osnm:hasLongitude "-79,5" .
+
+<http://sws.geonames.org/7626836/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Curacao" ;
+	osnm:hasCode "CW" ;
+	osnm:hasLatitude "12,16667" ;
+	osnm:hasLongitude "-68,96667" .
+
+<http://sws.geonames.org/146669/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Cyprus" ;
+	osnm:hasCode "CY" ;
+	osnm:hasLatitude "35" ;
+	osnm:hasLongitude "33" .
+
+<http://sws.geonames.org/3077311/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Czech Republic" ;
+	osnm:hasCode "CZ" ;
+	osnm:hasLatitude "49,75" ;
+	osnm:hasLongitude "15" .
+
+<http://sws.geonames.org/8505031/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Czechoslovakia" ;
+	osnm:hasCode "CS" ;
+	osnm:hasLatitude "50,08292" ;
+	osnm:hasLongitude "14,46672" .
+
+<http://sws.geonames.org/203312/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Democratic Republic of the Congo" ;
+	osnm:hasCode "CD" ;
+	osnm:hasLatitude "-2,5" ;
+	osnm:hasLongitude "23,5" .
+
+<http://sws.geonames.org/2623032/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Denmark" ;
+	osnm:hasCode "DK" ;
+	osnm:hasLatitude "56" ;
+	osnm:hasLongitude "10" .
+
+<http://sws.geonames.org/223816/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Djibouti" ;
+	osnm:hasCode "DJ" ;
+	osnm:hasLatitude "11,83333" ;
+	osnm:hasLongitude "42,5" .
+
+<http://sws.geonames.org/3575830/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Dominica" ;
+	osnm:hasCode "DM" ;
+	osnm:hasLatitude "15,5" ;
+	osnm:hasLongitude "-61,33333" .
+
+<http://sws.geonames.org/3508796/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Dominican Republic" ;
+	osnm:hasCode "DO" ;
+	osnm:hasLatitude "19" ;
+	osnm:hasLongitude "-70,66667" .
+
+<http://sws.geonames.org/1966436/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "East Timor" ;
+	osnm:hasCode "TL" ;
+	osnm:hasLatitude "-8,83333" ;
+	osnm:hasLongitude "125,75" .
+
+<http://sws.geonames.org/3658394/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Ecuador" ;
+	osnm:hasCode "EC" ;
+	osnm:hasLatitude "-1,25" ;
+	osnm:hasLongitude "-78,25" .
+
+<http://sws.geonames.org/357994/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Egypt" ;
+	osnm:hasCode "EG" ;
+	osnm:hasLatitude "27" ;
+	osnm:hasLongitude "30" .
+
+<http://sws.geonames.org/3585968/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "El Salvador" ;
+	osnm:hasCode "SV" ;
+	osnm:hasLatitude "13,83333" ;
+	osnm:hasLongitude "-88,91667" .
+
+<http://sws.geonames.org/2309096/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Equatorial Guinea" ;
+	osnm:hasCode "GQ" ;
+	osnm:hasLatitude "1,7" ;
+	osnm:hasLongitude "10,5" .
+
+<http://sws.geonames.org/338010/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Eritrea" ;
+	osnm:hasCode "ER" ;
+	osnm:hasLatitude "15" ;
+	osnm:hasLongitude "39" .
+
+<http://sws.geonames.org/453733/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Estonia" ;
+	osnm:hasCode "EE" ;
+	osnm:hasLatitude "59" ;
+	osnm:hasLongitude "26" .
+
+<http://sws.geonames.org/337996/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Ethiopia" ;
+	osnm:hasCode "ET" ;
+	osnm:hasLatitude "9" ;
+	osnm:hasLongitude "39,5" .
+
+<http://sws.geonames.org/3474414/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Falkland Islands" ;
+	osnm:hasCode "FK" ;
+	osnm:hasLatitude "-51,75" ;
+	osnm:hasLongitude "-59,16667" .
+
+<http://sws.geonames.org/2622320/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Faroe Islands" ;
+	osnm:hasCode "FO" ;
+	osnm:hasLatitude "62" ;
+	osnm:hasLongitude "-7" .
+
+<http://sws.geonames.org/2205218/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Fiji" ;
+	osnm:hasCode "FJ" ;
+	osnm:hasLatitude "-18" ;
+	osnm:hasLongitude "178" .
+
+<http://sws.geonames.org/660013/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Finland" ;
+	osnm:hasCode "FI" ;
+	osnm:hasLatitude "64" ;
+	osnm:hasLongitude "26" .
+
+<http://sws.geonames.org/3017382/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "France" ;
+	osnm:hasCode "FR" ;
+	osnm:hasLatitude "46" ;
+	osnm:hasLongitude "2" .
+
+<http://sws.geonames.org/3381670/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "French Guiana" ;
+	osnm:hasCode "GF" ;
+	osnm:hasLatitude "4" ;
+	osnm:hasLongitude "-53" .
+
+<http://sws.geonames.org/4030656/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "French Polynesia" ;
+	osnm:hasCode "PF" ;
+	osnm:hasLatitude "-15" ;
+	osnm:hasLongitude "-140" .
+
+<http://sws.geonames.org/1546748/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "French Southern and Antarctic Lands" ;
+	osnm:hasCode "TF" ;
+	osnm:hasLatitude "-43" ;
+	osnm:hasLongitude "67" .
+
+<http://sws.geonames.org/2400553/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Gabon" ;
+	osnm:hasCode "GA" ;
+	osnm:hasLatitude "-1" ;
+	osnm:hasLongitude "11,75" .
+
+<http://sws.geonames.org/2413451/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Gambia" ;
+	osnm:hasCode "GM" ;
+	osnm:hasLatitude "13,5" ;
+	osnm:hasLongitude "-15,5" .
+
+<http://sws.geonames.org/614540/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Georgia" ;
+	osnm:hasCode "GE" ;
+	osnm:hasLatitude "41,99998" ;
+	osnm:hasLongitude "43,4999" .
+
+<http://sws.geonames.org/8354410/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "German Democratic Republic" ;
+	osnm:hasCode "DE" ;
+	osnm:hasLatitude "52,19498" ;
+	osnm:hasLongitude "12,51559" .
+
+<http://sws.geonames.org/2921044/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Germany" ;
+	osnm:hasCode "DE" ;
+	osnm:hasLatitude "51,5" ;
+	osnm:hasLongitude "10,5" .
+
+<http://sws.geonames.org/2300660/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Ghana" ;
+	osnm:hasCode "GH" ;
+	osnm:hasLatitude "8,1" ;
+	osnm:hasLongitude "-1,2" .
+
+<http://sws.geonames.org/2411586/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Gibraltar" ;
+	osnm:hasCode "GI" ;
+	osnm:hasLatitude "36,13333" ;
+	osnm:hasLongitude "-5,35" .
+
+<http://sws.geonames.org/390903/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Greece" ;
+	osnm:hasCode "GR" ;
+	osnm:hasLatitude "39" ;
+	osnm:hasLongitude "22" .
+
+<http://sws.geonames.org/3425505/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Greenland" ;
+	osnm:hasCode "GL" ;
+	osnm:hasLatitude "72" ;
+	osnm:hasLongitude "-40" .
+
+<http://sws.geonames.org/3580239/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Grenada" ;
+	osnm:hasCode "GD" ;
+	osnm:hasLatitude "12,11667" ;
+	osnm:hasLongitude "-61,66667" .
+
+<http://sws.geonames.org/3579143/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Guadeloupe" ;
+	osnm:hasCode "GP" ;
+	osnm:hasLatitude "16,25" ;
+	osnm:hasLongitude "-61,58333" .
+
+<http://sws.geonames.org/4043988/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Guam" ;
+	osnm:hasCode "GU" ;
+	osnm:hasLatitude "13,47861" ;
+	osnm:hasLongitude "144,81834" .
+
+<http://sws.geonames.org/3595528/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Guatemala" ;
+	osnm:hasCode "GT" ;
+	osnm:hasLatitude "15,5" ;
+	osnm:hasLongitude "-90,25" .
+
+<http://sws.geonames.org/3042362/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Guernsey" ;
+	osnm:hasCode "GG" ;
+	osnm:hasLatitude "49,45474" ;
+	osnm:hasLongitude "-2,57629" .
+
+<http://sws.geonames.org/2420477/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Guinea" ;
+	osnm:hasCode "GN" ;
+	osnm:hasLatitude "10,83333" ;
+	osnm:hasLongitude "-10,66667" .
+
+<http://sws.geonames.org/2372248/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Guinea-Bissau" ;
+	osnm:hasCode "GW" ;
+	osnm:hasLatitude "12" ;
+	osnm:hasLongitude "-15" .
+
+<http://sws.geonames.org/3378535/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Guyana" ;
+	osnm:hasCode "GY" ;
+	osnm:hasLatitude "5" ;
+	osnm:hasLongitude "-59" .
+
+<http://sws.geonames.org/3723988/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Haiti" ;
+	osnm:hasCode "HT" ;
+	osnm:hasLatitude "19" ;
+	osnm:hasLongitude "-72,41667" .
+
+<http://sws.geonames.org/1547314/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Heard Island and McDonald Islands" ;
+	osnm:hasCode "HM" ;
+	osnm:hasLatitude "-53,11711" ;
+	osnm:hasLongitude "73,50952" .
+
+<http://sws.geonames.org/3608932/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Honduras" ;
+	osnm:hasCode "HN" ;
+	osnm:hasLatitude "15" ;
+	osnm:hasLongitude "-86,5" .
+
+<http://sws.geonames.org/1819730/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Hong Kong" ;
+	osnm:hasCode "HK" ;
+	osnm:hasLatitude "22,25" ;
+	osnm:hasLongitude "114,16667" .
+
+<http://sws.geonames.org/719819/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Hungary" ;
+	osnm:hasCode "HU" ;
+	osnm:hasLatitude "47" ;
+	osnm:hasLongitude "20" .
+
+<http://sws.geonames.org/2629691/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Iceland" ;
+	osnm:hasCode "IS" ;
+	osnm:hasLatitude "65" ;
+	osnm:hasLongitude "-18" .
+
+<http://sws.geonames.org/8378564/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Imperium Galliarum" ;
+	osnm:hasCode "DE" ;
+	osnm:hasLatitude "50,93951" ;
+	osnm:hasLongitude "6,96156" .
+
+<http://sws.geonames.org/8378566/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Imperium Palmyrenum" ;
+	osnm:hasCode "SY" ;
+	osnm:hasLatitude "34,55069" ;
+	osnm:hasLongitude "38,26738" .
+
+<http://sws.geonames.org/8354456/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Imperium Romanum" ;
+	osnm:hasCode "IT" ;
+	osnm:hasLatitude "41,8925" ;
+	osnm:hasLongitude "12,48499" .
+
+<http://sws.geonames.org/1269750/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "India" ;
+	osnm:hasCode "IN" ;
+	osnm:hasLatitude "22" ;
+	osnm:hasLongitude "79" .
+
+<http://sws.geonames.org/1643084/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Indonesia" ;
+	osnm:hasCode "ID" ;
+	osnm:hasLatitude "-5" ;
+	osnm:hasLongitude "120" .
+
+<http://sws.geonames.org/130758/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Iran" ;
+	osnm:hasCode "IR" ;
+	osnm:hasLatitude "32" ;
+	osnm:hasLongitude "53" .
+
+<http://sws.geonames.org/99237/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Iraq" ;
+	osnm:hasCode "IQ" ;
+	osnm:hasLatitude "33" ;
+	osnm:hasLongitude "44" .
+
+<http://sws.geonames.org/2963597/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Ireland" ;
+	osnm:hasCode "IE" ;
+	osnm:hasLatitude "53" ;
+	osnm:hasLongitude "-8" .
+
+<http://sws.geonames.org/3042225/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Isle of Man" ;
+	osnm:hasCode "IM" ;
+	osnm:hasLatitude "54,25" ;
+	osnm:hasLongitude "-4,5" .
+
+<http://sws.geonames.org/294640/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Israel" ;
+	osnm:hasCode "IL" ;
+	osnm:hasLatitude "31,5" ;
+	osnm:hasLongitude "34,75" .
+
+<http://sws.geonames.org/3175395/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Italy" ;
+	osnm:hasCode "IT" ;
+	osnm:hasLatitude "42,83333" ;
+	osnm:hasLongitude "12,83333" .
+
+<http://sws.geonames.org/2287781/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Ivory Coast" ;
+	osnm:hasCode "CI" ;
+	osnm:hasLatitude "8" ;
+	osnm:hasLongitude "-5,5" .
+
+<http://sws.geonames.org/3489940/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Jamaica" ;
+	osnm:hasCode "JM" ;
+	osnm:hasLatitude "18,16667" ;
+	osnm:hasLongitude "-77,25" .
+
+<http://sws.geonames.org/1861060/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Japan" ;
+	osnm:hasCode "JP" ;
+	osnm:hasLatitude "35,68536" ;
+	osnm:hasLongitude "139,75309" .
+
+<http://sws.geonames.org/3042142/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Jersey" ;
+	osnm:hasCode "JE" ;
+	osnm:hasLatitude "49,21667" ;
+	osnm:hasLongitude "-2,11667" .
+
+<http://sws.geonames.org/8335033/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Jervis Bay" ;
+	osnm:hasCode "AU" ;
+	osnm:hasLatitude "-35,14441" ;
+	osnm:hasLongitude "150,72041" .
+
+<http://sws.geonames.org/248816/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Jordan" ;
+	osnm:hasCode "JO" ;
+	osnm:hasLatitude "31" ;
+	osnm:hasLongitude "36" .
+
+<http://sws.geonames.org/1522867/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Kazakhstan" ;
+	osnm:hasCode "KZ" ;
+	osnm:hasLatitude "48" ;
+	osnm:hasLongitude "68" .
+
+<http://sws.geonames.org/192950/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Kenya" ;
+	osnm:hasCode "KE" ;
+	osnm:hasLatitude "1" ;
+	osnm:hasLongitude "38" .
+
+<http://sws.geonames.org/4030945/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Kiribati" ;
+	osnm:hasCode "KI" ;
+	osnm:hasLatitude "1,421" ;
+	osnm:hasLongitude "172,984" .
+
+<http://sws.geonames.org/831053/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Kosovo" ;
+	osnm:hasCode "XK" ;
+	osnm:hasLatitude "42,58333" ;
+	osnm:hasLongitude "20,91667" .
+
+<http://sws.geonames.org/285570/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Kuwait" ;
+	osnm:hasCode "KW" ;
+	osnm:hasLatitude "29,5" ;
+	osnm:hasLongitude "47,75" .
+
+<http://sws.geonames.org/1527747/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Kyrgyzstan" ;
+	osnm:hasCode "KG" ;
+	osnm:hasLatitude "41,5" ;
+	osnm:hasLongitude "75" .
+
+<http://sws.geonames.org/1655842/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Laos" ;
+	osnm:hasCode "LA" ;
+	osnm:hasLatitude "18" ;
+	osnm:hasLongitude "105" .
+
+<http://sws.geonames.org/458258/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Latvia" ;
+	osnm:hasCode "LV" ;
+	osnm:hasLatitude "57" ;
+	osnm:hasLongitude "25" .
+
+<http://sws.geonames.org/272103/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Lebanon" ;
+	osnm:hasCode "LB" ;
+	osnm:hasLatitude "33,83333" ;
+	osnm:hasLongitude "35,83333" .
+
+<http://sws.geonames.org/932692/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Lesotho" ;
+	osnm:hasCode "LS" ;
+	osnm:hasLatitude "-29,5" ;
+	osnm:hasLongitude "28,25" .
+
+<http://sws.geonames.org/2275384/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Liberia" ;
+	osnm:hasCode "LR" ;
+	osnm:hasLatitude "6,5" ;
+	osnm:hasLongitude "-9,5" .
+
+<http://sws.geonames.org/2215636/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Libya" ;
+	osnm:hasCode "LY" ;
+	osnm:hasLatitude "28" ;
+	osnm:hasLongitude "17" .
+
+<http://sws.geonames.org/3042058/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Liechtenstein" ;
+	osnm:hasCode "LI" ;
+	osnm:hasLatitude "47,16667" ;
+	osnm:hasLongitude "9,53333" .
+
+<http://sws.geonames.org/597427/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Lithuania" ;
+	osnm:hasCode "LT" ;
+	osnm:hasLatitude "55,41667" ;
+	osnm:hasLongitude "24" .
+
+<http://sws.geonames.org/2960313/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Luxembourg" ;
+	osnm:hasCode "LU" ;
+	osnm:hasLatitude "49,75" ;
+	osnm:hasLongitude "6,16667" .
+
+<http://sws.geonames.org/1821275/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Macau" ;
+	osnm:hasCode "MO" ;
+	osnm:hasLatitude "22,15778" ;
+	osnm:hasLongitude "113,55972" .
+
+<http://sws.geonames.org/718075/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Macedonia" ;
+	osnm:hasCode "MK" ;
+	osnm:hasLatitude "41,66667" ;
+	osnm:hasLongitude "21,75" .
+
+<http://sws.geonames.org/1062947/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Madagascar" ;
+	osnm:hasCode "MG" ;
+	osnm:hasLatitude "-20" ;
+	osnm:hasLongitude "47" .
+
+<http://sws.geonames.org/927384/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Malawi" ;
+	osnm:hasCode "MW" ;
+	osnm:hasLatitude "-13,5" ;
+	osnm:hasLongitude "34" .
+
+<http://sws.geonames.org/1733045/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Malaysia" ;
+	osnm:hasCode "MY" ;
+	osnm:hasLatitude "2,5" ;
+	osnm:hasLongitude "112,5" .
+
+<http://sws.geonames.org/1282028/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Maldives" ;
+	osnm:hasCode "MV" ;
+	osnm:hasLatitude "3,2" ;
+	osnm:hasLongitude "73" .
+
+<http://sws.geonames.org/2453866/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Mali" ;
+	osnm:hasCode "ML" ;
+	osnm:hasLatitude "18" ;
+	osnm:hasLongitude "-2" .
+
+<http://sws.geonames.org/2562770/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Malta" ;
+	osnm:hasCode "MT" ;
+	osnm:hasLatitude "35,91667" ;
+	osnm:hasLongitude "14,43333" .
+
+<http://sws.geonames.org/2080185/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Marshall Islands" ;
+	osnm:hasCode "MH" ;
+	osnm:hasLatitude "7,113" ;
+	osnm:hasLongitude "171,236" .
+
+<http://sws.geonames.org/3570311/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Martinique" ;
+	osnm:hasCode "MQ" ;
+	osnm:hasLatitude "14,66667" ;
+	osnm:hasLongitude "-61" .
+
+<http://sws.geonames.org/2378080/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Mauritania" ;
+	osnm:hasCode "MR" ;
+	osnm:hasLatitude "20,25" ;
+	osnm:hasLongitude "-10,5" .
+
+<http://sws.geonames.org/934292/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Mauritius" ;
+	osnm:hasCode "MU" ;
+	osnm:hasLatitude "-20,3" ;
+	osnm:hasLongitude "57,58333" .
+
+<http://sws.geonames.org/1024031/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Mayotte" ;
+	osnm:hasCode "YT" ;
+	osnm:hasLatitude "-12,83333" ;
+	osnm:hasLongitude "45,16667" .
+
+<http://sws.geonames.org/3996063/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Mexico" ;
+	osnm:hasCode "MX" ;
+	osnm:hasLatitude "23" ;
+	osnm:hasLongitude "-102" .
+
+<http://sws.geonames.org/2081918/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Micronesia" ;
+	osnm:hasCode "FM" ;
+	osnm:hasLatitude "6,924" ;
+	osnm:hasLongitude "158,162" .
+
+<http://sws.geonames.org/617790/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Moldova" ;
+	osnm:hasCode "MD" ;
+	osnm:hasLatitude "47,25" ;
+	osnm:hasLongitude "28,58333" .
+
+<http://sws.geonames.org/2993457/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Monaco" ;
+	osnm:hasCode "MC" ;
+	osnm:hasLatitude "43,73141" ;
+	osnm:hasLongitude "7,41903" .
+
+<http://sws.geonames.org/2029969/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Mongolia" ;
+	osnm:hasCode "MN" ;
+	osnm:hasLatitude "46" ;
+	osnm:hasLongitude "105" .
+
+<http://sws.geonames.org/3194884/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Montenegro" ;
+	osnm:hasCode "ME" ;
+	osnm:hasLatitude "42,75" ;
+	osnm:hasLongitude "19,25" .
+
+<http://sws.geonames.org/3578097/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Montserrat" ;
+	osnm:hasCode "MS" ;
+	osnm:hasLatitude "16,75" ;
+	osnm:hasLongitude "-62,2" .
+
+<http://sws.geonames.org/2542007/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Morocco" ;
+	osnm:hasCode "MA" ;
+	osnm:hasLatitude "32" ;
+	osnm:hasLongitude "-6" .
+
+<http://sws.geonames.org/1036973/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Mozambique" ;
+	osnm:hasCode "MZ" ;
+	osnm:hasLatitude "-18,25" ;
+	osnm:hasLongitude "35" .
+
+<http://sws.geonames.org/1327865/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Myanmar" ;
+	osnm:hasCode "MM" ;
+	osnm:hasLatitude "21" ;
+	osnm:hasLongitude "96" .
+
+<http://sws.geonames.org/3355338/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Namibia" ;
+	osnm:hasCode "NA" ;
+	osnm:hasLatitude "-22" ;
+	osnm:hasLongitude "17" .
+
+<http://sws.geonames.org/2110425/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Nauru" ;
+	osnm:hasCode "NR" ;
+	osnm:hasLatitude "-0,517" ;
+	osnm:hasLongitude "166,933" .
+
+<http://sws.geonames.org/1282988/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Nepal" ;
+	osnm:hasCode "NP" ;
+	osnm:hasLatitude "28" ;
+	osnm:hasLongitude "84" .
+
+<http://sws.geonames.org/2750405/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Netherlands" ;
+	osnm:hasCode "NL" ;
+	osnm:hasLatitude "52,25" ;
+	osnm:hasLongitude "5,75" .
+
+<http://sws.geonames.org/8505032/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Netherlands Antilles" ;
+	osnm:hasCode "AN" ;
+	osnm:hasLatitude "12,11721" ;
+	osnm:hasLongitude "-68,91964" .
+
+<http://sws.geonames.org/2139685/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "New Caledonia" ;
+	osnm:hasCode "NC" ;
+	osnm:hasLatitude "-21,5" ;
+	osnm:hasLongitude "165,5" .
+
+<http://sws.geonames.org/2186224/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "New Zealand" ;
+	osnm:hasCode "NZ" ;
+	osnm:hasLatitude "-42" ;
+	osnm:hasLongitude "174" .
+
+<http://sws.geonames.org/3617476/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Nicaragua" ;
+	osnm:hasCode "NI" ;
+	osnm:hasLatitude "13" ;
+	osnm:hasLongitude "-85" .
+
+<http://sws.geonames.org/2440476/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Niger" ;
+	osnm:hasCode "NE" ;
+	osnm:hasLatitude "18" ;
+	osnm:hasLongitude "9" .
+
+<http://sws.geonames.org/2328926/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Nigeria" ;
+	osnm:hasCode "NG" ;
+	osnm:hasLatitude "10" ;
+	osnm:hasLongitude "8" .
+
+<http://sws.geonames.org/4036232/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Niue" ;
+	osnm:hasCode "NU" ;
+	osnm:hasLatitude "-19,03333" ;
+	osnm:hasLongitude "-169,86667" .
+
+<http://sws.geonames.org/2155115/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Norfolk Island" ;
+	osnm:hasCode "NF" ;
+	osnm:hasLatitude "-29,03333" ;
+	osnm:hasLongitude "167,95" .
+
+<http://sws.geonames.org/1873107/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "North Korea" ;
+	osnm:hasCode "KP" ;
+	osnm:hasLatitude "40" ;
+	osnm:hasLongitude "127" .
+
+<http://sws.geonames.org/4041468/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Northern Mariana Islands" ;
+	osnm:hasCode "MP" ;
+	osnm:hasLatitude "15,214" ;
+	osnm:hasLongitude "145,756" .
+
+<http://sws.geonames.org/3144096/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Norway" ;
+	osnm:hasCode "NO" ;
+	osnm:hasLatitude "62" ;
+	osnm:hasLongitude "10" .
+
+<http://sws.geonames.org/286963/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Oman" ;
+	osnm:hasCode "OM" ;
+	osnm:hasLatitude "21" ;
+	osnm:hasLongitude "57" .
+
+<http://sws.geonames.org/1168579/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Pakistan" ;
+	osnm:hasCode "PK" ;
+	osnm:hasLatitude "30" ;
+	osnm:hasLongitude "70" .
+
+<http://sws.geonames.org/1559582/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Palau" ;
+	osnm:hasCode "PW" ;
+	osnm:hasLatitude "7,503" ;
+	osnm:hasLongitude "134,621" .
+
+<http://sws.geonames.org/6254930/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Palestine" ;
+	osnm:hasCode "PS" ;
+	osnm:hasLatitude "31,92157" ;
+	osnm:hasLongitude "35,20329" .
+
+<http://sws.geonames.org/3703430/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Panama" ;
+	osnm:hasCode "PA" ;
+	osnm:hasLatitude "9" ;
+	osnm:hasLongitude "-80" .
+
+<http://sws.geonames.org/2088628/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Papua New Guinea" ;
+	osnm:hasCode "PG" ;
+	osnm:hasLatitude "-6" ;
+	osnm:hasLongitude "147" .
+
+<http://sws.geonames.org/3437598/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Paraguay" ;
+	osnm:hasCode "PY" ;
+	osnm:hasLatitude "-23,33333" ;
+	osnm:hasLongitude "-58" .
+
+<http://sws.geonames.org/3932488/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Peru" ;
+	osnm:hasCode "PE" ;
+	osnm:hasLatitude "-10" ;
+	osnm:hasLongitude "-75,25" .
+
+<http://sws.geonames.org/1694008/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Philippines" ;
+	osnm:hasCode "PH" ;
+	osnm:hasLatitude "13" ;
+	osnm:hasLongitude "122" .
+
+<http://sws.geonames.org/4030699/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Pitcairn" ;
+	osnm:hasCode "PN" ;
+	osnm:hasLatitude "-25,06667" ;
+	osnm:hasLongitude "-130,1" .
+
+<http://sws.geonames.org/798544/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Poland" ;
+	osnm:hasCode "PL" ;
+	osnm:hasLatitude "52" ;
+	osnm:hasLongitude "20" .
+
+<http://sws.geonames.org/2264397/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Portugal" ;
+	osnm:hasCode "PT" ;
+	osnm:hasLatitude "39,6945" ;
+	osnm:hasLongitude "-8,13057" .
+
+<http://sws.geonames.org/4566966/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Puerto Rico" ;
+	osnm:hasCode "PR" ;
+	osnm:hasLatitude "18,24829" ;
+	osnm:hasLongitude "-66,49989" .
+
+<http://sws.geonames.org/289688/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Qatar" ;
+	osnm:hasCode "QA" ;
+	osnm:hasLatitude "25,5" ;
+	osnm:hasLongitude "51,25" .
+
+<http://sws.geonames.org/2260494/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Republic of the Congo" ;
+	osnm:hasCode "CG" ;
+	osnm:hasLatitude "-1" ;
+	osnm:hasLongitude "15,5" .
+
+<http://sws.geonames.org/935317/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Reunion" ;
+	osnm:hasCode "RE" ;
+	osnm:hasLatitude "-21,1" ;
+	osnm:hasLongitude "55,6" .
+
+<http://sws.geonames.org/798549/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Romania" ;
+	osnm:hasCode "RO" ;
+	osnm:hasLatitude "46" ;
+	osnm:hasLongitude "25" .
+
+<http://sws.geonames.org/2017370/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Russia" ;
+	osnm:hasCode "RU" ;
+	osnm:hasLatitude "60" ;
+	osnm:hasLongitude "100" .
+
+<http://sws.geonames.org/49518/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Rwanda" ;
+	osnm:hasCode "RW" ;
+	osnm:hasLatitude "-2" ;
+	osnm:hasLongitude "30" .
+
+<http://sws.geonames.org/3578476/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Saint Barthelemy" ;
+	osnm:hasCode "BL" ;
+	osnm:hasLatitude "17,9" ;
+	osnm:hasLongitude "-62,8257" .
+
+<http://sws.geonames.org/3370751/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Saint Helena, Ascension, and Tristan da Cunha" ;
+	osnm:hasCode "SH" ;
+	osnm:hasLatitude "-15,95" ;
+	osnm:hasLongitude "-5,7" .
+
+<http://sws.geonames.org/3575174/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Saint Kitts and Nevis" ;
+	osnm:hasCode "KN" ;
+	osnm:hasLatitude "17,33333" ;
+	osnm:hasLongitude "-62,75" .
+
+<http://sws.geonames.org/3576468/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Saint Lucia" ;
+	osnm:hasCode "LC" ;
+	osnm:hasLatitude "13,88333" ;
+	osnm:hasLongitude "-60,96667" .
+
+<http://sws.geonames.org/3578421/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Saint Martin" ;
+	osnm:hasCode "MF" ;
+	osnm:hasLatitude "18,06667" ;
+	osnm:hasLongitude "-63,06667" .
+
+<http://sws.geonames.org/3424932/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Saint Pierre and Miquelon" ;
+	osnm:hasCode "PM" ;
+	osnm:hasLatitude "46,83333" ;
+	osnm:hasLongitude "-56,33333" .
+
+<http://sws.geonames.org/3577815/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Saint Vincent and the Grenadines" ;
+	osnm:hasCode "VC" ;
+	osnm:hasLatitude "13,08333" ;
+	osnm:hasLongitude "-61,2" .
+
+<http://sws.geonames.org/4034894/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Samoa" ;
+	osnm:hasCode "WS" ;
+	osnm:hasLatitude "-13,8" ;
+	osnm:hasLongitude "-172,13333" .
+
+<http://sws.geonames.org/3168068/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "San Marino" ;
+	osnm:hasCode "SM" ;
+	osnm:hasLatitude "43,9367" ;
+	osnm:hasLongitude "12,4463" .
+
+<http://sws.geonames.org/2410758/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Sao Tome and Principe" ;
+	osnm:hasCode "ST" ;
+	osnm:hasLatitude "1" ;
+	osnm:hasLongitude "7" .
+
+<http://sws.geonames.org/102358/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Saudi Arabia" ;
+	osnm:hasCode "SA" ;
+	osnm:hasLatitude "25" ;
+	osnm:hasLongitude "45" .
+
+<http://sws.geonames.org/2245662/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Senegal" ;
+	osnm:hasCode "SN" ;
+	osnm:hasLatitude "14,5" ;
+	osnm:hasLongitude "-14,25" .
+
+<http://sws.geonames.org/6290252/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Serbia" ;
+	osnm:hasCode "RS" ;
+	osnm:hasLatitude "44,81892" ;
+	osnm:hasLongitude "20,45998" .
+
+<http://sws.geonames.org/8505033/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Serbia and Montenegro" ;
+	osnm:hasCode "CS" ;
+	osnm:hasLatitude "44,8174" ;
+	osnm:hasLongitude "20,46341" .
+
+<http://sws.geonames.org/241170/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Seychelles" ;
+	osnm:hasCode "SC" ;
+	osnm:hasLatitude "-4,58333" ;
+	osnm:hasLongitude "55,66667" .
+
+<http://sws.geonames.org/2403846/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Sierra Leone" ;
+	osnm:hasCode "SL" ;
+	osnm:hasLatitude "8,5" ;
+	osnm:hasLongitude "-11,5" .
+
+<http://sws.geonames.org/1880251/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Singapore" ;
+	osnm:hasCode "SG" ;
+	osnm:hasLatitude "1,36667" ;
+	osnm:hasLongitude "103,8" .
+
+<http://sws.geonames.org/7609695/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Sint Maarten" ;
+	osnm:hasCode "SX" ;
+	osnm:hasLatitude "18,04167" ;
+	osnm:hasLongitude "-63,06667" .
+
+<http://sws.geonames.org/3057568/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Slovakia" ;
+	osnm:hasCode "SK" ;
+	osnm:hasLatitude "48,66667" ;
+	osnm:hasLongitude "19,5" .
+
+<http://sws.geonames.org/3190538/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Slovenia" ;
+	osnm:hasCode "SI" ;
+	osnm:hasLatitude "46,08333" ;
+	osnm:hasLongitude "15" .
+
+<http://sws.geonames.org/2103350/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Solomon Islands" ;
+	osnm:hasCode "SB" ;
+	osnm:hasLatitude "-8" ;
+	osnm:hasLongitude "159" .
+
+<http://sws.geonames.org/51537/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Somalia" ;
+	osnm:hasCode "SO" ;
+	osnm:hasLatitude "6" ;
+	osnm:hasLongitude "48" .
+
+<http://sws.geonames.org/953987/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "South Africa" ;
+	osnm:hasCode "ZA" ;
+	osnm:hasLatitude "-29" ;
+	osnm:hasLongitude "24" .
+
+<http://sws.geonames.org/3474415/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "South Georgia and the South Sandwich Islands" ;
+	osnm:hasCode "GS" ;
+	osnm:hasLatitude "-56" ;
+	osnm:hasLongitude "-33" .
+
+<http://sws.geonames.org/1835841/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "South Korea" ;
+	osnm:hasCode "KR" ;
+	osnm:hasLatitude "36,5" ;
+	osnm:hasLongitude "127,75" .
+
+<http://sws.geonames.org/7909807/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "South Sudan" ;
+	osnm:hasCode "SS" ;
+	osnm:hasLatitude "7,5" ;
+	osnm:hasLongitude "30" .
+
+<http://sws.geonames.org/2510769/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Spain" ;
+	osnm:hasCode "ES" ;
+	osnm:hasLatitude "40" ;
+	osnm:hasLongitude "-4" .
+
+<http://sws.geonames.org/1227603/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Sri Lanka" ;
+	osnm:hasCode "LK" ;
+	osnm:hasLatitude "7,75" ;
+	osnm:hasLongitude "80,75" .
+
+<http://sws.geonames.org/366755/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Sudan" ;
+	osnm:hasCode "SD" ;
+	osnm:hasLatitude "16" ;
+	osnm:hasLongitude "30" .
+
+<http://sws.geonames.org/3382998/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Suriname" ;
+	osnm:hasCode "SR" ;
+	osnm:hasLatitude "4" ;
+	osnm:hasLongitude "-56" .
+
+<http://sws.geonames.org/607072/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Svalbard and Jan Mayen" ;
+	osnm:hasCode "SJ" ;
+	osnm:hasLatitude "78" ;
+	osnm:hasLongitude "20" .
+
+<http://sws.geonames.org/934841/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Swaziland" ;
+	osnm:hasCode "SZ" ;
+	osnm:hasLatitude "-26,5" ;
+	osnm:hasLongitude "31,5" .
+
+<http://sws.geonames.org/2661886/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Sweden" ;
+	osnm:hasCode "SE" ;
+	osnm:hasLatitude "62" ;
+	osnm:hasLongitude "15" .
+
+<http://sws.geonames.org/2658434/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Switzerland" ;
+	osnm:hasCode "CH" ;
+	osnm:hasLatitude "47,00016" ;
+	osnm:hasLongitude "8,01427" .
+
+<http://sws.geonames.org/163843/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Syria" ;
+	osnm:hasCode "SY" ;
+	osnm:hasLatitude "35" ;
+	osnm:hasLongitude "38" .
+
+<http://sws.geonames.org/1668284/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Taiwan" ;
+	osnm:hasCode "TW" ;
+	osnm:hasLatitude "24" ;
+	osnm:hasLongitude "121" .
+
+<http://sws.geonames.org/1220409/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Tajikistan" ;
+	osnm:hasCode "TJ" ;
+	osnm:hasLatitude "39" ;
+	osnm:hasLongitude "71" .
+
+<http://sws.geonames.org/149590/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Tanzania" ;
+	osnm:hasCode "TZ" ;
+	osnm:hasLatitude "-6" ;
+	osnm:hasLongitude "35" .
+
+<http://sws.geonames.org/1605651/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Thailand" ;
+	osnm:hasCode "TH" ;
+	osnm:hasLatitude "15,5" ;
+	osnm:hasLongitude "101" .
+
+<http://sws.geonames.org/2363686/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Togo" ;
+	osnm:hasCode "TG" ;
+	osnm:hasLatitude "8,66667" ;
+	osnm:hasLongitude "1,08333" .
+
+<http://sws.geonames.org/4031074/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Tokelau" ;
+	osnm:hasCode "TK" ;
+	osnm:hasLatitude "-9,167" ;
+	osnm:hasLongitude "-171,83" .
+
+<http://sws.geonames.org/4032283/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Tonga" ;
+	osnm:hasCode "TO" ;
+	osnm:hasLatitude "-20" ;
+	osnm:hasLongitude "-175" .
+
+<http://sws.geonames.org/226116/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Toro District" ;
+	osnm:hasCode "UG" ;
+	osnm:hasLatitude "0,5" ;
+	osnm:hasLongitude "30,5" .
+
+<http://sws.geonames.org/3573591/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Trinidad and Tobago" ;
+	osnm:hasCode "TT" ;
+	osnm:hasLatitude "11" ;
+	osnm:hasLongitude "-61" .
+
+<http://sws.geonames.org/2464461/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Tunisia" ;
+	osnm:hasCode "TN" ;
+	osnm:hasLatitude "34" ;
+	osnm:hasLongitude "9" .
+
+<http://sws.geonames.org/298795/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Turkey" ;
+	osnm:hasCode "TR" ;
+	osnm:hasLatitude "39" ;
+	osnm:hasLongitude "35" .
+
+<http://sws.geonames.org/1218197/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Turkmenistan" ;
+	osnm:hasCode "TM" ;
+	osnm:hasLatitude "39,75" ;
+	osnm:hasLongitude "59,66667" .
+
+<http://sws.geonames.org/3576916/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Turks and Caicos Islands" ;
+	osnm:hasCode "TC" ;
+	osnm:hasLatitude "21,73333" ;
+	osnm:hasLongitude "-71,58333" .
+
+<http://sws.geonames.org/2110297/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Tuvalu" ;
+	osnm:hasCode "TV" ;
+	osnm:hasLatitude "-8,51719" ;
+	osnm:hasLongitude "179,14478" .
+
+<http://sws.geonames.org/226074/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Uganda" ;
+	osnm:hasCode "UG" ;
+	osnm:hasLatitude "1,25" ;
+	osnm:hasLongitude "32,5" .
+
+<http://sws.geonames.org/690791/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Ukraine" ;
+	osnm:hasCode "UA" ;
+	osnm:hasLatitude "49" ;
+	osnm:hasLongitude "32" .
+
+<http://sws.geonames.org/290557/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "United Arab Emirates" ;
+	osnm:hasCode "AE" ;
+	osnm:hasLatitude "23,75" ;
+	osnm:hasLongitude "54,5" .
+
+<http://sws.geonames.org/2635167/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "United Kingdom" ;
+	osnm:hasCode "GB" ;
+	osnm:hasLatitude "54,75844" ;
+	osnm:hasLongitude "-2,69531" .
+
+<http://sws.geonames.org/5854968/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "United States Minor Outlying Islands" ;
+	osnm:hasCode "UM" ;
+	osnm:hasLatitude "5,875" ;
+	osnm:hasLongitude "-162,057" .
+
+<http://sws.geonames.org/6252001/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "United States of America" ;
+	osnm:hasCode "US" ;
+	osnm:hasLatitude "39,76" ;
+	osnm:hasLongitude "-98,5" .
+
+<http://sws.geonames.org/3439705/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Uruguay" ;
+	osnm:hasCode "UY" ;
+	osnm:hasLatitude "-33" ;
+	osnm:hasLongitude "-56" .
+
+<http://sws.geonames.org/1512440/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Uzbekistan" ;
+	osnm:hasCode "UZ" ;
+	osnm:hasLatitude "41,66667" ;
+	osnm:hasLongitude "63,83333" .
+
+<http://sws.geonames.org/2134431/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Vanuatu" ;
+	osnm:hasCode "VU" ;
+	osnm:hasLatitude "-16" ;
+	osnm:hasLongitude "167" .
+
+<http://sws.geonames.org/3164670/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Vatican City" ;
+	osnm:hasCode "VA" ;
+	osnm:hasLatitude "41,90225" ;
+	osnm:hasLongitude "12,4533" .
+
+<http://sws.geonames.org/3625428/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Venezuela" ;
+	osnm:hasCode "VE" ;
+	osnm:hasLatitude "8" ;
+	osnm:hasLongitude "-66" .
+
+<http://sws.geonames.org/1562822/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Vietnam" ;
+	osnm:hasCode "VN" ;
+	osnm:hasLatitude "16,16667" ;
+	osnm:hasLongitude "107,83333" .
+
+<http://sws.geonames.org/4796775/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Virgin Islands of the United States" ;
+	osnm:hasCode "VI" ;
+	osnm:hasLatitude "18,34829" ;
+	osnm:hasLongitude "-64,98348" .
+
+<http://sws.geonames.org/4034749/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Wallis and Futuna" ;
+	osnm:hasCode "WF" ;
+	osnm:hasLatitude "-13,3" ;
+	osnm:hasLongitude "-176,2" .
+
+<http://sws.geonames.org/2461445/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Western Sahara" ;
+	osnm:hasCode "EH" ;
+	osnm:hasLatitude "24,49215" ;
+	osnm:hasLongitude "-12,65625" .
+
+<http://sws.geonames.org/69543/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Yemen" ;
+	osnm:hasCode "YE" ;
+	osnm:hasLatitude "15,5" ;
+	osnm:hasLongitude "47,5" .
+
+<http://sws.geonames.org/8505034/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Yemen" ;
+	osnm:hasCode "YE" ;
+	osnm:hasLatitude "12,79891" ;
+	osnm:hasLongitude "45,03313" .
+
+<http://sws.geonames.org/7500737/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Yugoslavia" ;
+	osnm:hasCode "YU" ;
+	osnm:hasLatitude "44" ;
+	osnm:hasLongitude "19,75" .
+
+<http://sws.geonames.org/895949/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Zambia" ;
+	osnm:hasCode "ZM" ;
+	osnm:hasLatitude "-14,33333" ;
+	osnm:hasLongitude "28,5" .
+
+<http://sws.geonames.org/878675/> a owl:NamedIndividual , osnm:Country ;
+	rdfs:label "Zimbabwe" ;
+	osnm:hasCode "ZW" ;
+	osnm:hasLatitude "-19" ;
+	osnm:hasLongitude "29,75" .
