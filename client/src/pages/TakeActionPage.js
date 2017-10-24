@@ -50,7 +50,7 @@ const TakeActionPage = () => (
           </blockquote>
           <p>
             <a
-              className="btn btn-lg btn-primary"
+              className="btn btn-lg btn-outline-primary"
               href="http://www.greenpeace.org/international/en/campaigns/climate-change/End-oil-and-gas/"
               role="button"
               target="_blank" rel="noopener noreferrer">
@@ -78,7 +78,7 @@ const TakeActionPage = () => (
           </blockquote>
           <p>
             <a
-              className="btn btn-lg btn-primary"
+              className="btn btn-lg btn-outline-primary"
               href="https://www.worldwildlife.org/threats/oil-and-gas-development"
               role="button"
               target="_blank"
@@ -105,7 +105,7 @@ const TakeActionPage = () => (
             preparedness and response.
           </blockquote>
           <p>
-            <a className="btn btn-lg btn-primary"
+            <a className="btn btn-lg btn-outline-primary"
                href="http://www.ipieca.org/our-work/environment/oil-spill-preparedness-and-response/the-global-initiative-for-oil-spill-preparedness-and-response/"
                role="button"
                target="_blank"
@@ -126,8 +126,9 @@ const TakeActionPage = () => (
             </a>
           </div>
         </div>
-        <div className="col-md-5">
-          <img className="image img-fluid mx-auto" src="https://i.imgur.com/DesuwCN.png" alt="IPIECA"/>
+        <div className="col-md-5 text-center">
+          <img className="image img-fluid mx-auto float-xl-right float-lg-right float-md-right"
+               src="https://i.imgur.com/DesuwCN.png" alt="IPIECA"/>
         </div>
       </div>
     </div>

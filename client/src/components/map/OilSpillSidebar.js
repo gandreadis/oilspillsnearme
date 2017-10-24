@@ -2,6 +2,7 @@ import approx from "approximate-number";
 import {inject, observer} from "mobx-react";
 import React from 'react';
 import {Link} from "react-router-dom";
+import {formatSpillDate, getSpillName} from "../../util/spill-text";
 
 @inject("spillStore")
 @observer
@@ -28,7 +29,7 @@ class OilSpillSidebar extends React.Component {
         }}
       >
         <h2 className="p-3 pr-5 bg-info text-white">
-          {spill.name}
+          {getSpillName(spill)}
           <button
             className="btn btn-info float-right"
             title="Close sidebar"
@@ -36,18 +37,26 @@ class OilSpillSidebar extends React.Component {
             style={{
               position: "absolute",
               right: 10,
+              top: 10
             }}
           >
             <span className="fa fa-times"/>
           </button>
         </h2>
         <div className="container-fluid">
-          Occurred on {spill.date}<br/>
-          <span className="fa fa-tint"/>
-          <strong>{approx(spill.sizeTonnes)}</strong> tonnes of oil spilt
+          <span className="text-muted">Occurred on {formatSpillDate(spill)}</span><br/>
+          <span className="fa fa-tint mr-1"/>
+          <strong>{approx(spill.size)}</strong> m<sup>3</sup> of oil spilt
+
+          {spill.note ?
+            <div className="card p-2 mt-2" style={{maxHeight: 200, overflowY: "auto"}}>
+              {spill.note}
+            </div> :
+            undefined
+          }
 
           <div className="text-center">
-            <Link to={"/spill/" + spill.id} className="btn btn-primary mt-2">
+            <Link to={"/spill/" + spill.id} className="btn btn-primary btn-block mt-2">
               More info
               <span className="fa fa-angle-right ml-2"/>
             </Link>

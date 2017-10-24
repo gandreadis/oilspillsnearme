@@ -10,7 +10,12 @@ To get started, you'll need the [Node.js environment](https://nodejs.org) and th
 
 ### Quick Deployment
 
-First, make sure you have a Stardog instance running (typically through `stardog-admin.bat server start --disable-security`). Create a database `osnm` and load all RDFs of the `data` folder in that DB.
+First, make sure you have a Stardog instance running (typically through `stardog-admin.bat server start --disable-security`). Create a database `osnm` and load all RDFs of the `sources` folder into that DB:
+
+```cmd
+stardog data remove --all osnm
+stardog data add osnm sources/*
+```
 
 Once the database is set up and running, run the following sequence of commands, starting in the root directory of this repository:
 

@@ -3,6 +3,7 @@ import React from 'react';
 import {Helmet} from "react-helmet";
 import {Link, Redirect} from "react-router-dom";
 import PageHeader from "../components/navigation/PageHeader";
+import {getSpillName} from "../util/spill-text";
 import { ComposedChart, LineChart, BarChart, AreaChart, Line, Area, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend} from 'recharts';
 
 var randomColor = require('randomcolor');
@@ -74,10 +75,10 @@ class SpillPage extends React.Component {
     return (
       <div className="full-height">
         <Helmet>
-          <title>{spill.name} - oilspillsnear.me</title>
+          <title>{getSpillName(spill)} - oilspillsnear.me</title>
         </Helmet>
         <PageHeader>
-          {spill.name}
+          {getSpillName(spill)}
         </PageHeader>
         <div>
           <h2>Sea species</h2>

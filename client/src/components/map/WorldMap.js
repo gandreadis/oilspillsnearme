@@ -16,7 +16,7 @@ class WorldMap extends React.Component {
     selectedSpill: undefined,
     locationIsShared: false,
     showSpills: true,
-    showRigs: true,
+    showRigs: false,
   };
 
   render() {

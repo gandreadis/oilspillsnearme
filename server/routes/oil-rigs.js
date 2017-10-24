@@ -7,7 +7,8 @@ router.get('/', function (req, res, next) {
   executeSparql(`
     PREFIX osnm: <http://www.oilspillsnear.me/>
     PREFIX time: <http://www.w3.org/2006/time#>
-    SELECT DISTINCT ?countryName ?count 
+    SELECT DISTINCT ?countryName ?count
+    
     WHERE {
       ?oilRigCount time:year "2010" .
       ?oilRigCount osnm:countryName ?countryName .
