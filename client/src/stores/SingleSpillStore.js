@@ -25,6 +25,7 @@ export class SingleSpillStore {
 
     const beachItems = await fetchJSON(`/oil-spills/${spillId}/beaches`);
     runInAction(() => {
+      this.beaches.clear();
       beachItems.forEach(item => {
         this.beaches.push(item);
       });
