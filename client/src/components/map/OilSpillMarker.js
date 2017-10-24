@@ -1,13 +1,9 @@
 import approx from "approximate-number";
 import {DomEvent} from "leaflet";
-import {inject, observer} from "mobx-react";
 import React from 'react';
 import {CircleMarker, Tooltip} from "react-leaflet";
 import {getSpillName} from "../../util/spill-text";
-import "./WorldMap.css";
 
-@inject("spillStore")
-@observer
 class OilSpillMarker extends React.Component {
   render() {
     return (
