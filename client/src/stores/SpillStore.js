@@ -50,12 +50,20 @@ export class SpillStore {
       return this.spills.map(spill => spill.id);
     }
 
-    var tempList, oilSpillList, dif, i;
-    tempList = oilSpillList = [];
+    if (this.currentLatitude.get() === 0 && this.currentLongitude.get() === 0) {
+      return [];
+    }
+
+    console.log(this.currentLatitude.get(), this.currentLongitude.get());
+    let dist, i;
+    const tempList = [];
+    const oilSpillList = [];
     for (i = 0; i < this.spills.length; i++) {
-      dif = computeDistanceToSpill(
-        this.currentLatitude, this.currentLongitude, this.spills[i].lat, this.spills[i].lng);
-      tempList.push([dif, this.spills[i].id]);
+      dist = computeDistanceToSpill(
+        this.currentLatitude, this.currentLongitude,
+        this.spills[i].lat, this.spills[i].lng
+      );
+      tempList.push([dist, this.spills[i].id]);
     }
     tempList.sort(sortOnDistance);
     for (i = 0; i < SpillStore.NUM_NEAREST_SPILLS; i++) {
