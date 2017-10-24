@@ -2,7 +2,6 @@ import {inject, observer} from "mobx-react";
 import React from 'react';
 import {FeatureGroup} from "react-leaflet";
 import OilSpillMarker from "./OilSpillMarker";
-import "./WorldMap.css";
 
 @inject("spillStore")
 @observer

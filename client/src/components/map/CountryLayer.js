@@ -1,7 +1,6 @@
 import {inject, observer} from "mobx-react";
 import React from 'react';
 import {FeatureGroup, GeoJSON, Tooltip} from "react-leaflet";
-import "./WorldMap.css";
 
 @inject("countryRigStore")
 @observer

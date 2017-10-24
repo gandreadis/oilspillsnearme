@@ -5,12 +5,13 @@ import App from './App';
 import './index.css';
 import registerServiceWorker from './registerServiceWorker';
 import countryRigStore from "./stores/CountryRigStore";
-
+import singleSpillStore from "./stores/SingleSpillStore";
 import spillStore from "./stores/SpillStore";
 
 const stores = {
   spillStore,
   countryRigStore,
+  singleSpillStore
 };
 
 ReactDOM.render(

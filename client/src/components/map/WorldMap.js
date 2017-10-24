@@ -6,7 +6,6 @@ import MyCurrentLocationMarker from "./MyCurrentLocationMarker";
 import OilSpillLayer from "./OilSpillLayer";
 import OilSpillSidebar from "./OilSpillSidebar";
 import ViewFilterControls from "./ViewFilterControls";
-import "./WorldMap.css";
 
 class WorldMap extends React.Component {
   state = {

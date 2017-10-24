@@ -22,7 +22,7 @@ class MyCurrentLocationMarker extends React.Component {
         ? <div>Geolocation is not enabled</div>
         : this.props.coords
           ?
-          <Marker map={this.refs.map} position={[this.props.coords.latitude, this.props.coords.longitude]} />
+          <Marker position={[this.props.coords.latitude, this.props.coords.longitude]}/>
           : <div>Getting the location data&hellip; </div>
     );
   }
