@@ -1,3 +1,4 @@
+import LogScale from "log-scale";
 import {action, computed, observable} from "mobx";
 import fetchJSON from "../api/fetch-json";
 
@@ -26,6 +27,14 @@ export class SpillStore {
     fetchJSON("/oil-spills")
       .then(action(spills => {
         this.spillRegistry.clear();
+
+        // Compute logarithmic size
+        const maxSize = Math.max(...spills.map(spill => spill.size));
+        const logScale = new LogScale(1, maxSize);
+        spills.forEach(spill => {
+          spill.sizeLog = logScale.logarithmicToLinear(Math.max(1, spill.size));
+        });
+
         spills.forEach(spill => this.spillRegistry.set(spill.id, spill));
       }));
   }

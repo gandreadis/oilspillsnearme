@@ -3,6 +3,7 @@ import {DomEvent} from "leaflet";
 import {inject, observer} from "mobx-react";
 import React from 'react';
 import {CircleMarker, Tooltip} from "react-leaflet";
+import {getSpillName} from "../../util/spill-text";
 import "./WorldMap.css";
 
 @inject("spillStore")
@@ -12,10 +13,10 @@ class OilSpillMarker extends React.Component {
     return (
       <CircleMarker
         center={{
-          lat: this.props.oilSpill.lat,
-          lng: this.props.oilSpill.lng,
+          lat: parseFloat(this.props.oilSpill.lat),
+          lng: parseFloat(this.props.oilSpill.lng),
         }}
-        radius={this.props.oilSpill.sizeTonnes / 5000}
+        radius={this.props.oilSpill.sizeLog * 30}
         color={this.props.color}
         fillColor={this.props.fillColor}
         fillOpacity={this.props.selectedSpill === this.props.oilSpill.id ? 0.7 : 0.3}
@@ -27,9 +28,9 @@ class OilSpillMarker extends React.Component {
       >
         <Tooltip>
           <div>
-            <strong>{this.props.oilSpill.name}</strong><br/>
-            On {this.props.oilSpill.date}<br/>
-            {approx(this.props.oilSpill.sizeTonnes)} tonnes of oil spilt<br/>
+            <strong>{getSpillName(this.props.oilSpill)}</strong><br/>
+            {approx(this.props.oilSpill.size)} m<sup>3</sup> of oil spilt<br/>
+            <span className="text-muted">{(new Date(Date.parse(this.props.oilSpill.dateTime))).getFullYear()}</span>
           </div>
         </Tooltip>
       </CircleMarker>

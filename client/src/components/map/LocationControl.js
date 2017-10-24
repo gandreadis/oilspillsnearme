@@ -10,7 +10,7 @@ const LocationControl = ({setLocation, locationIsShared, toggleLocationIsShared}
     onClick={toggleLocationIsShared}
   >
     <span className="fa fa-location-arrow mr-2"/>
-    Oil spills near me
+    Recent oil spills near me
   </button>
 );
 
