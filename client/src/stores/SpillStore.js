@@ -54,7 +54,6 @@ export class SpillStore {
       return [];
     }
 
-    console.log(this.currentLatitude.get(), this.currentLongitude.get());
     let dist, i;
     const tempList = [];
     const oilSpillList = [];
