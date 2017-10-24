@@ -1,15 +1,8 @@
+const {mapBindingToValues} = require("./util");
 const {executeSparql} = require("../rdf-store-connector");
 
 const express = require('express');
 const router = express.Router();
-
-const mapBindingToValues = binding => {
-  const values = {};
-  Object.keys(binding).forEach(key => {
-    values[key] = binding[key].value
-  });
-  return values;
-};
 
 router.get('/', function (req, res, next) {
   executeSparql(`
