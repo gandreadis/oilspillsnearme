@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 import Footer from "../components/navigation/Footer";
 import "./osnm.css";
 
@@ -16,13 +17,13 @@ const HomePage = () => (
         <p className="lead mt-3">
           Putting oil spills around you on a map
         </p>
-        <a className="btn btn-lg btn-primary mt-3" href="/map" role="button">Show me oil spills near me</a>
+        <Link className="btn btn-lg btn-primary mt-3" to="/map">Show me oil spills near me</Link>
       </div>
     </div>
 
     <div style={{backgroundColor: "#473220", padding: "100px 0"}}>
       <div className="container text-white">
-        <div className="text-center display-4 mb-3">It's no secret that oil spills are bad.</div>
+        <div className="text-center display-4 mb-3">It's no secret that oil spills are <strong>bad</strong>.</div>
         <div className="lead">
           But was there an oil spill in your area <strong>recently</strong>? What where its <strong>impacts</strong> on
           your life, whether indirect or direct? What can you do to help <strong>reduce</strong> their future impacts
@@ -32,7 +33,7 @@ const HomePage = () => (
       </div>
     </div>
 
-    <div className="container pt-5">
+    <div className="container pt-5 pb-5">
       <div className="row mt-5">
         <div className="col-md-7">
           <h2 className="heading">Ecosystems</h2>
@@ -40,9 +41,9 @@ const HomePage = () => (
             Whenever an oil spill happens, not only oil but also other
             toxic chemicals are leaked into the ocean, killing different creatures that inhabit
             parts of the area around the spill. Since it is almost impossible to recover
-            all the spilled chemicals out of the water, this can have a long lasting effect on
-            the biodiversity in the area. For instance in April of 2010, an estimated 206 million gallons
-            of oil was spilled in the Gulf of Mexico, killing hundreds of birds and marine life and most likely
+            all spilled chemicals from the water, this can have a long lasting effect on
+            the biodiversity in the area. For instance, in April of 2010, an estimated 206 million gallons
+            of oil were spilled in the Gulf of Mexico, killing hundreds of birds and marine life and most likely
             devastating the gulf coast for years to come.
             <sup>
               <small>
@@ -68,11 +69,11 @@ const HomePage = () => (
         <div className="col-md-7 order-md-2">
           <h2 className="heading">Local Industries</h2>
           <p className="lead">
-            Local industries like fishing and tourism suffer from oil spills
-            as well. After the oil spill in the Gulf of Mexico, as long as 5 years after the spill,
-            fishermen still felt the effect of the spill every single day.
-            They suffered from huge income losses because the amount they caught dropped severely and
-            fish they did catch, barely had any meat on them to be of much value.
+            Local industries like fishing and tourism suffer from oil spills,
+            as well. For as long as 5 years after the oil spill in the Gulf of Mexico,
+            fishermen still felt its impacts every single day.
+            They suffered from huge income losses because the amount they caught dropped severely. Fish they did manage
+            to catch, barely had any meat on them to be of much value.
             <sup>
               <small>
                 <a
@@ -92,6 +93,21 @@ const HomePage = () => (
         </div>
       </div>
     </div>
+
+    <div style={{backgroundColor: "#473220", padding: "70px 0"}}>
+      <div className="container">
+        <div className="row">
+          <div className="col">
+            <Link to="/map" className="btn btn-primary btn-lg btn-block mb-sm-2">What are recent oil spills near
+              me?</Link>
+          </div>
+          <div className="col">
+            <Link to="/take-action" className="btn btn-warning btn-lg btn-block">What are ways to take action?</Link>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <Footer/>
   </div>
 );
