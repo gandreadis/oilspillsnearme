@@ -13,9 +13,10 @@ class CountryLayer extends React.Component {
           <GeoJSON
             key={country.properties.admin}
             style={{
-              color: "rgb(" + 255 * country.properties.rigs.count / 15 + ", 150, 150)",
+              color: "rgb(71, 50, 32)",
               stroke: false,
-              fillOpacity: 0.4
+              fillOpacity: country.properties.rigs.countLog * 0.7,
+              strokeOpacity: country.properties.rigs.countLog * 0.7
             }}
             data={country}
           >

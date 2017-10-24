@@ -1,3 +1,4 @@
+import LogScale from "log-scale";
 import {action, observable, runInAction} from "mobx";
 import fetchJSON from "../api/fetch-json";
 
@@ -28,8 +29,14 @@ export class CountryRigStore {
       }
     });
 
+    const maxValue = Math.max(...countryOilRigItems.map(item => item.properties.rigs.count));
+    const logScale = new LogScale(0, maxValue);
+
     runInAction(() => {
-      countryOilRigItems.forEach(item => this.countryOilRigs.push(item));
+      countryOilRigItems.forEach(item => {
+        item.properties.rigs.countLog = logScale.logarithmicToLinear(item.properties.rigs.count);
+        this.countryOilRigs.push(item);
+      });
     });
   }
 }
