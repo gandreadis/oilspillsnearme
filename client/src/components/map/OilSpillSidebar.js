@@ -20,7 +20,7 @@ class OilSpillSidebar extends React.Component {
           position: "absolute",
           right: 0,
           top: 0,
-          zIndex: 1000,
+          zIndex: 1002,
           width: 350,
           height: "100%",
           backgroundColor: "rgba(230, 230, 230, 0.8)",
