@@ -2,7 +2,13 @@
   <img src="https://github.com/gandreadis/oilspillsnearme/raw/master/client/public/android-chrome-192x192.png" width="100"/><br/>
   oilspillsnear.me
 </h1>
-<p align="center">Visualizing the impact of oil spills</p>
+<p align="center">Putting oil spills around you on a map</p>
+
+<img src="https://github.com/gandreadis/oilspillsnearme/raw/master/images/oilspillsnearme-map-screenshot.png"/>
+
+Do you know what oil spills have occurred close to you in the last years? Do you know what their impact on environment and society might have been? With **oilspillsnear.me**, you can have a look at a global map of oil spills, as well as their impacts on the environment and industry of the nearest country. It also gives perspective on what still needs to be done: View how much offshore oil rigs your country still has, and learn about initiatives that you can back to reduce our dependence on these dangerous forms of energy.
+
+This project has been built as a final project for a course on Semantic Web technologies at the VU Amsterdam. It is built upon linked data formalisms, using custom-made OWL ontologies that are served from a Stardog triple store.
 
 ## Installation
 
