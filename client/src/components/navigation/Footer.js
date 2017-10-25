@@ -12,17 +12,6 @@ const Footer = () => (
           <div>
             <div>
               <strong className="contact-heading">
-                <span className="fa fa-envelope"/>
-                {" "}
-                Contact
-              </strong>
-              <br/>
-              <a href="mailto:info@oilspillsnear.me">
-                info@oilspillsnear.me
-              </a>
-            </div>
-            <div className="mt-3">
-              <strong className="contact-heading">
                 <span className="fa fa-github"/>
                 {" "}
                 Source
@@ -30,6 +19,17 @@ const Footer = () => (
               <br/>
               <a href="https://github.com/gandreadis/oilspillsnearme" target="_blank" rel="noopener noreferrer">
                 gandreadis/oilspillsnearme
+              </a>
+            </div>
+            <div className="mt-3">
+              <strong className="contact-heading">
+                <span className="fa fa-envelope"/>
+                {" "}
+                Contact
+              </strong>
+              <br/>
+              <a href="mailto:info@gandreadis.com">
+                info@gandreadis.com
               </a>
             </div>
           </div>
