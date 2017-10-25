@@ -80,7 +80,7 @@ router.get('/:id/beaches', function (req, res, next) {
     reasoning: true
   }).then(({body}) => {
     if (body.results.bindings.length === 0) {
-      res.status(404).send("Not found.");
+      res.json([]);
       return;
     }
 
@@ -109,7 +109,7 @@ router.get('/:id/seafood-production', function (req, res, next) {
     reasoning: true
   }).then(({body}) => {
     if (body.results.bindings.length === 0) {
-      res.status(404).send("Not found.");
+      res.json([]);
       return;
     }
 
@@ -138,7 +138,7 @@ router.get('/:id/tourism-arrival', function (req, res, next) {
     reasoning: true
   }).then(({body}) => {
     if (body.results.bindings.length === 0) {
-      res.status(404).send("Not found.");
+      res.json([]);
       return;
     }
 
@@ -167,7 +167,7 @@ router.get('/:id/tourism-expenditures', function (req, res, next) {
     reasoning: true
   }).then(({body}) => {
     if (body.results.bindings.length === 0) {
-      res.status(404).send("Not found.");
+      res.json([]);
       return;
     }
 
