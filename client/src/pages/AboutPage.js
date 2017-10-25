@@ -73,7 +73,6 @@ const AboutPage = () => (
         complete picture of the incidents and their consequences. We also propose <Link to="/take-action">concrete
         steps</Link> that you can follow to contribute to a future with less marine oil pollution!
       </p>
-
       <h4>Background</h4>
       <p>
         This website was created as a final project of a course on semantic web technologies at the VU Amsterdam. A
@@ -84,9 +83,39 @@ const AboutPage = () => (
     <ContentSection title="Sources" backgroundColor="#19381B" color="#EEEEEE">
       <ul className="list-group" style={{color: "#111111"}}>
         <SourceItem
+          title="Food production"
+          description="Kg per person per year"
+          url="https://knoema.com/atlas/topics/Food-Security/Food-Production/Fish-and-seafood-production"
+        />
+        <SourceItem
           title="GeoJSON for all countries"
           description="Sourced from Natural Earth"
           url="https://geojson-maps.ash.ms"
+        />
+        <SourceItem
+          title="Geonames"
+          description="Used for countries and beaches"
+          url="https://knoema.com/atlas/topics/Food-Security/Food-Production/Fish-and-seafood-production"
+        />
+        <SourceItem
+          title="Oil rigs"
+          description="Number per country: land and offshore"
+          url="https://www.tableau.com/solutions/gallery/worldwide-oil-rigs"
+        />
+        <SourceItem
+          title="Oil spills"
+          description="Includes older records 1957-1984"
+          url="https://incidentnews.noaa.gov/raw/index"
+        />
+        <SourceItem
+          title="Tourism arrival"
+          description="Number per year"
+          url="https://knoema.com/atlas/topics/Tourism/Key-Tourism-Indicators/Number-of-arrivals"
+        />
+        <SourceItem
+          title="Tourism expenditures"
+          description="U.S. dollars per year"
+          url="https://knoema.com/atlas/topics/Tourism/Key-Tourism-Indicators/Tourism-expenditures"
         />
       </ul>
     </ContentSection>
@@ -158,5 +187,4 @@ const AboutPage = () => (
     <Footer/>
   </div>
 );
-
 export default AboutPage;
