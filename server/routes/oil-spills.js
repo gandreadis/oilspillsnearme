@@ -88,7 +88,7 @@ router.get('/:id/beaches', function (req, res, next) {
   });
 });
 
-router.get('/:id/seafood_production', function (req, res, next) {
+router.get('/:id/seafood-production', function (req, res, next) {
   executeSparql(`
     PREFIX osnm: <http://www.oilspillsnear.me/>
     PREFIX time: <http://www.w3.org/2006/time#>
@@ -117,7 +117,7 @@ router.get('/:id/seafood_production', function (req, res, next) {
   });
 });
 
-router.get('/:id/tourism_arrival', function (req, res, next) {
+router.get('/:id/tourism-arrival', function (req, res, next) {
   executeSparql(`
     PREFIX osnm: <http://www.oilspillsnear.me/>
     PREFIX time: <http://www.w3.org/2006/time#>
@@ -146,7 +146,7 @@ router.get('/:id/tourism_arrival', function (req, res, next) {
   });
 });
 
-router.get('/:id/tourism_expenditures', function (req, res, next) {
+router.get('/:id/tourism-expenditures', function (req, res, next) {
   executeSparql(`
     PREFIX osnm: <http://www.oilspillsnear.me/>
     PREFIX time: <http://www.w3.org/2006/time#>

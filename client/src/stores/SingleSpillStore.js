@@ -34,22 +34,25 @@ export class SingleSpillStore {
       });
     });
 
-    const seafoodProductionItems = await fetchJSON(`/oil-spills/${spillId}/seafood_production`);
+    const seafoodProductionItems = await fetchJSON(`/oil-spills/${spillId}/seafood-production`);
     runInAction(() => {
+      this.seafood_production.clear();
       seafoodProductionItems.forEach(item => {
         this.seafood_production.push(item);
       });
     });
 
-    const tourismArrivalItems = await fetchJSON(`/oil-spills/${spillId}/tourism_arrival`);
+    const tourismArrivalItems = await fetchJSON(`/oil-spills/${spillId}/tourism-arrival`);
     runInAction(() => {
+      this.tourism_arrival.clear();
       tourismArrivalItems.forEach(item => {
         this.tourism_arrival.push(item);
       });
     });
 
-    const tourismExpendituresItems = await fetchJSON(`/oil-spills/${spillId}/tourism_expenditures`);
+    const tourismExpendituresItems = await fetchJSON(`/oil-spills/${spillId}/tourism-expenditures`);
     runInAction(() => {
+      this.tourism_expenditures.clear();
       tourismExpendituresItems.forEach(item => {
         this.tourism_expenditures.push(item);
       });

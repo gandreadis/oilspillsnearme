@@ -25,6 +25,9 @@ var lis = []
 for (var type=0; type<typeList.length; type++) {
   lis.push(<Bar dataKey={typeList[type]} stackId="a" fill={randomColor()} />);
 }
+function retr_dec(num) {
+  return (num.split(',')[1] || []).length;
+}
 
 @inject("singleSpillStore")
 @observer
@@ -55,9 +58,17 @@ class SpillPage extends React.Component {
     ))}
 
     const tourism_expenditures = [];
-    {this.props.singleSpillStore.tourism_expenditures.map(expenditures => (
+    {this.props.singleSpillStore.tourism_expenditures.map(expenditures => {
+      if(this.props.singleSpillStore.tourism_expenditures.length !== 0){
+        if(expenditures.amount.toString().indexOf('E+') !== -1 ){
+          var res = expenditures.amount.split("E+");
+          var dec = retr_dec(res[0]);
+          expenditures.amount = parseInt(res[0].replace(",", ""))*Math.pow(10, (parseInt(res[1])-dec));
+        }
+      }
+
       tourism_expenditures.push({ time: parseInt(expenditures.time), amount: parseInt(expenditures.amount) })
-    ))}
+    })}
 
     return (
       <div className="full-height">
@@ -93,6 +104,7 @@ class SpillPage extends React.Component {
             {lis}
           </BarChart>
         </div>
+        {this.props.singleSpillStore.seafood_production.length !== 0 ?
         <div className="container">
           <h2 className="pt-5 pb-2 text-center">Seafood production</h2>
           <AreaChart width={1000} height={400} data={seafood_production} margin={{top: 20, right: 20, left: 70, bottom: 20}}>
@@ -103,6 +115,9 @@ class SpillPage extends React.Component {
             <Area type='monotone' dataKey='amount' stroke='#473220' fill='#a16d41' activeDot={{r: 6}}/>
           </AreaChart>
         </div>
+          :
+          undefined
+        }
        <div className="container">
         <h2 className="pt-5 pb-2 text-center">Beaches of the nearest country</h2>
         <div className="row">
@@ -113,6 +128,7 @@ class SpillPage extends React.Component {
           </div>
         </div>
         </div>
+        {this.props.singleSpillStore.tourism_arrival.length !== 0 ?
         <div className="container">
           <h2 className="pt-5 pb-2 text-center">Tourist arrivals</h2>
           <AreaChart width={1000} height={400} data={tourism_arrival} margin={{top: 20, right: 20, left: 70, bottom: 20}}>
@@ -123,6 +139,10 @@ class SpillPage extends React.Component {
             <Area type="monotone" dataKey="amount" stroke="#11265B" fill='#F0F8FF' activeDot={{r: 6}}/>
           </AreaChart>
         </div>
+          :
+          undefined
+        }
+        {this.props.singleSpillStore.tourism_expenditures.length !== 0 ?
         <div className="container">
           <h2 className="pt-5 pb-2 text-center">Tourism expenditures</h2>
           <ComposedChart width={1000} height={400} data={tourism_expenditures} margin={{top: 20, right: 20, bottom: 20, left: 70}}>
@@ -134,6 +154,9 @@ class SpillPage extends React.Component {
             <Line type='monotone' dataKey='amount' stroke='#ff7300'/>
           </ComposedChart>
         </div>
+          :
+          undefined
+        }
         <div className="text-center">
           <Link to={"/map"} className="btn btn-primary btn-lg mt-5 mb-5">
             <span className="fa fa-angle-left mr-2"/>
@@ -154,7 +177,7 @@ export function SeafoodProductionTooltip(props) {
     var tooltip = "";
     if (payload !== null) {
       const value = payload[0].value * 1000;
-      tooltip = "In " + payload[0].payload.time + ", the country produced " + value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".") + " tonnes seafood"
+      tooltip = "In " + payload[0].payload.time + ", this country produced " + value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".") + " tonnes seafood"
     }
     return (
       <div className='custom-tooltip'>
