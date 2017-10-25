@@ -4,6 +4,7 @@ import fetchJSON from "../api/fetch-json";
 export class SingleSpillStore {
   spillId = observable(-1);
   spill = observable({});
+  sea_species = observable.shallowArray();
   beaches = observable.shallowArray();
   seafood_production = observable.shallowArray();
   tourism_arrival = observable.shallowArray();
@@ -25,6 +26,14 @@ export class SingleSpillStore {
       Object.keys(spillObj).forEach(key => this.spill[key] = spillObj[key]);
     });
     this.spillId.set(spillId);
+
+    const seaSpeciesItems = await fetchJSON(`/oil-spills/${spillId}/sea-species`);
+    runInAction(() => {
+      this.sea_species.clear();
+      seaSpeciesItems.forEach(item => {
+        this.sea_species.push(item);
+      });
+    });
 
     const beachItems = await fetchJSON(`/oil-spills/${spillId}/beaches`);
     runInAction(() => {

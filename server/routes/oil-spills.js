@@ -54,11 +54,38 @@ router.get('/:id', function (req, res, next) {
       res.status(404).send("Not found.");
       return;
     }
-
     res.json(body.results.bindings.map(mapBindingToValues)[0]);
   });
 });
 
+router.get('/:id/sea-species', function (req, res, next) {
+  executeSparql(`
+    PREFIX osnm: <http://www.oilspillsnear.me/>
+    PREFIX time: <http://www.w3.org/2006/time#>
+    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+    
+    SELECT DISTINCT *
+    WHERE {
+      ?spill a osnm:OilSpill .
+      ?spill osnm:hasId "${req.params.id}" .
+      ?spill osnm:hasNearbyCountry ?country .
+      ?country rdfs:label ?countryLabel .
+      ?seaSpecies a osnm:SeaSpeciesYearCount .
+      ?seaSpecies osnm:countryName ?countryLabel .
+      ?seaSpecies time:year ?time .
+      ?seaSpecies osnm:hasAmountSeaSpecies ?amount .
+      ?seaSpecies osnm:hasSeaSpeciesType ?type .
+    }
+  `, {
+    reasoning: true
+  }).then(({body}) => {
+    if (body.results.bindings.length === 0) {
+      res.json([]);
+      return;
+    }
+    res.json(body.results.bindings.map(mapBindingToValues));
+  });
+});
 
 router.get('/:id/beaches', function (req, res, next) {
   executeSparql(`
@@ -83,7 +110,6 @@ router.get('/:id/beaches', function (req, res, next) {
       res.json([]);
       return;
     }
-
     res.json(body.results.bindings.map(mapBindingToValues));
   });
 });
@@ -112,7 +138,6 @@ router.get('/:id/seafood-production', function (req, res, next) {
       res.json([]);
       return;
     }
-
     res.json(body.results.bindings.map(mapBindingToValues));
   });
 });
@@ -141,7 +166,6 @@ router.get('/:id/tourism-arrival', function (req, res, next) {
       res.json([]);
       return;
     }
-
     res.json(body.results.bindings.map(mapBindingToValues));
   });
 });
@@ -170,7 +194,6 @@ router.get('/:id/tourism-expenditures', function (req, res, next) {
       res.json([]);
       return;
     }
-
     res.json(body.results.bindings.map(mapBindingToValues));
   });
 });

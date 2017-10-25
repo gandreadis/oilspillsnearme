@@ -46,7 +46,7 @@ class SpillPage extends React.Component {
     }
 
     const spill = this.props.singleSpillStore.spill;
-
+    
     const seafood_production = [];
     {this.props.singleSpillStore.seafood_production.map(seafood => (
       seafood_production.push({ time: parseInt(seafood.time), amount: parseInt(seafood.amount) })
@@ -95,6 +95,9 @@ class SpillPage extends React.Component {
         </div>
         <div className="container">
           <h2 className="pt-5 pb-2 text-center">Sea species</h2>
+          <div class="alert alert-info" role="alert">
+            Oil spills threaten the sea species that are living in the marine world. Diverse types of sea species can be found on each region. Below are the number of species that researchers have found in {spill.countryName}, per taxonomic group. The number of species indicates biodiversity, which is vital to a healthy ecosystem.
+          </div>
           <BarChart width={1000} height={400} data={data} margin={{top: 20, right: 20, left: 70, bottom: 20}}>
             <XAxis dataKey="year" stroke='#11265B'/>
             <YAxis stroke='#11265B'/>
@@ -107,6 +110,9 @@ class SpillPage extends React.Component {
         {this.props.singleSpillStore.seafood_production.length !== 0 ?
         <div className="container">
           <h2 className="pt-5 pb-2 text-center">Seafood production</h2>
+          <div class="alert alert-info" role="alert">
+            Human beings often consume seafood on a daily basis. If the oil spill happened to be in close proximity of a country, it might disturb its food production. Below are the amounts of seafood production in {spill.countryName}.
+          </div>
           <AreaChart width={1000} height={400} data={seafood_production} margin={{top: 20, right: 20, left: 70, bottom: 20}}>
             <XAxis dataKey="time" stroke='#473220'/>
             <YAxis stroke='#473220'/>
@@ -119,7 +125,10 @@ class SpillPage extends React.Component {
           undefined
         }
        <div className="container">
-        <h2 className="pt-5 pb-2 text-center">Beaches of the nearest country</h2>
+        <h2 className="pt-5 pb-2 text-center">Beaches</h2>
+         <div class="alert alert-info" role="alert">
+           A country develops well when its economy is in stable state. Next to seafood production, countries next to the sea also often rely on tourism: Many tourists go to a country to enjoy their vacations, and often, they will visit the coastline. However, when oil spills occur, the locations become less attractive as tourist destinations. Below are the known beaches of {spill.countryName}.
+         </div>
         <div className="row">
           <div className="col">
             <div className="mx-auto" style={{height: 400, maxWidth: 600}}>
@@ -131,6 +140,9 @@ class SpillPage extends React.Component {
         {this.props.singleSpillStore.tourism_arrival.length !== 0 ?
         <div className="container">
           <h2 className="pt-5 pb-2 text-center">Tourist arrivals</h2>
+          <div class="alert alert-info" role="alert">
+            As many tourists visit a certain country to enjoy the beaches, the amount of tourist arrival can be affected by an oil spill. Below, you can see the tourist arrival rates in {spill.countryName}.
+          </div>
           <AreaChart width={1000} height={400} data={tourism_arrival} margin={{top: 20, right: 20, left: 70, bottom: 20}}>
             <XAxis dataKey="time" stroke='#11265B'/>
             <YAxis stroke='#11265B'/>
@@ -145,6 +157,9 @@ class SpillPage extends React.Component {
         {this.props.singleSpillStore.tourism_expenditures.length !== 0 ?
         <div className="container">
           <h2 className="pt-5 pb-2 text-center">Tourism expenditures</h2>
+          <div class="alert alert-info" role="alert">
+            Tourist spend their money in their destinations to buy among other things the local food and souvenirs. When the amount of tourists are decreasing due to oil spills, then it means that there also is a decrease in the amount expenditures in {spill.countryName}, which can be seen down here.
+          </div>
           <ComposedChart width={1000} height={400} data={tourism_expenditures} margin={{top: 20, right: 20, bottom: 20, left: 70}}>
             <XAxis dataKey="time" stroke='#473220'/>
             <YAxis stroke='#473220'/>
