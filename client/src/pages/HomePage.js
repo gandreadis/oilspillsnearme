@@ -10,17 +10,17 @@ const HomePage = () => (
       <title>oilspillsnear.me</title>
     </Helmet>
     <div style={{
-      backgroundImage: "url('https://news-images.vice.com/images/2016/05/16/untitled-article-1463407037-body-image-1463407987.jpg?resize=1920:*&output-quality=75')",
+      backgroundImage: "url('https://news-images.vice.com/images/2016/05/16/untitled-article-1463407037-body-image-1463407987.jpg?resize=1920:*&output-quality=50')",
       backgroundPosition: "center bottom"
     }}>
       <div className="text-center container-fluid text-white" style={{
         padding: "120px 0"
       }}>
-        <h1 className="display-3">oilspillsnear.me</h1>
+        <h1 className="display-4">oilspillsnear.me</h1>
         <p className="lead mt-3">
           Putting oil spills around you on a map
         </p>
-        <Link className="btn btn-lg btn-primary mt-3" to="/map">Show me oil spills near me</Link>
+        <Link className="btn btn-lg btn-primary mt-3" to="/map">Show me the map</Link>
       </div>
     </div>
 
@@ -101,7 +101,7 @@ const HomePage = () => (
       <div className="container">
         <div className="row">
           <div className="col">
-            <Link to="/map" className="btn btn-primary btn-lg btn-block mb-sm-2">What are recent oil spills near
+            <Link to="/map" className="btn btn-primary btn-lg btn-block mb-sm-2 mb-2">What are recent oil spills near
               me?</Link>
           </div>
           <div className="col">
