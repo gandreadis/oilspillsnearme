@@ -2,6 +2,7 @@ import React from 'react';
 import {Map, TileLayer} from "react-leaflet";
 import CountryLayer from "./CountryLayer";
 import LocationControl from "./LocationControl";
+import MapLegend from "./MapLegend";
 import MyCurrentLocationMarker from "./MyCurrentLocationMarker";
 import OilSpillLayer from "./OilSpillLayer";
 import OilSpillSidebar from "./OilSpillSidebar";
@@ -72,6 +73,7 @@ class WorldMap extends React.Component {
           /> :
           undefined
         }
+        <MapLegend/>
       </div>
     );
   }

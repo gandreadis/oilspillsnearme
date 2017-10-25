@@ -9,6 +9,12 @@ class MapPage extends React.Component {
   componentDidMount() {
     this.props.spillStore.load();
     this.props.countryRigStore.load();
+
+    window["$"](function () {
+      window["$"]('[data-toggle="popover"]').popover({
+        trigger: "focus"
+      })
+    })
   }
 
   render() {
