@@ -12,29 +12,32 @@ const TakeActionPage = () => (
     <PageHeader>
       Take Action
     </PageHeader>
-    <div className="container pb-5">
-      <div className="row pt-5">
-        <div className="center">
-          <h2 className="text-center">
-            <span className="fa fa-credit-card-alt mr-3"/>
-            Donate
-          </h2>
-          <p className="lead">
-            Every cent helps! Give your financial support to an organization or initiative that fights for your cause,
-            to help them reach their goals. Not sure who to fund? Have a look below.
-          </p>
-          <h2 className="text-center mt-3">
-            <span className="fa fa-bullhorn mr-3"/>
-            Let your voice be heard!
-          </h2>
-          <p className="lead">
-            Contact your local representatives and let them know you want a strong push for renewable energies and an
-            end to unsafe oil exploration. Without your encouragement, politics won't move!
-          </p>
+    <div className="text-white" style={{backgroundColor: "#31843a"}}>
+      <div className="container">
+        <div className="row pt-5 pb-5">
+          <div className="center">
+            <h2 className="text-center">
+              <span className="fa fa-credit-card-alt mr-3"/>
+              Donate
+            </h2>
+            <p className="lead">
+              Every cent helps! Give your financial support to an organization or initiative that fights for your cause,
+              to help them reach their goals. Not sure who to fund? Have a look below.
+            </p>
+            <h2 className="text-center mt-3">
+              <span className="fa fa-bullhorn mr-3"/>
+              Let your voice be heard!
+            </h2>
+            <p className="lead">
+              Contact your local representatives and let them know you want a strong push for renewable energies and an
+              end to unsafe oil exploration. Without your encouragement, politics won't move!
+            </p>
+          </div>
         </div>
       </div>
-
-      <div className="display-4 text-center mt-5 mb-5">
+    </div>
+    <div className="container pt-5 pb-5">
+      <div className="display-4 text-center mt-3 mb-5">
         Organizations Fighting for This Cause
       </div>
       <div className="row">

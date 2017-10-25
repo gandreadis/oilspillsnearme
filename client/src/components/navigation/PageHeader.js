@@ -2,8 +2,8 @@ import React from 'react';
 import "./Footer.css";
 
 const PageHeader = ({children}) => (
-  <div style={{backgroundColor: "#4C714E", color: "#EEEEEE"}}>
-    <div className="container">
+  <div style={{backgroundColor: "#11265b"}}>
+    <div className="container text-white">
       <div className="display-4 pb-5 pt-5 text-center">
         <strong>
           {children}

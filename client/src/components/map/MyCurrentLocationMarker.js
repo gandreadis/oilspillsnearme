@@ -6,12 +6,10 @@ import {Marker} from "react-leaflet";
 @inject("spillStore")
 @observer
 class MyCurrentLocationMarker extends React.Component {
-  componentWillReceiveProps() {
-    if (!this.props.coords) {
-      this.props.spillStore.setCurrentPosition(0, 0);
-      return;
+  componentWillReceiveProps(props) {
+    if (props.coords) {
+      this.props.spillStore.setCurrentPosition(props.coords.latitude, props.coords.longitude);
     }
-    this.props.spillStore.setCurrentPosition(this.props.coords.latitude, this.props.coords.longitude);
   }
 
   render() {
