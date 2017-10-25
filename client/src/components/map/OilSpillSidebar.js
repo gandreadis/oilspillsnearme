@@ -49,7 +49,7 @@ class OilSpillSidebar extends React.Component {
           <strong>{approx(spill.size)}</strong> m<sup>3</sup> of oil spilt
 
           {spill.note ?
-            <div className="card p-2 mt-2" style={{maxHeight: 200, overflowY: "auto"}}>
+            <div className="card p-2 mt-2" style={{maxHeight: 400, overflowY: "auto"}}>
               {spill.note}
             </div> :
             undefined
