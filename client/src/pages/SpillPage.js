@@ -1,3 +1,4 @@
+import approx from "approximate-number";
 import {inject, observer} from "mobx-react";
 import React from 'react';
 import {Helmet} from "react-helmet";
@@ -5,40 +6,10 @@ import {Link, Redirect} from "react-router-dom";
 import BeachMap from "../components/map/BeachMap";
 import Footer from "../components/navigation/Footer";
 import PageHeader from "../components/navigation/PageHeader";
-import {getSpillName} from "../util/spill-text";
-import { ComposedChart, LineChart, BarChart, AreaChart, Line, Area, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend} from 'recharts';
+import {getSpillName}  from "../util/spill-text";
+import { ComposedChart, BarChart, AreaChart, Line, Area, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend} from 'recharts';
 
 var randomColor = require('randomcolor');
-
-const seafoodProduction = [
-  {year: 1970, value: 8},
-  {year: 1990, value: 8},
-  {year: 2000, value: 11},
-  {year: 2005, value: 15},
-  {year: 2010, value: 18},
-  {year: 2011, value: 16},
-  {year: 2013, value: 15},
-];
-
-const touristArrivals = [
-  {year: 2000, value: 317000},
-  {year: 2005, value: 748000},
-  {year: 2010, value: 2417000},
-  {year: 2011, value: 2932000},
-  {year: 2012, value: 3514000},
-  {year: 2013, value: 3256000},
-  {year: 2014, value: 3673000},
-  {year: 2015, value: 4131000},
-]
-
-const tourismExpenditures = [
-  {year: 2010, value: 108000000},
-  {year: 2011, value: 269000000},
-  {year: 2012, value: 103000000},
-  {year: 2013, value: 137000000},
-  {year: 2014, value: 145000000},
-  {year: 2015, value: 135000000},
-]
 
 const data = [
   {year: 1998, pisces:10},
@@ -73,6 +44,21 @@ class SpillPage extends React.Component {
 
     const spill = this.props.singleSpillStore.spill;
 
+    const seafood_production = [];
+    {this.props.singleSpillStore.seafood_production.map(seafood => (
+      seafood_production.push({ time: parseInt(seafood.time), amount: parseInt(seafood.amount) })
+    ))}
+
+    const tourism_arrival = [];
+    {this.props.singleSpillStore.tourism_arrival.map(arrival => (
+      tourism_arrival.push({ time: parseInt(arrival.time), amount: parseInt(arrival.amount) })
+    ))}
+
+    const tourism_expenditures = [];
+    {this.props.singleSpillStore.tourism_expenditures.map(expenditures => (
+      tourism_expenditures.push({ time: parseInt(expenditures.time), amount: parseInt(expenditures.amount) })
+    ))}
+
     return (
       <div className="full-height">
         <Helmet>
@@ -81,9 +67,24 @@ class SpillPage extends React.Component {
         <PageHeader>
           {getSpillName(spill)}
         </PageHeader>
-        <div>
-          <h2>Sea species</h2>
-          <BarChart width={1200} height={400} data={data} margin={{top: 20, right: 20, left: 70, bottom: 20}}>
+        <div className="container">
+          <div className="row pt-3 pb-2">
+          <div className="col-md-6 text-left">
+            <span className="text-right fa fa-tint mr-1"/>
+            <strong>{approx(spill.size)}</strong> m<sup>3</sup> of oil spilt
+          </div>
+            <div className="col-md-6 text-right">The nearest country is  <strong>{spill.countryName}</strong></div>
+          </div>
+            {spill.note ?
+              <div className="card p-2 mt-2" style={{maxHeight: 200, overflowY: "auto"}}>
+                {spill.note}
+              </div> :
+              undefined
+            }
+        </div>
+        <div className="container">
+          <h2 className="pt-5 pb-2 text-center">Sea species</h2>
+          <BarChart width={1000} height={400} data={data} margin={{top: 20, right: 20, left: 70, bottom: 20}}>
             <XAxis dataKey="year" stroke='#11265B'/>
             <YAxis stroke='#11265B'/>
             <CartesianGrid strokeDasharray="3 3"/>
@@ -92,14 +93,14 @@ class SpillPage extends React.Component {
             {lis}
           </BarChart>
         </div>
-        <div>
-          <h2>Seafood production</h2>
-          <AreaChart width={1200} height={400} data={seafoodProduction} margin={{top: 20, right: 20, left: 70, bottom: 20}}>
-            <XAxis dataKey="year" stroke='#473220'/>
+        <div className="container">
+          <h2 className="pt-5 pb-2 text-center">Seafood production</h2>
+          <AreaChart width={1000} height={400} data={seafood_production} margin={{top: 20, right: 20, left: 70, bottom: 20}}>
+            <XAxis dataKey="time" stroke='#473220'/>
             <YAxis stroke='#473220'/>
             <CartesianGrid strokeDasharray="3 3"/>
             <Tooltip content={<SeafoodProductionTooltip />} wrapperStyle={{ padding:10, backgroundColor: '#FFFFFF', color:'#473220' }}/>
-            <Area type='monotone' dataKey='value' stroke='#473220' fill='#a16d41' />
+            <Area type='monotone' dataKey='amount' stroke='#473220' fill='#a16d41' activeDot={{r: 6}}/>
           </AreaChart>
         </div>
        <div className="container">
@@ -112,25 +113,25 @@ class SpillPage extends React.Component {
           </div>
         </div>
         </div>
-        <div>
-          <h3>Tourist arrivals</h3>
-          <LineChart width={1200} height={400} data={touristArrivals} margin={{top: 20, right: 20, left: 70, bottom: 20}}>
-            <XAxis dataKey="year" stroke='#11265B'/>
+        <div className="container">
+          <h2 className="pt-5 pb-2 text-center">Tourist arrivals</h2>
+          <AreaChart width={1000} height={400} data={tourism_arrival} margin={{top: 20, right: 20, left: 70, bottom: 20}}>
+            <XAxis dataKey="time" stroke='#11265B'/>
             <YAxis stroke='#11265B'/>
             <CartesianGrid strokeDasharray="3 3"/>
             <Tooltip content={<TouristArrivalsTooltip />} wrapperStyle={{ padding:10, backgroundColor: '#FFFFFF', color:'#11265B' }}/>
-            <Line type="monotone" dataKey="value" stroke="#11265B" activeDot={{r: 8}}/>
-          </LineChart>
+            <Area type="monotone" dataKey="amount" stroke="#11265B" fill='#F0F8FF' activeDot={{r: 6}}/>
+          </AreaChart>
         </div>
-        <div>
-          <h3>Tourism expenditures</h3>
-          <ComposedChart width={1200} height={400} data={tourismExpenditures} margin={{top: 20, right: 20, bottom: 20, left: 70}}>
-            <XAxis dataKey="year" stroke='#473220'/>
+        <div className="container">
+          <h2 className="pt-5 pb-2 text-center">Tourism expenditures</h2>
+          <ComposedChart width={1000} height={400} data={tourism_expenditures} margin={{top: 20, right: 20, bottom: 20, left: 70}}>
+            <XAxis dataKey="time" stroke='#473220'/>
             <YAxis stroke='#473220'/>
             <Tooltip content={<TourismExpendituresTooltip />} wrapperStyle={{ padding:10, backgroundColor: '#FFFFFF', color:'#473220' }}/>
             <CartesianGrid stroke='#f5f5f5'/>
-            <Bar dataKey='value' fill='#a16d41' stroke='#473220'/>
-            <Line type='monotone' dataKey='value' stroke='#ff7300'/>
+            <Bar dataKey='amount' fill='#a16d41' stroke='#473220'/>
+            <Line type='monotone' dataKey='amount' stroke='#ff7300'/>
           </ComposedChart>
         </div>
         <div className="text-center">
@@ -150,42 +151,48 @@ export default SpillPage;
 export function SeafoodProductionTooltip(props) {
   if (props.active) {
     const { payload } = props;
-    const value = payload[0].value * 1000
-    const tooltip = "In " + payload[0].payload.year + ", this country produced " + value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".") + " tonnes seafood"
+    var tooltip = "";
+    if (payload !== null) {
+      const value = payload[0].value * 1000;
+      tooltip = "In " + payload[0].payload.time + ", the country produced " + value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".") + " tonnes seafood"
+    }
     return (
       <div className='custom-tooltip'>
         {tooltip}
       </div>
     );
   }
-
   return null;
 }
 
 export function TouristArrivalsTooltip(props) {
   if (props.active) {
     const { payload } = props;
-    const tooltip = "In " + payload[0].payload.year + ", " + payload[0].value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".") + " people were coming to visit the country."
+    var tooltip = "";
+    if (payload !== null){
+      tooltip = "In " + payload[0].payload.time + ", " + payload[0].value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".") + " people were visiting this country"
+    }
     return (
       <div className='custom-tooltip'>
         {tooltip}
       </div>
     );
   }
-
   return null;
 }
 
 export function TourismExpendituresTooltip(props) {
   if (props.active) {
     const { payload } = props;
-    const tooltip = "In " + payload[0].payload.year + ", tourists spent " + payload[0].value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".") + " US$"
+    var tooltip = "";
+    if (payload !== null) {
+      tooltip = "In " + payload[0].payload.time + ", tourists spent " + payload[0].value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".") + " US$ in this country"
+    }
     return (
       <div className='custom-tooltip'>
         {tooltip}
       </div>
     );
   }
-
   return null;
 }

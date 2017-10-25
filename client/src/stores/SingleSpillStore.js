@@ -5,6 +5,9 @@ export class SingleSpillStore {
   spillId = observable(-1);
   spill = observable({});
   beaches = observable.shallowArray();
+  seafood_production = observable.shallowArray();
+  tourism_arrival = observable.shallowArray();
+  tourism_expenditures = observable.shallowArray();
   error404 = observable(false);
 
   @action
@@ -27,6 +30,27 @@ export class SingleSpillStore {
     runInAction(() => {
       beachItems.forEach(item => {
         this.beaches.push(item);
+      });
+    });
+
+    const seafoodProductionItems = await fetchJSON(`/oil-spills/${spillId}/seafood_production`);
+    runInAction(() => {
+      seafoodProductionItems.forEach(item => {
+        this.seafood_production.push(item);
+      });
+    });
+
+    const tourismArrivalItems = await fetchJSON(`/oil-spills/${spillId}/tourism_arrival`);
+    runInAction(() => {
+      tourismArrivalItems.forEach(item => {
+        this.tourism_arrival.push(item);
+      });
+    });
+
+    const tourismExpendituresItems = await fetchJSON(`/oil-spills/${spillId}/tourism_expenditures`);
+    runInAction(() => {
+      tourismExpendituresItems.forEach(item => {
+        this.tourism_expenditures.push(item);
       });
     });
   }
