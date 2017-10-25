@@ -39,6 +39,14 @@ body {
   margin: auto;
 }
 
+.load-icon {
+  position: absolute;
+  background: transparent;
+  top: 35%;
+  left: 40%;
+  z-index: 500;
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
