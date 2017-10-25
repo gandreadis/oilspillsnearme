@@ -1,11 +1,14 @@
 import React from 'react';
+import {Helmet} from "react-helmet";
 import {Link} from "react-router-dom";
 import Footer from "../components/navigation/Footer";
 import "./osnm.css";
 
 const HomePage = () => (
   <div>
-
+    <Helmet>
+      <title>oilspillsnear.me</title>
+    </Helmet>
     <div style={{
       backgroundImage: "url('https://news-images.vice.com/images/2016/05/16/untitled-article-1463407037-body-image-1463407987.jpg?resize=1920:*&output-quality=75')",
       backgroundPosition: "center bottom"
