@@ -6,8 +6,8 @@ import {Link, Redirect} from "react-router-dom";
 import BeachMap from "../components/map/BeachMap";
 import Footer from "../components/navigation/Footer";
 import PageHeader from "../components/navigation/PageHeader";
-import {getSpillName}  from "../util/spill-text";
-import { ComposedChart, BarChart, AreaChart, Line, Area, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend} from 'recharts';
+import {getSpillYear, getSpillName}  from "../util/spill-text";
+import { ComposedChart, BarChart, AreaChart, ReferenceLine, Line, Area, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend} from 'recharts';
 
 var randomColor = require('randomcolor');
 
@@ -46,7 +46,7 @@ class SpillPage extends React.Component {
     }
 
     const spill = this.props.singleSpillStore.spill;
-    
+
     const seafood_production = [];
     {this.props.singleSpillStore.seafood_production.map(seafood => (
       seafood_production.push({ time: parseInt(seafood.time), amount: parseInt(seafood.amount) })
@@ -99,12 +99,13 @@ class SpillPage extends React.Component {
             Oil spills threaten the sea species that are living in the marine world. Diverse types of sea species can be found on each region. Below are the number of species that researchers have found in {spill.countryName}, per taxonomic group. The number of species indicates biodiversity, which is vital to a healthy ecosystem.
           </div>
           <BarChart width={1000} height={400} data={data} margin={{top: 20, right: 20, left: 70, bottom: 20}}>
-            <XAxis dataKey="year" stroke='#11265B'/>
+            <XAxis dataKey="year" stroke='#11265B' type="number" domain={['dataMin-1', 'dataMax+1']}/>
             <YAxis stroke='#11265B'/>
             <CartesianGrid strokeDasharray="3 3"/>
             <Tooltip wrapperStyle={{ color:'#11265B'}}/>
             <Legend wrapperStyle={{ backgroundColor: '#f5f5f5', color:'#11265B', border: '1px solid #d5d5d5', borderRadius: 3, lineHeight: '40px' }}/>
             {lis}
+            <ReferenceLine x={getSpillYear(spill)} stroke="#FF0000" label="oil spill occurred year" strokeDasharray="3 3"/>
           </BarChart>
         </div>
         {this.props.singleSpillStore.seafood_production.length !== 0 ?
@@ -114,11 +115,12 @@ class SpillPage extends React.Component {
             Human beings often consume seafood on a daily basis. If the oil spill happened to be in close proximity of a country, it might disturb its food production. Below are the amounts of seafood production in {spill.countryName}.
           </div>
           <AreaChart width={1000} height={400} data={seafood_production} margin={{top: 20, right: 20, left: 70, bottom: 20}}>
-            <XAxis dataKey="time" stroke='#473220'/>
+            <XAxis dataKey="time" stroke='#473220' type="number" domain={['dataMin-1', 'dataMax+1']}/>
             <YAxis stroke='#473220'/>
             <CartesianGrid strokeDasharray="3 3"/>
             <Tooltip content={<SeafoodProductionTooltip />} wrapperStyle={{ padding:10, backgroundColor: '#FFFFFF', color:'#473220' }}/>
             <Area type='monotone' dataKey='amount' stroke='#473220' fill='#a16d41' activeDot={{r: 6}}/>
+            <ReferenceLine x={getSpillYear(spill)} stroke="#FF0000" label="oil spill occurred year" strokeDasharray="3 3"/>
           </AreaChart>
         </div>
           :
@@ -144,11 +146,12 @@ class SpillPage extends React.Component {
             As many tourists visit a certain country to enjoy the beaches, the amount of tourist arrival can be affected by an oil spill. Below, you can see the tourist arrival rates in {spill.countryName}.
           </div>
           <AreaChart width={1000} height={400} data={tourism_arrival} margin={{top: 20, right: 20, left: 70, bottom: 20}}>
-            <XAxis dataKey="time" stroke='#11265B'/>
+            <XAxis dataKey="time" stroke='#11265B' type="number" domain={['dataMin-1', 'dataMax+1']}/>
             <YAxis stroke='#11265B'/>
             <CartesianGrid strokeDasharray="3 3"/>
             <Tooltip content={<TouristArrivalsTooltip />} wrapperStyle={{ padding:10, backgroundColor: '#FFFFFF', color:'#11265B' }}/>
             <Area type="monotone" dataKey="amount" stroke="#11265B" fill='#F0F8FF' activeDot={{r: 6}}/>
+            <ReferenceLine x={getSpillYear(spill)} stroke="#FF0000" label="oil spill occurred year" strokeDasharray="3 3"/>
           </AreaChart>
         </div>
           :
@@ -161,12 +164,13 @@ class SpillPage extends React.Component {
             Tourist spend their money in their destinations to buy among other things the local food and souvenirs. When the amount of tourists are decreasing due to oil spills, then it means that there also is a decrease in the amount expenditures in {spill.countryName}, which can be seen down here.
           </div>
           <ComposedChart width={1000} height={400} data={tourism_expenditures} margin={{top: 20, right: 20, bottom: 20, left: 70}}>
-            <XAxis dataKey="time" stroke='#473220'/>
+            <XAxis dataKey="time" stroke='#473220' type="number" domain={['dataMin-1', 'dataMax+1']}/>
             <YAxis stroke='#473220'/>
             <Tooltip content={<TourismExpendituresTooltip />} wrapperStyle={{ padding:10, backgroundColor: '#FFFFFF', color:'#473220' }}/>
             <CartesianGrid stroke='#f5f5f5'/>
             <Bar dataKey='amount' fill='#a16d41' stroke='#473220'/>
             <Line type='monotone' dataKey='amount' stroke='#ff7300'/>
+            <ReferenceLine x={getSpillYear(spill)} stroke="#FF0000" label="oil spill occurred year" strokeDasharray="3 3"/>
           </ComposedChart>
         </div>
           :
