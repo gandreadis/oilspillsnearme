@@ -75,6 +75,7 @@ router.get('/:id/sea-species', function (req, res, next) {
       ?seaSpecies time:year ?time .
       ?seaSpecies osnm:hasAmountSeaSpecies ?amount .
       ?seaSpecies osnm:hasSeaSpeciesType ?type .
+      FILTER(xsd:integer(?time) > (year(NOW()) - 50))
     }
   `, {
     reasoning: true

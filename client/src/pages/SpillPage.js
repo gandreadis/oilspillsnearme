@@ -9,22 +9,14 @@ import PageHeader from "../components/navigation/PageHeader";
 import {getSpillYear, getSpillName}  from "../util/spill-text";
 import { ComposedChart, BarChart, AreaChart, ReferenceLine, Line, Area, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend} from 'recharts';
 
-var randomColor = require('randomcolor');
-
-const data = [
-  {year: 1998, pisces:10},
-  {year: 1999, bivalvia:5000},
-  {year: 2000, bivalvia:200, myzozoa:53, other:72},
-  {year: 2010, myzozoa:2645},
-  {year: 2011, other:733},
-]
-
-const typeList = ['pisces', 'bivalvia', 'echiura', 'myzozoa','other'];
-var lis = []
-
-for (var type=0; type<typeList.length; type++) {
-  lis.push(<Bar dataKey={typeList[type]} stackId="a" fill={randomColor()} />);
+function arrayToObject(arr) {
+  var obj = {};
+  for (var ato = 0; ato < arr.length; ato++) {
+    obj[arr[ato][0]] = arr[ato][1];
+  }
+  return obj;
 }
+
 function retr_dec(num) {
   return (num.split(',')[1] || []).length;
 }
@@ -47,6 +39,33 @@ class SpillPage extends React.Component {
 
     const spill = this.props.singleSpillStore.spill;
 
+    var temp_sea_list = [];
+    var temp_type_sea_list = [];
+    var sea_species = [];
+    var type_sea_list = [];
+    var tempBool = false;
+    var randomColor = require('randomcolor');
+
+    {this.props.singleSpillStore.sea_species.map(species => {
+      for (var tsl = 0; tsl < temp_sea_list.length; tsl++) {
+        if(parseInt(species.time) === temp_sea_list[tsl][0][1]){
+          temp_sea_list[tsl].push([species.type, parseInt(species.amount)]);
+          tempBool = true;
+        }
+      }
+      if(!tempBool){
+        temp_sea_list.push([['time',parseInt(species.time)],[species.type, parseInt(species.amount)]]);
+      }
+      tempBool = false;
+      if(temp_type_sea_list.indexOf(species.type) === -1 ){ temp_type_sea_list.push(species.type); }
+    })}
+    for (var type = 0; type < temp_type_sea_list.length; type++) {
+      type_sea_list.push(<Bar dataKey={temp_type_sea_list[type]} stackId="a" fill={randomColor()} />);
+    }
+    for (var sea = 0; sea < temp_sea_list.length; sea++){
+      sea_species.push(arrayToObject(temp_sea_list[sea]));
+    }
+
     const seafood_production = [];
     {this.props.singleSpillStore.seafood_production.map(seafood => (
       seafood_production.push({ time: parseInt(seafood.time), amount: parseInt(seafood.amount) })
@@ -66,7 +85,6 @@ class SpillPage extends React.Component {
           expenditures.amount = parseInt(res[0].replace(",", ""))*Math.pow(10, (parseInt(res[1])-dec));
         }
       }
-
       tourism_expenditures.push({ time: parseInt(expenditures.time), amount: parseInt(expenditures.amount) })
     })}
 
@@ -93,21 +111,25 @@ class SpillPage extends React.Component {
               undefined
             }
         </div>
+        {this.props.singleSpillStore.sea_species.length !== 0 ?
         <div className="container">
           <h2 className="pt-5 pb-2 text-center">Sea species</h2>
           <div class="alert alert-info" role="alert">
             Oil spills threaten the sea species that are living in the marine world. Diverse types of sea species can be found on each region. Below are the number of species that researchers have found in {spill.countryName}, per taxonomic group. The number of species indicates biodiversity, which is vital to a healthy ecosystem.
           </div>
-          <BarChart width={1000} height={400} data={data} margin={{top: 20, right: 20, left: 70, bottom: 20}}>
-            <XAxis dataKey="year" stroke='#11265B' type="number" domain={['dataMin-1', 'dataMax+1']}/>
+          <BarChart width={1100} height={500} data={sea_species} margin={{top: 20, right: 50, left: 70, bottom: 20}}>
+            <XAxis dataKey="time" stroke='#11265B' type="number" domain={['dataMin-1', 'dataMax+1']}/>
             <YAxis stroke='#11265B'/>
             <CartesianGrid strokeDasharray="3 3"/>
             <Tooltip wrapperStyle={{ color:'#11265B'}}/>
             <Legend wrapperStyle={{ backgroundColor: '#f5f5f5', color:'#11265B', border: '1px solid #d5d5d5', borderRadius: 3, lineHeight: '40px' }}/>
-            {lis}
+            {type_sea_list}
             <ReferenceLine x={getSpillYear(spill)} stroke="#FF0000" label="oil spill occurred year" strokeDasharray="3 3"/>
           </BarChart>
         </div>
+          :
+          undefined
+        }
         {this.props.singleSpillStore.seafood_production.length !== 0 ?
         <div className="container">
           <h2 className="pt-5 pb-2 text-center">Seafood production</h2>
