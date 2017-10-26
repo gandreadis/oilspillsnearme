@@ -83,11 +83,6 @@ const AboutPage = () => (
     <ContentSection title="Sources" backgroundColor="#19381B" color="#EEEEEE">
       <ul className="list-group" style={{color: "#111111"}}>
         <SourceItem
-          title="Food production"
-          description="Kg per person per year"
-          url="https://knoema.com/atlas/topics/Food-Security/Food-Production/Fish-and-seafood-production"
-        />
-        <SourceItem
           title="GeoJSON for all countries"
           description="Sourced from Natural Earth"
           url="https://geojson-maps.ash.ms"
@@ -95,7 +90,12 @@ const AboutPage = () => (
         <SourceItem
           title="Geonames"
           description="Used for countries and beaches"
-          url="https://knoema.com/atlas/topics/Food-Security/Food-Production/Fish-and-seafood-production"
+          url="http://www.geonames.org"
+        />
+        <SourceItem
+          title="Oil spills"
+          description="Includes older records 1957-1984"
+          url="https://incidentnews.noaa.gov/raw/index"
         />
         <SourceItem
           title="Oil rigs"
@@ -103,9 +103,14 @@ const AboutPage = () => (
           url="https://www.tableau.com/solutions/gallery/worldwide-oil-rigs"
         />
         <SourceItem
-          title="Oil spills"
-          description="Includes older records 1957-1984"
-          url="https://incidentnews.noaa.gov/raw/index"
+          title="Sea species"
+          description="Type and amount sea species per year"
+          url="http://www.iobis.org"
+        />
+        <SourceItem
+          title="Food production"
+          description="Thousand tonnes per year"
+          url="https://knoema.com/atlas/topics/Agriculture/Domestic-Supply-Food/Fish-and-seafood-for-food"
         />
         <SourceItem
           title="Tourism arrival"
