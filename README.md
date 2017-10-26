@@ -10,6 +10,8 @@ Do you know what oil spills have occurred close to you in the last years? Do you
 
 This project has been built as a final project for a course on Semantic Web technologies at the VU Amsterdam. It is built upon linked data formalisms, using custom-made OWL ontologies that are served from a Stardog triple store.
 
+See our [screencast on YouTube](https://www.youtube.com/watch?v=rkrmYdJYrbg) for a visual introduction to the application!
+
 ## Installation
 
 To get started, you'll need the [Node.js environment](https://nodejs.org) and the [Yarn package manager](https://yarnpkg.com). Once you have those installed, you can set up the two main components of the system: the server backend and the frontend client.
