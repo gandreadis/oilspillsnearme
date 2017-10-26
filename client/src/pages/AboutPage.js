@@ -84,8 +84,8 @@ const AboutPage = () => (
       <ul className="list-group" style={{color: "#111111"}}>
         <SourceItem
           title="Food production"
-          description="Kg per person per year"
-          url="https://knoema.com/atlas/topics/Food-Security/Food-Production/Fish-and-seafood-production"
+          description="thousand tonnes"
+          url="https://knoema.com/atlas/topics/Agriculture/Domestic-Supply-Food/Fish-and-seafood-for-food"
         />
         <SourceItem
           title="GeoJSON for all countries"
@@ -95,7 +95,7 @@ const AboutPage = () => (
         <SourceItem
           title="Geonames"
           description="Used for countries and beaches"
-          url="https://knoema.com/atlas/topics/Food-Security/Food-Production/Fish-and-seafood-production"
+          url="http://www.geonames.org"
         />
         <SourceItem
           title="Oil rigs"
