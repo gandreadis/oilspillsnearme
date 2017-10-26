@@ -11,3 +11,7 @@ export function getSpillName(spill) {
 export function formatSpillDate(spill) {
   return dateFormat(new Date(Date.parse(spill.dateTime)), "mmmm dS, yyyy");
 }
+
+export function getSpillYear(spill) {
+  return dateFormat(new Date(Date.parse(spill.dateTime)), "yyyy");
+}

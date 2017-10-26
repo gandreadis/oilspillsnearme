@@ -1,3 +1,4 @@
+import {inject, observer} from "mobx-react";
 import React from 'react';
 import {Map, TileLayer} from "react-leaflet";
 import CountryLayer from "./CountryLayer";
@@ -8,6 +9,8 @@ import OilSpillLayer from "./OilSpillLayer";
 import OilSpillSidebar from "./OilSpillSidebar";
 import ViewFilterControls from "./ViewFilterControls";
 
+@inject("spillStore")
+@observer
 class WorldMap extends React.Component {
   state = {
     lat: 50,
@@ -20,6 +23,8 @@ class WorldMap extends React.Component {
   };
 
   render() {
+    const spills = this.props.spillStore.spills;
+
     return (
       <div
         style={{
@@ -28,6 +33,13 @@ class WorldMap extends React.Component {
           display: "relative",
         }}
       >
+        {spills.length === 0 ?
+          <div className="load-icon">
+            <span className="fa fa-spinner fa-pulse fa-5x fa-fw text-primary ml-5 mb-3"/>
+            <span className="text-primary"><h4>Loading oil spills...</h4></span>
+          </div>
+          : undefined
+        }
         <Map
           center={[this.state.lat, this.state.lng]}
           zoom={this.state.zoom}

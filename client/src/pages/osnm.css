@@ -17,6 +17,7 @@ body {
   height: 32rem;
   background-color: #777;
 }
+
 .carousel-item > img {
   position: absolute;
   top: 0;
@@ -37,6 +38,15 @@ body {
 
 .center {
   margin: auto;
+}
+
+.load-icon {
+  position: absolute;
+  background: transparent;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 500;
 }
 
 /* RESPONSIVE CSS
