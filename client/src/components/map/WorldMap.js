@@ -34,9 +34,9 @@ class WorldMap extends React.Component {
         }}
       >
         {spills.length === 0 ?
-          <div class="load-icon">
-            <i class="fa fa-spinner fa-pulse fa-5x fa-fw text-primary ml-5 mb-3"></i>
-            <span class="text-primary"><h4>Loading oil spills...</h4></span>
+          <div className="load-icon">
+            <span className="fa fa-spinner fa-pulse fa-5x fa-fw text-primary ml-5 mb-3"/>
+            <span className="text-primary"><h4>Loading oil spills...</h4></span>
           </div>
           : undefined
         }

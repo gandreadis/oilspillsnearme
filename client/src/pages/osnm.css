@@ -17,6 +17,7 @@ body {
   height: 32rem;
   background-color: #777;
 }
+
 .carousel-item > img {
   position: absolute;
   top: 0;
@@ -42,8 +43,9 @@ body {
 .load-icon {
   position: absolute;
   background: transparent;
-  top: 35%;
-  left: 40%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   z-index: 500;
 }
 
