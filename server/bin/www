@@ -21,7 +21,19 @@ server.set('port', port);
  * Create HTTP server.
  */
 
-const httpServer = http.createServer(server);
+let httpServer;
+if (process.env.HTTPS) {
+  const https = require("https");
+  const fs = require("fs");
+  const options = {
+    key: fs.readFileSync('/etc/letsencrypt/live/example.com/privkey.pem'),
+    cert: fs.readFileSync('/etc/letsencrypt/live/example.com/cert.pem'),
+    ca: fs.readFileSync('/etc/letsencrypt/live/example.com/chain.pem')
+  };
+  httpServer = https.createServer(options, server);
+} else {
+  httpServer = http.createServer(server);
+}
 
 /**
  * Listen on provided port, on all network interfaces.
