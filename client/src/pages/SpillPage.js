@@ -74,7 +74,7 @@ class SpillPage extends React.Component {
       if (temp_type_sea_list.indexOf(species.type) === -1) { temp_type_sea_list.push(species.type); }
     });
     for (let type = 0; type < temp_type_sea_list.length; type++) {
-      type_sea_list.push(<Bar dataKey={temp_type_sea_list[type]} stackId="a" fill={randomColor()}/>);
+      type_sea_list.push(<Bar key={type} dataKey={temp_type_sea_list[type]} stackId="a" fill={randomColor()}/>);
     }
     for (let sea = 0; sea < temp_sea_list.length; sea++) {
       sea_species.push(arrayToObject(temp_sea_list[sea]));
