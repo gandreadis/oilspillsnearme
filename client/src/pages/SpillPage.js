@@ -125,6 +125,31 @@ class SpillPage extends React.Component {
             undefined
           }
         </div>
+        {this.props.singleSpillStore.seafood_production.length !== 0 ?
+          <div className="container">
+            <h2 className="pt-5 pb-2 text-center">Seafood production</h2>
+            <div className="alert alert-info" role="alert">
+              Human beings often consume seafood on a daily basis. If the oil spill happened to be in close proximity of
+              a country, it might disturb its food production. Below are the amounts of seafood production
+              in {spill.countryName}.
+            </div>
+            <ResponsiveContainer width='100%' height={400}>
+              <AreaChart data={seafood_production}
+                         margin={{top: 20, right: 20, left: 70, bottom: 20}}>
+                <XAxis dataKey="time" stroke='#473220' type="number" domain={['dataMin-1', 'dataMax+1']}/>
+                <YAxis stroke='#473220'/>
+                <CartesianGrid strokeDasharray="3 3"/>
+                <Tooltip content={<SeafoodProductionTooltip/>}
+                         wrapperStyle={{padding: 10, backgroundColor: '#FFFFFF', color: '#473220'}}/>
+                <Area type='monotone' dataKey='amount' stroke='#473220' fill='#a16d41' activeDot={{r: 6}}/>
+                <ReferenceLine x={getSpillYear(spill)} stroke="#FF0000" label="oil spill"
+                               strokeDasharray="3 3"/>
+              </AreaChart>
+            </ResponsiveContainer>
+          </div>
+          :
+          undefined
+        }
         {this.props.singleSpillStore.sea_species.length !== 0 ?
           <div className="container">
             <h2 className="pt-5 pb-2 text-center">Sea species</h2>
@@ -151,31 +176,6 @@ class SpillPage extends React.Component {
                 <ReferenceLine x={getSpillYear(spill)} stroke="#FF0000" label="oil spill"
                                strokeDasharray="3 3"/>
               </BarChart>
-            </ResponsiveContainer>
-          </div>
-          :
-          undefined
-        }
-        {this.props.singleSpillStore.seafood_production.length !== 0 ?
-          <div className="container">
-            <h2 className="pt-5 pb-2 text-center">Seafood production</h2>
-            <div className="alert alert-info" role="alert">
-              Human beings often consume seafood on a daily basis. If the oil spill happened to be in close proximity of
-              a country, it might disturb its food production. Below are the amounts of seafood production
-              in {spill.countryName}.
-            </div>
-            <ResponsiveContainer width='100%' height={400}>
-              <AreaChart data={seafood_production}
-                         margin={{top: 20, right: 20, left: 70, bottom: 20}}>
-                <XAxis dataKey="time" stroke='#473220' type="number" domain={['dataMin-1', 'dataMax+1']}/>
-                <YAxis stroke='#473220'/>
-                <CartesianGrid strokeDasharray="3 3"/>
-                <Tooltip content={<SeafoodProductionTooltip/>}
-                         wrapperStyle={{padding: 10, backgroundColor: '#FFFFFF', color: '#473220'}}/>
-                <Area type='monotone' dataKey='amount' stroke='#473220' fill='#a16d41' activeDot={{r: 6}}/>
-                <ReferenceLine x={getSpillYear(spill)} stroke="#FF0000" label="oil spill"
-                               strokeDasharray="3 3"/>
-              </AreaChart>
             </ResponsiveContainer>
           </div>
           :
